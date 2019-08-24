@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49d3-ca8b-d78c-3f43" name="Legiones Astartes" revision="542" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Discord: @alphalas" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="true" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3dbd-2316-231a-79ac" name="Legiones Astartes" revision="3" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Discord: @alphalas" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="true" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="839b6f2a--pubN65537" name="Forgeworld Horus Heresy Series"/>
     <publication id="839b6f2a--pubN65653" name="HH: Rulebook"/>
@@ -94,690 +94,12 @@
     <publication id="839b6f2a--pubN435343" name="HH:MTAL"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="219d-aefa-dfa5-44db" name="Compulsory Troops" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f546-417c-8a80-20ed" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="becd-7a6d-e80f-878e" name="Compulsory HQ" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48a3-d37d-8ca1-482d" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="85b9-e0e8-56b9-2bd3" name="Super-Heavy Vehicle" publicationId="839b6f2a--pubN65653" page="90" hidden="false">
-      <rules>
-        <rule id="3f70-0816-8f4d-8b7a" name="Thunderblitz" publicationId="839b6f2a--pubN65653" page="91" hidden="false">
-          <description>Super-heavy Vehicles may Tank Shock or Ram. When they do so, roll once on the Thunderblitz table immediatley before taking the morale check for the unit being Tank Shocked or immediatley before rolling for armour penetration when preforming a Ram.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="19b3-cb6d-3c93-0d54" name="Fear" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
-        <infoLink id="b4a0-a2ba-4d32-b8f6" name="Move Through Cover" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
-        <infoLink id="db67-3554-9745-99b5" name="Invincible Behemoth" hidden="false" targetId="b5c1-4b08-5ddc-1504" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="7ba3-1f62-b66a-75d8" name="Gargantuan Creature" publicationId="839b6f2a--pubN65653" page="68" hidden="false">
-      <infoLinks>
-        <infoLink id="5075-04a5-dfb5-4277" name="Fear" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
-        <infoLink id="f93c-aafc-6647-4f2d" name="Fearless" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
-        <infoLink id="5782-e825-8dc4-25cb" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
-        <infoLink id="7911-bf39-40db-0444" name="Move Through Cover" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
-        <infoLink id="a883-cf79-7fc9-f6d2" name="Relentless" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
-        <infoLink id="33fb-06c2-2da5-e6cf" name="Smash" hidden="false" targetId="4284-18a1-9844-a0bd" type="rule"/>
-        <infoLink id="8c2c-2954-4343-ed0a" name="Strikedown" hidden="false" targetId="dd83-7fb9-6f58-0c96" type="rule"/>
-        <infoLink id="ddd7-d6d1-f35b-9109" name="Feel No Pain" hidden="false" targetId="9bdd-5ec7-8dd6-63c0" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="d27d-9e9b-d8c7-afe6" name="No Force Org" hidden="false"/>
-    <categoryEntry id="485123232344415441232323" name="HQ" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="532a-39be-aee7-353d" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="456c6974657323232344415441232323" name="Elites" hidden="false"/>
-    <categoryEntry id="54726f6f707323232344415441232323" name="Troops" hidden="false"/>
-    <categoryEntry id="466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5619-2a19-2669-33f6" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="334d-0912-6e88-d620" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d953-7252-e333-0a13" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5462-15a3-a6fb-9b7c" type="max"/>
-      </constraints>
-    </categoryEntry>
     <categoryEntry id="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false"/>
-    <categoryEntry id="466f7274696669636174696f6e23232344415441232323" name="Fortification" hidden="false"/>
-    <categoryEntry id="258478de-d031-8a7e-dcb0-7d56bee86952" name="Legion" hidden="false"/>
-    <categoryEntry id="5297-7e0f-fa0b-3537" name="Allegiance" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b60a-4844-e0a1-0be1" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="e59c-462e-9d9c-66dd" name="Tank" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8590-3c8d-dfc1-aa36" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8615-13e1-0211-db5d" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="9480-d3f6-fff1-7b35" name="Skimmer" hidden="false"/>
-    <categoryEntry id="df44-81ea-e2ee-9849" name="Flyer" hidden="false"/>
-    <categoryEntry id="18c5-559b-55e0-382e" name="Immobile" hidden="false"/>
-    <categoryEntry id="2d6f-e613-ab10-e55a" name="Deep Strike" hidden="false"/>
-    <categoryEntry id="51a3-45ca-ea32-7519" name="Drop Pod" hidden="false"/>
-    <categoryEntry id="e448-6dab-e008-3247" name="Sentry Gun" hidden="false"/>
-    <categoryEntry id="e4e0-c5d1-3430-f101" name="Transport" hidden="false">
-      <rules>
-        <rule id="5cfc-efd6-9009-24d3" name="Unshakeable Nerve" publicationId="839b6f2a--pubN65653" page="77" hidden="false">
-          <description>Units embarked upon transports have the Fearless special rule while they are embarked.</description>
-        </rule>
-      </rules>
-    </categoryEntry>
-    <categoryEntry id="c407-80ff-568e-3394" name="Dedicated Transport" hidden="false"/>
-    <categoryEntry id="264d-166e-36c0-77b7" name="Walker" hidden="false"/>
-    <categoryEntry id="53bd-99e7-aba0-e79f" name="Vehicle" hidden="false"/>
-    <categoryEntry id="37dc-7aa6-8150-41b0" name="Terminators" hidden="false"/>
-    <categoryEntry id="f74d-4679-75a6-1252" name="Infantry" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8318-0f24-89be-5413" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="741a-5964-b8ee-b5a8" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="2682-26e4-ea54-d490" name="Beasts" publicationId="839b6f2a--pubN65653" page="67" hidden="false">
-      <infoLinks>
-        <infoLink id="6d8d-4383-9175-0646" name="Fleet" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="2112-9f21-28b0-ebdd" name="Cavalry" publicationId="839b6f2a--pubN65653" page="67" hidden="false">
-      <infoLinks>
-        <infoLink id="83cf-ea73-d68e-27db" name="Fleet" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
-        <infoLink id="8921-8b19-774f-549f" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="47cf-71bb-d59d-f9de" name="Jump Units" hidden="false">
-      <infoLinks>
-        <infoLink id="4b68-9262-23c6-fb72" name="Bulky" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
-        <infoLink id="c6cc-f441-0873-0951" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
-        <infoLink id="e849-4c08-7138-0f21" name="Jump Unit" hidden="false" targetId="8cb0-ff25-22a2-d480" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="8ec4-17b5-7fea-c682" name="Monstrous Creature" hidden="false">
-      <infoLinks>
-        <infoLink id="c539-f9ed-c6b5-0c69" name="Fear" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
-        <infoLink id="c398-9141-8999-1fed" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
-        <infoLink id="2630-9e6c-233f-246f" name="Move Through Cover" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
-        <infoLink id="18a4-70c0-6b1c-ff43" name="Relentless" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
-        <infoLink id="68ea-45a6-cc52-fb0f" name="Smash" hidden="false" targetId="4284-18a1-9844-a0bd" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="Jetpack Infantry" hidden="false">
-      <infoLinks>
-        <infoLink id="0ee3-82a1-0833-1803" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
-        <infoLink id="aacc-b45a-1bb7-4eb2" name="Relentless" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
-        <infoLink id="0e25-5ca4-f902-8ad3" name="Bulky" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
-        <infoLink id="8054-1726-abb3-3a20" name="Trust Move" hidden="false" targetId="97c4-1c1c-3727-757f" type="rule"/>
-        <infoLink id="8c78-f455-bc30-fb8a" name="Skybourne" hidden="false" targetId="5c8a-63f9-5cdc-b17b" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="25d0-388c-dd16-af9a" name="Flying Monstrous Creature" hidden="false">
-      <infoLinks>
-        <infoLink id="0627-2980-5926-ce72" name="Fear" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
-        <infoLink id="cfb1-e0ac-a059-d025" name="Fearless" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
-        <infoLink id="8662-0243-2d24-7047" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
-        <infoLink id="557a-9a6f-7aef-005e" name="Move Through Cover" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
-        <infoLink id="e17f-311a-4fac-a683" name="Relentless" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
-        <infoLink id="e11b-2f88-1661-1568" name="Smash" hidden="false" targetId="4284-18a1-9844-a0bd" type="rule"/>
-        <infoLink id="03e6-2655-2c03-8fd9" name="Strikedown" hidden="false" targetId="dd83-7fb9-6f58-0c96" type="rule"/>
-        <infoLink id="e480-735f-6415-79e0" name="Vector Strike" hidden="false" targetId="5341-7110-d8d4-171a" type="rule"/>
-        <infoLink id="92fe-6f1a-8df9-5338" name="Feel No Pain" hidden="false" targetId="9bdd-5ec7-8dd6-63c0" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="7fdd-2a97-d0e9-6524" name="Cybernetica Cortex" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ca-33da-0067-c4c7" type="min"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="616a-2a00-75a2-ab03" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="37f2-7398-84ee-6fdf" name="Lorica Thallax" hidden="false"/>
-    <categoryEntry id="c2ec-0327-8667-0a81" name="Bike" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f3-187e-f854-383d" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="ba61-8f3f-8080-b2c1" name="Relentless" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
-        <infoLink id="cafb-d6a5-6184-4e40" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
-        <infoLink id="2b31-1744-3707-d19e" name="Jink" hidden="false" targetId="d3e5-b43d-a89c-3bd8" type="rule"/>
-        <infoLink id="b19a-0b5c-7f35-394c" name="Very Bulky" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="1640-3081-13eb-b1cf" name="Jetbike" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b00-bfc5-3639-5193" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="0a37-9e5c-6fbc-b145" name="Relentless" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
-        <infoLink id="e569-ebb7-ee0a-e28a" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
-        <infoLink id="9ca3-d053-56f8-2866" name="Jink" hidden="false" targetId="d3e5-b43d-a89c-3bd8" type="rule"/>
-        <infoLink id="90bb-2c5a-27b7-ab65" name="Very Bulky" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="287a-5939-2a29-9ccf" name="Consul" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6bbe-7ddb-68ec-25fc" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e49-e592-ad64-ad20" type="min"/>
-      </constraints>
-      <rules>
-        <rule id="6a50-faf1-3d5c-be6d" name="Legion Consuls" publicationId="839b6f2a--pubN68567" page="19" hidden="false">
-          <description>Any Centurion may be upgraded to one of the following roles for the points cost listed, gaining any wargear and special rules, and abiding by any army limitations shown. No Consul may have more than one particular upgrade. These upgrades should always be clearly represented on the model.
-</description>
-        </rule>
-      </rules>
-    </categoryEntry>
-    <categoryEntry id="a5b5-33d4-9941-d832" name="Wolf Lord/Claw Leader" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b0c-0173-b66e-156a" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e80d-7ab8-7c27-716c" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="d9be-80fc-6146-b7a4" name="Primarch" hidden="false">
-      <infoLinks>
-        <infoLink id="4a70-c2fe-8001-99ca" name="Adamantium Will" hidden="false" targetId="df87-e991-2d30-dc38" type="rule"/>
-        <infoLink id="3b43-c1c0-8828-834c" name="Eternal Warrior" hidden="false" targetId="3e0b-be9f-b7eb-8c5e" type="rule"/>
-        <infoLink id="58cc-a68f-4c96-7eb2" name="Fear" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
-        <infoLink id="dbb8-a9c7-726f-1a05" name="Fearless" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
-        <infoLink id="7d21-3b18-a9c9-782d" name="Fleet" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
-        <infoLink id="846f-d927-46a4-50f0" name="Independent Character" hidden="false" targetId="3ad4-1c37-d60b-1a4e" type="rule"/>
-        <infoLink id="b5dc-87f7-c5af-a256" name="It Will Not Die" hidden="false" targetId="72d9-7041-9d30-d150" type="rule"/>
-        <infoLink id="097e-808d-e993-5131" name="Precision Shots" hidden="false" targetId="4771-b711-0e74-3aee" type="rule"/>
-        <infoLink id="29be-ed1f-82a2-cc52" name="Precision Strikes" hidden="false" targetId="a080-af1b-fb2e-4860" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="73b6-4f0e-c013-b242" name="Bodyguard" hidden="false"/>
-    <categoryEntry id="eb92-48f9-9a1a-7bd1" name="Character" hidden="false"/>
-    <categoryEntry id="3f9d-27a5-969f-399b" name="Cortex Controlled" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bc7-3bd0-c158-0a20" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="b0ce-e6a6-2cc5-2355" name="Optional Heavy Support" publicationId="839b6f2a--pubN69081" page="131" hidden="false">
-          <description>For each cortex controller present in a Space Marine detachment, 0-1 of the following units from the Mechanicum Taghmata army list are available as Heavy Support options: Thallax Cohort*, Castellax Battle-automata Maniple, Vorax Battle-automata maniple.
-*If purchased a Triaros as a Dedicated Transport, this may not transport Space Marine models of any kind</description>
-        </rule>
-      </rules>
-    </categoryEntry>
-    <categoryEntry id="f371-30b5-0610-e37a" name="Independent Character" hidden="false">
-      <infoLinks>
-        <infoLink id="d842-6ef4-2c0f-7be3" name="Independent Character" hidden="false" targetId="3ad4-1c37-d60b-1a4e" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
-    <categoryEntry id="3074-4910-e458-27ad" name="Centurion" hidden="false"/>
-    <categoryEntry id="0a0a-0303-f067-8b62" name="Priest of Fenris" hidden="false">
-      <rules>
-        <rule id="80c0-7fbd-774d-1545" name="Priest of Fenris" publicationId="839b6f2a--pubN69204" page="235" hidden="false">
-          <description>When selecting a Priest of Fenris, you must pick whether they are a Speaker of the Dead or a Caster of Runes
-- the model gaining all the appropriate wargear and special rules listed for their sub-type.</description>
-        </rule>
-      </rules>
-    </categoryEntry>
-    <categoryEntry id="ce39-b313-7b57-ee8e" name="Artillery" publicationId="839b6f2a--pubN69231" page="65" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb79-01fc-4b41-b915" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="f2b7-073c-b735-cd2f" name="Artillery" publicationId="839b6f2a--pubN69231" page="65" hidden="false">
-          <description>ARTILLERY
-
-Some weapons are so large and cumbersome that they are usually mounted on vehicles, but are sometimes utilised by artillery teams on foot, particularly if the battlefield’s terrain is not suitable for vehicles. These weapons are typically mounted on wheeled supports as they are too heavy to be carried across the battlefield.
-
-THE UNIT
-
-Artillery units comprise a number of crew models and the gun models themselves. These units can include several different types of models. The following is an example of a typical Artillery unit:
-
-WS BS S T W I A Ld Sv
-
-- - - 7 2 - - - 3+
-
-If all of the crew models are killed, the guns are immediately removed as well. Sometimes, the player has the choice of adding leaders or additional models to the crew of an Artillery unit. These models are part of the crew in all respects and can operate the guns as normal, even if they are otherwise slightly different from the rest of the crew. Independent Characters who join the unit, however, do not count as crew and cannot operate the guns.
-
-MOVEMENT PHASE
-
-Artillery units need at least one crewman per gun in order for the unit to move. If an Artillery unit does not have at least one crewman per gun, then it may not move.
-
-SHOOTING WITH ARTILLERY
-
-One crewman that is within 2&quot; of a gun in the Shooting phase can fire it. The crewmen firing the gun cannot fire any weapons they are carrying, while the other crew members (and any Independent Characters in the unit) are free to fire their side arms, provided the whole unit shoots at the same target. When firing the guns, there must be a line of sight to the target from both the gun model and the crewman firing it (unless they are firing Barrage weapons). Ranges are measured from the barrel on the gun model.
-
-SHOOTING AT ARTILLERY
-
-If shooting at an Artillery unit, the Toughness of the guns is always used whilst at least one gun remains. Any wounds caused are still allocated to the closest model first. If an Artillery unit chooses to Go to Ground, this does not increase the guns’ cover save – only the crew benefit.
-
-ASSAULT PHASE
-
-Artillery units cannot charge as long as they include any gun models. If an Artillery unit is charged, only the crew models can fire Overwatch. After Overwatch has been resolved, move the charging models into base contact with the crew and Artillery gun models as normal. No wounds can be allocated to the guns. All engaged enemies roll To Hit and To Wound against the crew, even if they are only engaged with the guns. Engaged crew models can fight back, but the Artillery guns cannot.
-
-MORALE AND FALL BACK MOVES
-
-For the purposes of Morale checks and other Leadership tests, and for combat resolution, always ignore the gun models. Because they need at least one crewman per gun in order to move, if an Artillery unit does not have one crewman per gun when it is forced to Fall Back, any gun models without crewmen are abandoned and immediately removed as casualties. The rest of the unit then Falls Back as normal. If an Artillery unit is forced to Fall Back from close combat and the enemy is free to make a Sweeping Advance, then the Artillery unit automatically loses the Initiative test and is caught and destroyed by the victor.
-
-ARTILLERY AND LOOK OUT, SIR
-
-A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir roll (see page 94).</description>
-        </rule>
-      </rules>
-    </categoryEntry>
-    <categoryEntry id="600a-fe5d-71ba-e067" name="Master of the Legion" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d44-8904-706e-59df" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e3a-b78a-c42f-90c2" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="6e3e-b811-719b-baae" name="Psychic Mastery Level" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7126-3ae7-c732-b779" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="67a5-1b14-a288-c4ec" name="Rite of War" hidden="false"/>
   </categoryEntries>
-  <forceEntries>
-    <forceEntry id="4e06-f510-5de0-195b" name="Armies of Dark Compliance" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5e4-e9ea-df52-acd7" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="cc25-0704-2c85-ff7d" name="Disposable" hidden="false">
-          <description>The Disposable special rule given in the unit entry for the Inducted Levy Squad in the Imperialis Militia and Cults army list may be applied to any Militia unit in the army. Units that take this option never count as scoring or denial units. This Option should be declared at the same time as warlord traits, Psychic Powers, etc, are rolled for and if the option is not declared, the rule applies to only Inducted Levy Squads</description>
-        </rule>
-        <rule id="03ea-ee83-b8a7-6d8a" name="Warmaster&apos;s Due" hidden="false">
-          <description>Any Model with the Legiones Astartes special rule that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any infantry units from the Imperialis Militia and Cults army list to reach them. However, if this bonus is claimed, the Militia unit immediately suffers D3 wounds per unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the enemy unit against which the cover save bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="4e06-f510-5de0-195b-d27d-9e9b-d8c7-afe6" name="No Force Org" hidden="false" targetId="d27d-9e9b-d8c7-afe6" primary="false"/>
-        <categoryLink id="4e06-f510-5de0-195b-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false"/>
-        <categoryLink id="4e06-f510-5de0-195b-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false"/>
-        <categoryLink id="4e06-f510-5de0-195b-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false"/>
-        <categoryLink id="4e06-f510-5de0-195b-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d005-c5a7-3d3a-f2a4" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa4-2496-595d-f247" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4e06-f510-5de0-195b-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f632-bda1-f2ca-85c9" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4e06-f510-5de0-195b-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="points" scope="primary-category" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="9cb1-aea5-ee7d-82b5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4e06-f510-5de0-195b-466f7274696669636174696f6e23232344415441232323" name="Fortification" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="false"/>
-        <categoryLink id="4e06-f510-5de0-195b-258478de-d031-8a7e-dcb0-7d56bee86952" name="Legion" hidden="false" targetId="258478de-d031-8a7e-dcb0-7d56bee86952" primary="false"/>
-        <categoryLink id="4e06-f510-5de0-195b-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="3be1-63a7-ec6a-b246" name="Armies of Dark Compliance" hidden="false" targetId="c1d8-4cbf-e883-4e44" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d84-9247-3373-b635" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="fed5-670a-4848-b826" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="98db-b4ba-fbcd-3239" name=" Crusade" publicationId="839b6f2a--pubN69231" page="133" hidden="false">
-      <categoryLinks>
-        <categoryLink id="98db-b4ba-fbcd-3239-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b9-40d0-95c5-7e0f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eefe-ee16-b931-4d55" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f266-ee67-dd6a-23b7" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc2-6233-f84f-1dd3" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c34e-12d0-b680-df37" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00fc-2d2a-09a0-b5b8" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="98db-b4ba-fbcd-3239-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="points" scope="parent" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="a9d3-ce10-91f2-17f6" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef5-a7b1-2033-83f3" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-466f7274696669636174696f6e23232344415441232323" name="Fortification" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a448-1827-d3b4-aa38" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066b-c584-c9d3-af00" type="min"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="657a-bc81-4ae3-8a5b" name="Allied Detachment" hidden="false">
-      <categoryLinks>
-        <categoryLink id="657a-bc81-4ae3-8a5b-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="582a-2005-2d35-209e" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73be-4c7a-97c6-6531" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="8ad9-de98-bab5-8e1b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ebf6-27ec-4116-7a8e" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="ecfe-b249-2699-e742" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="111e-cc4c-4f45-2d56" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="696d-d0b5-9a81-bcb9" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="089f-7e79-bde1-90dd" name=" Zone Mortalis - Attacker" hidden="false">
-      <categoryLinks>
-        <categoryLink id="089f-7e79-bde1-90dd-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9c9-4987-6479-3ea5" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="12e1-2102-0fc6-7350" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62aa-1d44-43b3-980a" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="4995-5484-126b-ee9f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="66fb-08e3-9d45-f687" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="b138-4b79-afc0-363e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="a908-e2ef-de24-fb58" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="7b39-af6b-52e1-b4d7" name=" Zone Mortalis - Defender" hidden="false">
-      <categoryLinks>
-        <categoryLink id="7b39-af6b-52e1-b4d7-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="a740-efb0-8b33-63d3" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="717b-1ca4-91b6-c7f8" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="f62c-4adf-8bdb-8993" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="ca58-852e-5912-65dd" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e44b-ce09-fc52-d409" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="50e7-c9a6-844a-d500" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc78-54fa-9c94-e412" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="7e48-c376-8ffe-8ae7" name=" Zone Mortalis - Combatant" hidden="false">
-      <categoryLinks>
-        <categoryLink id="7e48-c376-8ffe-8ae7-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="7791-e3c6-5cba-f33c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ed2-9008-8e34-ad3d" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="6178-cdc3-642a-6951" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="d6dc-4536-8e69-d87c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b5c-0ec5-d109-e17a" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="01c9-7cd2-13d7-6c69" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="6791-6c2e-b2ba-e22c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="d1ef-61e1-3d67-5a19" name="Optional - Onslaught" hidden="false">
-      <categoryLinks>
-        <categoryLink id="d1ef-61e1-3d67-5a19-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="343b-808a-804d-ffc3" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13f-c844-9f9e-ef84" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="131e-c6ee-0e8e-1aab" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac7-f020-34c0-013c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8454-3747-cef6-1f17" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac8d-367b-cc5f-9f1f" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7dc-35f2-972b-fc49" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d9c-0c3c-3386-2f41" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8113-abb6-fd0c-2077" type="max"/>
-            <constraint field="points" scope="primary-category" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="42a5-2f70-a985-a63e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="3a6f-6d67-a8b2-e911" name="Optional - Castellan" hidden="false">
-      <categoryLinks>
-        <categoryLink id="3a6f-6d67-a8b2-e911-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f8-d08b-29e4-2ed1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b97-2208-169e-650c" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0e-49ec-2773-d207" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126b-063c-e9e5-f184" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e0-d6b3-6a9b-0d98" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff0-7eed-cc95-2836" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a31-a402-bc7d-c11f" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dab8-5a1e-6174-b64f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b33c-194d-0c8c-45e3" type="max"/>
-            <constraint field="points" scope="primary-category" value="25.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="cb8f-4568-7b79-aa31" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-466f7274696669636174696f6e23232344415441232323" name="Fortification" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de74-e33c-031d-e6ea" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da9-adca-c45f-31d7" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="f715-cdf4-0c5e-213a" name="Optional - Leviathan" hidden="false">
-      <categoryLinks>
-        <categoryLink id="f715-cdf4-0c5e-213a-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13fd-8baa-143b-71cb" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f84e-2a12-fea2-8e79" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f715-cdf4-0c5e-213a-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="1a2c-902b-cdb9-7640" name=" Strategic Raid - Raider" hidden="false">
-      <categoryLinks>
-        <categoryLink id="1a2c-902b-cdb9-7640-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6885-6bae-5294-3e07" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="991c-d805-430c-2870" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b668-9ad3-99e5-1565" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="510b-d8c0-1bf0-7955" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e8-495a-cf5a-5bbd" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="249a-1988-7b4e-1d89" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ab8-49e3-b19f-e965" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af02-e421-faf8-729d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a1-90d6-fb1d-2730" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="aab3-5a4e-c94f-7092" name=" " hidden="false" targetId="a5b5-33d4-9941-d832" primary="false"/>
-        <categoryLink id="b12b-3f9e-7390-0e3f" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="8e55-a339-ae19-2f38" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="8666-c0df-4dfa-08f1" name=" Strategic Raid - Garrison" hidden="false">
-      <categoryLinks>
-        <categoryLink id="8666-c0df-4dfa-08f1-485123232344415441232323" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd8-e704-a817-c323" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd2-848d-3900-9496" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-456c6974657323232344415441232323" name="Elites" hidden="false" targetId="456c6974657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a890-5971-c6fd-38fa" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-54726f6f707323232344415441232323" name="Troops" hidden="false" targetId="54726f6f707323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-6c64-b392-8ba6" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02af-f662-658b-4df8" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76e7-d417-7113-72ab" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0df0-d751-5d1b-53be" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6df-a43a-8ad7-22e7" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24cc-15d2-4bb6-8a0c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-466f7274696669636174696f6e23232344415441232323" name="Fortification" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8127-4547-e39a-62f2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a49-4460-0e7f-abf5" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="858d-2fed-163e-c2c0" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
   <selectionEntries>
     <selectionEntry id="62fa-b0ad-fc26-910c" name="Baneblade" publicationId="839b6f2a--pubN77384" page="44" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="62fa-b0ad-fc26-910c-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="ce8d-71e2-9201-4577" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="614a-bbb4-37a9-e655" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="535.0"/>
@@ -786,8 +108,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="9cae-a656-06b4-4bb5" name="Banehammer" publicationId="839b6f2a--pubN77384" page="45" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="9cae-a656-06b4-4bb5-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="2291-46f9-0ea2-79bc" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="1621-a360-a844-97db" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="410.0"/>
@@ -796,9 +116,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="51ed-36e1-ab38-ad74" name="Crassus Armoured Assault Transport" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="51ed-36e1-ab38-ad74-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="07f5-c28b-8347-8ae8" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="f6f7-64b6-3c4e-ebce" name="New CategoryLink" hidden="false" targetId="e4e0-c5d1-3430-f101" primary="false"/>
-        <categoryLink id="6f0d-3edc-30b2-30a9" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -807,8 +124,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="b56e-0ac2-d06d-cfac" name="Dominus Armoured Siege Bombard" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="b56e-0ac2-d06d-cfac-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="fd38-35e6-8bd8-3759" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="21b5-a653-e83a-ffd3" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -817,8 +132,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="2729-33bc-8707-0835" name="Macharius Heavy Tank" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="2729-33bc-8707-0835-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="197b-49e4-df7f-7eee" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="e145-2baf-a598-19c5" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -827,8 +140,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="055e-21cd-cdcc-83b7" name="Macharius Omega" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="055e-21cd-cdcc-83b7-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="e0ba-7421-7180-919c" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="9c26-6a85-610e-2025" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -837,8 +148,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="9028-84c1-95c6-d8d5" name="Macharius Vanquisher" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="9028-84c1-95c6-d8d5-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="88c9-aebf-44fd-c98d" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="3f51-38bc-437c-b866" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -847,8 +156,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="262a-0a55-1141-e956" name="Macharius Vulcan" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="262a-0a55-1141-e956-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="8ada-e194-8204-e481" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="d86e-6abf-a095-d969" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -857,8 +164,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="2857-128d-df3d-3af8" name="Marauder Bomber" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="2857-128d-df3d-3af8-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="d2fa-d4b9-5b70-c9e5" name="New CategoryLink" hidden="false" targetId="df44-81ea-e2ee-9849" primary="false"/>
-        <categoryLink id="133f-e188-e27c-42b9" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -867,8 +172,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="765f-de6b-cb47-cebc" name="Marauder Destroyer" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="765f-de6b-cb47-cebc-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="df4e-3e7b-924a-a500" name="New CategoryLink" hidden="false" targetId="df44-81ea-e2ee-9849" primary="false"/>
-        <categoryLink id="2ca4-af75-8eef-6cd8" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -877,7 +180,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="8ea1-012e-8f2f-0e3e" name="Ordo Reductor Minotaur" publicationId="839b6f2a--pubN78595" page="31" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="8ea1-012e-8f2f-0e3e-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="d568-1f6a-e541-59be" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="275.0"/>
@@ -886,8 +188,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="bee7-f4d3-201a-586d" name="Praetor Armoured Assault Launcher" publicationId="839b6f2a--pubN78595" page="28" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="bee7-f4d3-201a-586d-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="85f8-a578-939e-5378" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="4a7b-ba61-2d99-8dd4" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
@@ -896,7 +196,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="aa8f0cfa-c54b-ea35-09d8-bcecfb894ab3" name="Shadowsword" publicationId="839b6f2a--pubN77384" page="49" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="aa8f0cfa-c54b-ea35-09d8-bcecfb894ab3-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="9ad4-264d-faa0-20b7" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="455.0"/>
@@ -905,8 +204,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="b4bf-3e74-13d1-8c75" name="Stormlord" publicationId="839b6f2a--pubN77384" page="50" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="b4bf-3e74-13d1-8c75-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="b991-3b13-284e-c8ee" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="8b09-67af-60d5-7630" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="490.0"/>
@@ -915,8 +212,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="4e80-1907-16a1-36ee" name="Stormsword" publicationId="839b6f2a--pubN87233" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="4e80-1907-16a1-36ee-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="8eba-cfa5-2457-f8a1" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="273b-ccbb-a729-8c62" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="485.0"/>
@@ -925,9 +220,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="0ef4-7214-2dbf-6b33" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="0ef4-7214-2dbf-6b33-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="4c4e-80c0-d195-fd8b" name="New CategoryLink" hidden="false" targetId="df44-81ea-e2ee-9849" primary="false"/>
-        <categoryLink id="c3ad-70c6-a6ce-21b3" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="bb4d-f538-3a62-ef4d" name="New CategoryLink" hidden="false" targetId="2d6f-e613-ab10-e55a" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -936,18 +228,12 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="b2f95763-9d52-1377-692b-e6d4e2d63047" name="Glaive Special Weapons Tank, Legion" publicationId="839b6f2a--pubN84244" page="71" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="b2f95763-9d52-1377-692b-e6d4e2d63047-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="da7b-0151-cca2-c6a6" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="32b5-1ac5-fcfb-8a3c" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="625.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0480-cb0d-352d-cf54" name="Primus Redoubt" publicationId="839b6f2a--pubN92056" page="Downloads" hidden="false" collective="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink id="0480-cb0d-352d-cf54-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true"/>
-        <categoryLink id="8802-8b9e-0cd6-b8fc" name="New CategoryLink" hidden="false" targetId="18c5-559b-55e0-382e" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="650.0"/>
       </costs>
@@ -955,8 +241,6 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="6e6f0228-0880-3dc7-0fb0-381256dbda8b" name="Sub-orbital Strike Wing" publicationId="839b6f2a--pubN84244" page="8" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="6e6f0228-0880-3dc7-0fb0-381256dbda8b-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="5c37-c9a4-3291-e8c8" name="New CategoryLink" hidden="false" targetId="df44-81ea-e2ee-9849" primary="false"/>
-        <categoryLink id="44a0-d223-4a34-5be0" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d3144fe3-1900-6c81-4136-086b5c05a187" name="Sub-orbital Strike Wing" hidden="false" collective="false" import="true"/>
@@ -968,859 +252,235 @@ A wound cannot be re-allocated onto a gun model from a successful Look Out, Sir 
     <selectionEntry id="5847-3b31-3325-e649" name="Doomhammer" publicationId="839b6f2a--pubN77384" page="45" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="5847-3b31-3325-e649-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="c04c-d7fd-f8fe-829a" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
-        <categoryLink id="5fe6-c27b-dd2e-4d96" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="420.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <sharedProfiles>
-    <profile id="9045e242-71f8-6029-fc57-2b7cbedcc398" name="Archaeotech Pistol" publicationId="839b6f2a--pubN84244" page="82" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Pistol, Master-crafted</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2e87b8ca-7cd1-78b9-2116-246015e7935e" name="Armoured Ceramite" publicationId="839b6f2a--pubN84244" page="88" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A vehicle with this wargear is not subject to the additional D6 armour penetration caused by weapons with the Melta special rule.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b468-bcac-2a69-3a94" name="Armoured Cockpit" publicationId="839b6f2a--pubN84244" page="88" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">May ignore Crew shaken or stunned on a D6 roll of 4</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fde1-0fa8-0a36-2bed" name="Atomantic Deflector" publicationId="839b6f2a--pubN88642" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Grants a 5+ Invulnerable save against shooting attacks and explosions which originate from the front arc.  In addition, when suffering a Vehicle Explodes results, add 1&quot; to the radius of the blast.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="10f9-2548-8824-2e2a" name="Atomantic Overcharge" publicationId="839b6f2a--pubN88642" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the beginning of the controlling players turn, they may declare that the Contemptor-Cortus is overcharging its Atomantic reactor.  They may then apply one of the following bonuses until the end of the player turn:  - Rage special rule - 1&quot; Move and Charge distances - 2&quot; Run distance - 1 Initiative  At the end of its player turn, rolla  D6.  On a roll of a 1, lose a hull point.  If this is enough to wreck the dreadnought, it suffers an immediate Vehicle Explodes and the blast is increased by D3&quot; instead of the usual 1&quot;.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e0898f15-4b47-28f4-313e-0b321f0a3dca" name="Atomantic Shielding" publicationId="839b6f2a--pubN365687" page="207" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Gains 5+ Invulnerable save from shooting attacks and explosions, and a 6+ Invulnerable save in close combat.  In addition, add 1 to the range of explosions from the Reactor Blast rule.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="52c01c37-8d2a-043b-1225-c19562a840cb" name="Augury Scanner" publicationId="839b6f2a--pubN84244" page="88" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Models cannot be deployed using the Infiltrate special rule within 18&quot; of an Augury Scanner.  A unit carrying an Augury Scanner gains the Interceptor rule against enemy units deploying via Deep Strike within 18&quot;</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d963a2dd-d9a3-8974-aac6-61ffcc78a99a" name="Auxiliary Drive" publicationId="839b6f2a--pubN84244" page="88" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A vehicle with an Auxiliary Drive may ignore Immobilised results it suffers on a D6 roll of a 4</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="239e677c-9ec8-69cf-7923-7a344b33711f" name="Banestrike Bolter Shells" publicationId="839b6f2a--pubN94234" page="9" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Reduces range of Boltgun and Combi-bolters to 18&quot; and provides the Banestrike rule.  Weapons with Banestrike change their AP value to 3 on &quot;to-wound&quot; rolls of a 6. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="38d51988-0d1a-0974-c0df-0bb6a5b2a693" name="Boarding Shield" publicationId="839b6f2a--pubN84244" page="89" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers 6+ invulnverable save, increasing to a 5+ in close combat.  User is treated as having defensive grenades, but may never claim the extra attack for being armed with an additional close combat weapon.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="99a47c75-0410-1c54-8124-3adcbd64aa7e" name="Breacher Charge" publicationId="839b6f2a--pubN84244" page="86" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">Special</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, One Use, Blast, Wrecker</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7be155f9-ef45-9937-8e60-2c588cb88201" name="Cameleoline" page="0" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers Stealth</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="59304e4a-18c6-1283-455b-f79c559b207f" name="Cataphractii Terminator Armour" publicationId="839b6f2a--pubN108959" page="133" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Cataphractii Terminator armour affords a +2 armour save and a 4+ Invulnerable save. No Run moves, Overwatch attacks, or Sweeping Advance. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5472-381f-30fb-637a" name="Chaff/Flare Launchers" publicationId="839b6f2a--pubN84244" page="90" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Gains 4+ Invulnerable against damage caused by missile weapons. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4687f5b1-f0b1-12bd-8cc7-27f9f25befaf" name="Cognis-signum" publicationId="839b6f2a--pubN84244" page="88" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Model equipped with Cognis-sigum gains Night Vision special rule.  In addition, in lieu of firing a weapon in the Shooting phase, a single designated unit of the controlling player&apos;s choice withing 6&quot; of the signum-equipped model (excluding Independent Characters and Super-Heavies) gains a bonus of 1 to their BS for that shooting phase.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="244f6dcc-d526-1cef-a743-6120614e3898" name="Combat Shield" publicationId="839b6f2a--pubN84244" page="89" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers 6+ invulnverable save, increasing to a 5+ in close combat.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0ae81fbd-a9d1-4327-f3df-1fc26dce2ab1" name="Conversion Beamer (1)" publicationId="839b6f2a--pubN84244" page="82" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">&lt; 18&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="bf49e57d-4c20-456e-40fc-2325493da257" name="Conversion Beamer (2)" publicationId="839b6f2a--pubN84244" page="82" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot; - 42&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b2930d75-e708-3443-a9ba-fbba33fdf5a7" name="Conversion Beamer (3)" publicationId="839b6f2a--pubN84244" page="82" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">42&quot; - 72&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="454c5ea7-d961-d86f-81a5-3f7f3c796545" name="Cortex Controller" publicationId="839b6f2a--pubN84194" page="111" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Presence of a Cortex Controller within 12&quot; of a unit of friendly models with the Programmed Behaviour special rule at the start of any phase means that special rule is negated for that phase and their controlling player is free to use them as any other unit.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a544-0b30-4b15-43ff" name="Cortex Designator" publicationId="839b6f2a--pubN88642" page="232" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When a model with this wargear makes a successful shooting attack against an enemy unit, any automata in the same unit gain Preferred Enemy when targeting that same enemy unit until the end of the controlling player&apos;s current turn.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="67e9d995-de3f-f033-9026-c1faa0a9433a" name="Cyber-familiar" publicationId="839b6f2a--pubN84244" page="89" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Cyber-familiar adds 1 to its owners Invulnerable save (to a maximum of 3) or provides an Invulnerable save of a 6.   In addition they allow the owner to re-roll failed characteristic tests other than Leadership tests and failed Dangerous Terrain tests.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6e80-170b-509c-fd64" name="Cyclone Missile Launcher (Frag)" publicationId="839b6f2a--pubN432126" page="92" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5847-5921-80a7-195d" name="Cyclone Missile Launcher (Krak)" publicationId="839b6f2a--pubN432126" page="92" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0f5f4d88-fe1f-092e-ef2a-1601bcb2fc9d" name="Digital Lasers" publicationId="839b6f2a--pubN84244" page="87" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides 1 Attack in close combat</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c8f27246-2398-3ba6-fd56-5e1e153e8c55" name="Enhanced Targeting Array" publicationId="839b6f2a--pubN365687" page="207" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this upgrade increases its BS by 1 and reduces enemy cover saves by -1. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="889ea663-40f5-0ecc-7ba9-4b68e2955022" name="Grenade Harness" publicationId="839b6f2a--pubN84244" page="83" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">8&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">3</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Assault 2, Blast, One use</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="abdf1422-184a-f8f9-9544-621c2e1c646f" name="Ground Tracking Auguries" publicationId="839b6f2a--pubN84244" page="43" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides Strafing Run special rule.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b3ea1d32-ba66-0585-d7f7-0dc56e707736" name="Havoc Launcher" publicationId="839b6f2a--pubN84244" page="83" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Blast (3&quot;), Twin-linked</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0ee6cae6-b6fa-f0e7-6a77-0112ac6710a1" name="Heavy Conversion Beamer (1)" publicationId="839b6f2a--pubN84244" page="82" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">&lt; 18&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Large Blast, Firing Calibration</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="08ebafcd-366d-43ca-2591-21133dd130d2" name="Heavy Conversion Beamer (2)" publicationId="839b6f2a--pubN84244" page="82" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot; - 42&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Large Blast, Firing Calibration</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9b7588a6-5b9a-a011-dbb2-ed73a34a521f" name="Heavy Conversion Beamer (3)" publicationId="839b6f2a--pubN84244" page="82" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">42&quot; - 72&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Large Blast, Firing Calibration</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b8643d20-d7ef-7974-7261-11c7b9787be0" name="Hyperios Missile Launcher" publicationId="839b6f2a--pubN84244" page="44" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Skyfire, Interceptor, Heat Seeker</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0d8bdd64-39f0-7759-d8ca-0702ee1f0fd0" name="Iliastus Assault Cannon" publicationId="839b6f2a--pubN94234" page="97" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Rending, Malfunction</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b4c9d27d-b3cf-28bd-3367-b1bfddd5c401" name="Illum Flares" publicationId="839b6f2a--pubN84244" page="90" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">May drop a single flare per turn.  Fired just as bombs - flare is placed after scattering.  Leave in place until the end of the turn.  Any unit targeting an enemy within 12&quot; of the flare gains Night Vision for the shooting phase.  Split fire does not apply.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c6889108-852b-df48-83ad-b4a7487cfc3f" name="Infra-red Targeting" publicationId="839b6f2a--pubN84310" page="272" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers Night Vision special rule</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9ca8a5a8-3244-79fb-1d85-aca502472ead" name="Infravisor" publicationId="839b6f2a--pubN365687" page="208" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers Night Vision, but counts as I1 for blind tests.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="10b59cf4-3c97-e3e0-2185-853bcde6d112" name="Iron Halo" page="0" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers 4++ Invulnerable Save</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="dae18398-f03c-63ac-5477-470244e1e687" name="Kraken Bolt Shells" publicationId="839b6f2a--pubN84244" page="85" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">30&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Rapid Fire</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e2c7-737b-825e-7488" name="Lascarbine/Autogun" publicationId="839b6f2a--pubN88642" page="222" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">3</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Rapid Fire</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="862daa6c-e901-58a5-03e7-a5303413dfe9" name="Lascutter" publicationId="839b6f2a--pubN84244" page="87" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Unwieldy, Cumbersome</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="009e-ac0e-5a95-db2d" name="Laslock" publicationId="839b6f2a--pubN88642" page="222" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Assault 1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e74f-98b3-0573-f35a" name="Legatine Axe" publicationId="839b6f2a--pubN142570" page="231" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As User</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Specialist Weapon, Cutting Strike</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b8d20a55-69ff-eb96-e080-8f495bf99283" name="Legion Sergeant" publicationId="839b6f2a--pubN84244" page="202" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
-      <characteristics>
-        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry (Character)</characteristic>
-        <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
-        <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
-        <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
-        <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-        <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-        <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-        <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fbcef7de-124c-9b95-7895-480adc6bc027" name="Legion Space Marine" publicationId="839b6f2a--pubN84244" page="202" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
-      <characteristics>
-        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry</characteristic>
-        <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
-        <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
-        <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
-        <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-        <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
-        <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-        <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="352f5f7a-45e0-0416-e7cd-1cb8f985b0ac" name="Legion Standard" publicationId="839b6f2a--pubN84244" page="90" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All of the Controlling player&apos;s unist with the Legiones Astartes special rule within 6&quot; of a Legion Standard (including its bearer) are Fearless.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ba36b6bf-425f-696a-0ea6-fac341e20955" name="Legion Vexilla" publicationId="839b6f2a--pubN84244" page="90" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit with a Legion Vexilla may re-roll failed Morale tests.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="959ff616-ce22-b9ee-1ee6-2496b305e880" name="Mantle of the Elder Drake" publicationId="839b6f2a--pubN94234" page="65" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers Eternal Warrior</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b4632691-8dcc-7fe7-b324-18b20f07c4ab" name="Narthecium" page="0" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323"/>
-      </characteristics>
-    </profile>
-    <profile id="7bc689cc-398d-f1f4-2359-ddbdf3af8968" name="Needle Pistol" publicationId="839b6f2a--pubN84244" page="84" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Pistol, Poisoned, Rending</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="422beb22-1aef-aba9-7c68-7ba770c48584" name="Nostraman Chainglaive" publicationId="839b6f2a--pubN94234" page="57" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">1</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Two-handed, Rending</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9a458a3c-a9b5-db5e-a218-2041a3a49004" name="Nuncio-vox" publicationId="839b6f2a--pubN84244" page="91" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Units arriving via Deep Strike within 6&quot;  of a Nuncio-vox do not scatter.  When barrage weapons are used by the controlling player, line of sight may be drawn from any model equipped with a Nuncio-vox as well as the firing model itself. Range is still drawn from the firing model.  It may not be used inside a vehicle.   </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="22211dfb-04d0-f8ba-5794-583f1883685f" name="Phoenix Spear" publicationId="839b6f2a--pubN94234" page="28" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">1/User</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2/3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Two-handed</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="933f-bdfe-a2c3-773d" name="Plasma Blaster" publicationId="839b6f2a--pubN84244" page="84" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Assault 2, Gets Hot!</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="27df-a056-0e1c-df76" name="Plasma Repeater" publicationId="839b6f2a--pubN88642" page="267" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Salvo 2/3, Twin-linked, Gets Hot</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a0690f70-3a59-4351-f451-2a77604faf9b" name="Power Blades" publicationId="839b6f2a--pubN365687" page="208" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">User</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Rending</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9ad2-2e0f-1261-f494" name="Power Dagger" publicationId="839b6f2a--pubN94234" page="89" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">-1</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Specialist Weapon, Rending</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9d6297be-fd94-5665-9f81-4db81a89f8d7" name="Quad Lascannon" publicationId="839b6f2a--pubN84244" page="70" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Twin-linked</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6d02b74f-b832-0249-9ba0-01ac9c192099" name="Quad Launcher (Frag)" publicationId="839b6f2a--pubN108959" page="125" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot; - 60&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Barrage, Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="042efe45-dff8-3d5f-bb7f-f84c2a09a4b7" name="Rad Missiles" publicationId="839b6f2a--pubN108959" page="127" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Blast, Fleshbane, Rad-phage</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5e57-5878-9c79-4841" name="Raven&apos;s Talons" publicationId="839b6f2a--pubN94234" page="105" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">User</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Shred, Master-crafted, Rending, Specialist Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="22d2c64e-3873-429f-5cf8-27e022bb1d6a" name="Reaper Autocannon" publicationId="839b6f2a--pubN84244" page="85" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Twin-linked</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="067e9186-0fba-6430-507f-4fbaaecd0d17" name="Scorpius Bolt Shells" publicationId="839b6f2a--pubN84244" page="85" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Shred</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="197d-ae4b-2b1d-2b10" name="Shroud Bombs" publicationId="839b6f2a--pubN94234" page="85" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Act as defensive grenades in an assault.  In addition, any unit that is not a vehicle, Daemon, Gargantuan creature, or has the Night Vision special rule must pass a Leadership test in order to assault a unit with Shroud Bombs.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="68c9dde3-0696-1478-ab0c-341dfa37bf16" name="Solarite Power Gauntlet" publicationId="839b6f2a--pubN94234" page="97" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">x2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Master-crafted, Unwieldy</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="580dd5a9-f85d-c9f3-eeff-e72d970ad9e5" name="Sonic Shrieker" publicationId="839b6f2a--pubN129008" page="8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Models with a Sonic Shrieker imposes a -1 WS penalty on enemy models in base contact in assault.  Enemies which are immune to Fear are also immune to this effect.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e1d88320-50a5-edf3-0542-004b2f5c917e" name="Space Marine Legion Crew" publicationId="839b6f2a--pubN84244" page="65" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A tank with this upgrade increases its Ballistic Skill to 4</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="36298f86-11db-6459-d1d1-54b8b2357463" name="Tactical Bombs" publicationId="839b6f2a--pubN84310" page="272" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">Bomb</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Barrage, Bomb, Blast, One Use</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="48ee-9a7f-07f1-22d0" name="Tartaros Terminator Armour" publicationId="839b6f2a--pubN108959" page="133" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Terminator armour affords a +2 armour save and a 5+ Invulnerable save.  Maodels in Tartarus armour may make Sweeping Advances in combat unlike other patterns of Terminator armour. If a model with Tartarus pattern armour is joined by a character equipped with a different pattern of Terminator armour or vice versa, this ability is lost. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="345c9b22-c89e-3234-d710-9b9262a1fd38" name="Tempest Bolt Shells" publicationId="839b6f2a--pubN84244" page="85" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">3</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Rapid Fire, Blast (3&quot;)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b7d58e49-6b8c-56f3-df2c-472ac811a571" name="Trophies of Judgement" publicationId="839b6f2a--pubN94234" page="57" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides Fear special rule</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8da7d342-de6d-8cdc-4717-b1ca42c16400" name="Turbo-laser Destructor" publicationId="839b6f2a--pubN84244" page="73" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">96&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">D</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Primary Weapon 1,  Large Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fb27-514e-2487-c427" name="Unstable Internment" publicationId="839b6f2a--pubN88642" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Must always make Sweeping Advances when able, but may never be counted as a scoring unit.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="67ae3255-7245-4f31-4997-ee38d71956b7" name="Vigil Pattern Storm Shield" publicationId="839b6f2a--pubN94234" page="97" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Confers  3+ Invulnerable save, but user may never claim the bonus attack for having 2 close combat weapons.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4f11-6d06-0540-0375" name="Explorator Augury Web" publicationId="839b6f2a--pubN84310" page="219" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the start of the controlling player&apos;s turn, prior to any reserve rolls, declare which mode is being used - it remains until their next player turn.  Disruption Mode: the oppsoing player suffers -1 to their reserve rolls.  Relay Mode: Owning player&apos;s reserve rolls may be re-rolled, whether successful or not.  Reduces transport capacity to 8.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="808b-34b7-2ca8-29fd" name="Tempest Rockets" publicationId="839b6f2a--pubN84244" page="47" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">60&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Sunder, One-shot</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="16f6-887b-504f-56da" name="Hellstrike Missiles" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">72&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Sunder, One-Shot</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="328c-2d71-a3d8-20c6" name="Arachnus heavy lascannon battery" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Exoshock</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a654-c4d7-5e67-0a65" name="Helical Targeting Array" publicationId="839b6f2a--pubN156324" page="79" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If the Dreadnought chooses to neither move nor Run in its turn it may, if its controlling player wishes, gain the Skyfire and Interceptor special rules for that entire game turn (ie, both the controlling player’s turn and their opponent’s following player turn) for all of its weapons except its heavy bolters/heavy flamers.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b33b-ae25-d3ca-3b18" name="Sicaran Pattern Tank" publicationId="839b6f2a--pubN108959" page="72 &amp; 73" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Vehicle">
-      <characteristics>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="Front" typeId="46726f6e7423232344415441232323">13</characteristic>
-        <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
-        <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-        <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Vehicle (Tank, Fast)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5162-7d25-fd22-1b37" name="Quad Launcher (Shatter)" publicationId="839b6f2a--pubN108959" page="125" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Sunder</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9d51-7566-2ac6-1c08" name="Quad Launcher (Splinter)" publicationId="839b6f2a--pubN108959" page="125" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot; - 36&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Barrage, Blast, Rending</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e2e6-c3ad-41be-d14d" name="Quad Launcher (Incendiary)" publicationId="839b6f2a--pubN108959" page="125" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot; - 60&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Barrage, Blast, Ignores Cover</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4d8c-ee11-e291-bc32" name="Quad Launcher (Phosphex Cannister Shot)" publicationId="839b6f2a--pubN108959" page="125" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot; - 36&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Barrage, Poisoned, Crawling Fire, Lingering Death</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0d05-348c-04c3-a0fc" name="Legion Malcador Assault Tank" publicationId="839b6f2a--pubN108959" page="81" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Vehicle">
-      <characteristics>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
-        <characteristic name="Side" typeId="5369646523232344415441232323">13</characteristic>
-        <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-        <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Vehicle (Tank)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7d40-c47e-9fcc-7cb4" name="Legion Jetbike Sergeant" publicationId="839b6f2a--pubN108959" page="51" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
-      <characteristics>
-        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Jetbike (Character)</characteristic>
-        <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
-        <characteristic name="T" typeId="5423232344415441232323">5</characteristic>
-        <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
-        <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-        <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-        <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-        <characteristic name="Save" typeId="5361766523232344415441232323">2+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="350c-4efd-4ea5-de8c" name="Drop Pod" publicationId="839b6f2a--pubN84244" page="49" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Vehicle">
-      <characteristics>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
-        <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
-        <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-        <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Open-topped</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9fee-4776-4af3-200b" name="Legion Sergeant (Artificer Armour)" publicationId="839b6f2a--pubN108959" page="131" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
-      <characteristics>
-        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry (Character)</characteristic>
-        <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
-        <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
-        <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
-        <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-        <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-        <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
-        <characteristic name="Save" typeId="5361766523232344415441232323">2+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4791-ed93-bcc1-a7ed" name="Terminator Armour" publicationId="839b6f2a--pubN108959" page="133" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Terminator armour affords a +2 armour save and a 5+ Invulnerable save. Depending on its particular pattern, Terminator armour may also confer additional rules and abilities to its wearer.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5396-45cf-7bc1-f032" name="Frost Axe" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Unwieldy, Specialist Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e57f-85ab-c0cb-0e80" name="Frost Blade" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">1</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Specialist Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c635-c7af-a850-9388" name="Frost Claw" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">1</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Specialist Weapon, Shred</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7ed7-6990-8608-9abb" name="Great Frost Blade" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">1</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Reaping Blow, Master-crafted, Two-handed</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8980-7c8c-71aa-c07a" name="The Fell-Hand" publicationId="839b6f2a--pubN270022" page="232" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">1</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Master Crafted, Shred, Specialist Weapon.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3239-b145-b28b-1417" name="Hearth-splitter" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Armourbane</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="52ac-91fa-4fc7-e013" name="Chem-munitions" publicationId="839b6f2a--pubN94234" page="38" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All flame weapons (flamers, Heavy flamers, hand flamers, combi-flamers, or Flamestorm Cannons) in a unit or on a vehicle may be upgraded to Chem-munitions.  All eligible weapons must be upgraded.    Weapons with this rule gain both Shred and Gets Hot special rules. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3bc6-3f6e-aa96-c6c4" name="Power Scythe" publicationId="839b6f2a--pubN129008" page="70" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">1</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Two-handed, Reaping Blow</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2b90-4246-a927-072c" name="Armour Plates" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
-      <characteristics>
-        <characteristic name="WS" typeId="575323232344415441232323"/>
-        <characteristic name="BS" typeId="425323232344415441232323"/>
-        <characteristic name="S" typeId="5323232344415441232323"/>
-        <characteristic name="Front" typeId="46726f6e7423232344415441232323"/>
-        <characteristic name="Side" typeId="5369646523232344415441232323"/>
-        <characteristic name="Rear" typeId="5265617223232344415441232323"/>
-        <characteristic name="I" typeId="4923232344415441232323"/>
-        <characteristic name="A" typeId="4123232344415441232323"/>
-        <characteristic name="HP" typeId="485023232344415441232323"/>
-        <characteristic name="Type" typeId="5479706523232344415441232323"/>
-      </characteristics>
-    </profile>
-    <profile id="8c64-93d2-656b-679f" name="Macharius" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Vehicle">
-      <characteristics>
-        <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
-        <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
-        <characteristic name="Side" typeId="5369646523232344415441232323">13</characteristic>
-        <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-        <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy, Open-topped</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="effb-b288-bbb3-8a6b" name="Heavy Bombs" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">Bomb</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Apocalyptic Barrage</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5b7d-938d-8bee-3ff9" name="Distinctive Paint Schemes" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">These are a single use item.  While the owning vehicle is in play an on the board (not in ongoing reserves), one friendly unit within line of sight may re-roll a single Morale test.  Distinctive Paint Scheme or Markings must be represented on the model. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8238-aca7-4319-0512" name="Earthshaker Cannon" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
-      <characteristics>
-        <characteristic name="WS" typeId="575323232344415441232323"/>
-        <characteristic name="BS" typeId="425323232344415441232323"/>
-        <characteristic name="S" typeId="5323232344415441232323"/>
-        <characteristic name="Front" typeId="46726f6e7423232344415441232323"/>
-        <characteristic name="Side" typeId="5369646523232344415441232323"/>
-        <characteristic name="Rear" typeId="5265617223232344415441232323"/>
-        <characteristic name="I" typeId="4923232344415441232323"/>
-        <characteristic name="A" typeId="4123232344415441232323"/>
-        <characteristic name="HP" typeId="485023232344415441232323"/>
-        <characteristic name="Type" typeId="5479706523232344415441232323"/>
-      </characteristics>
-    </profile>
-    <profile id="142a-6f93-c61e-f202" name="Power Armour" publicationId="839b6f2a--pubN149790" page="133" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Power armour provides a +3 armour save.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6460-aed3-49b4-71a8" name="Aether-rune armour" publicationId="839b6f2a--pubN304292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aether-rune armour counts as a suit of Artificer armour, granting a +2 armour save. In addition, it increases the wearer&apos;s Wounds characteristic by 1 and allows any Deny the Witch rolls taken for the wearer or the unit they have joined to be re-rolled.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="efff-d6be-8739-7a16" name="Arcane Litanies" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The bearer of Arcane Litanies may ignore the first failed Perils of the Warp test they are subject to.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="93e8-7c13-9f57-bf54" name="Combat Blade" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">User</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Assault</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9f8f-f861-4e60-a46f" name="Shock Ram" publicationId="839b6f2a--pubN365687" page="224" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When Ramming or being rammed, the Triaros counts as Front Armour 15 and rolls once on the Haywire table in addition to any damage it causes normally. When conduction Tank Shock attacks, any unit automatically suffers D6 Str 6 AP 5 hits in addition to resolving the tank shock as normal. It is not a weapon and may not be destroyed.  </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="edda-8c68-019d-a05f" name="Triaros Armoured Conveyor" publicationId="839b6f2a--pubN365687" page="224" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Vehicle">
-      <characteristics>
-        <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-        <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
-        <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
-        <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-        <characteristic name="HP" typeId="485023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Tank, Transport</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e2f7-20ad-9316-4393" name="Triaros Armoured Conveyor (Transport)" publicationId="839b6f2a--pubN435343" page="42" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
-      <characteristics>
-        <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">20</characteristic>
-        <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
-        <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">Two, one of each side of the hull</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ec51-acc6-4cc8-9086" name="Galvanic Traction Drive" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Must re-roll all failed Dangerous Terrain tests</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a336-d48e-8e12-5c18" name="Lightning Gun" publicationId="839b6f2a--pubN84310" page="240" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Shred, Rending</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f6de-b927-0fb9-5ad6" name="Djinn-sight" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Reduces enemy benefit from cover by -2. Additionally infiltrators may not be deployed within 24&quot;.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="31b1-c957-c740-397c" name="Lorica Thallax" publicationId="839b6f2a--pubN84310" page="240" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides 4 Armour and FNP 6 but may not make Sweeping Advances</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="768c-58bf-6df4-a38f" name="Heavy Chainblade" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Two-handed</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="909d-d30b-aa21-20b2" name="Phased-Plasma Fusil" publicationId="839b6f2a--pubN84574" page="232" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Salvo 2/3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4192-2556-8381-a828" name="Aether-Shock Maul" publicationId="839b6f2a--pubN130779" page="293" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Deflagrate</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8e95-f696-3e5f-05e2" name="Psyk-Out Grenades" publicationId="839b6f2a--pubN130779" page="302" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">8&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Assault 1, Blast (3&quot;), Psi-Shock</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7feb-f487-bc1d-748e" name="Psyk-out Missiles" publicationId="839b6f2a--pubN394718" page="302" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy, Blast (3&quot;), Pinning, Psi-shock</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
+  <entryLinks>
+    <entryLink id="0bfb-9ce0-9e8e-9c9d" name="Legion Praetor in Artificer Armor" hidden="false" collective="false" import="true" targetId="a95f-23f6-99cd-45b9" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="a95f-23f6-99cd-45b9" name="Legion Praetor in Artificer Armor" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="d171-fffc-8010-706c" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true" targetId="a764-9b05-169d-f3d2" type="selectionEntryGroup"/>
+        <entryLink id="886f-102f-e28c-1774" name="A Legion Praetor may exchange their bolt pistol for one of the following:" hidden="false" collective="false" import="true" targetId="cc88-aeb4-97e2-587e" type="selectionEntryGroup"/>
+        <entryLink id="bece-7b25-4cfb-b098" name="A Legion Praetor may exchange their chainsword/combat blade for one of the following:" hidden="false" collective="false" import="true" targetId="2e1f-47ca-d8c0-fde0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f2de-272d-1263-b056" name="Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f11b-d712-85f4-6500" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f3a-58e0-9393-b8c4" name="Volkite Charger" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6d44-064c-46d0-8927" name="Deflagrate" hidden="false" targetId="cbcf-5f25-f8ea-7cfd" type="rule"/>
+        <infoLink id="8586-acf9-3d6f-7d66" name="Volkite Charger" hidden="false" targetId="c440-1f53-4d20-5cab" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03e6-2bd3-4222-724e" name="Chainsword or combat blade" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b3dc-faa2-dde3-f683" name="Chainsword/Combat Blade" hidden="false" targetId="730c-b70b-1e8f-f2e9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa96-80c6-4790-5da0" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c9f-ce2c-15d5-8957" name="Volkite serpenta" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dab0-efc1-be16-cb18" name="Plasma Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1eff-65cb-cf3f-418b" name="Archaeotech pisol" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a428-a46f-0e4b-16c7" name="Heavy Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bec9-b645-e003-9b46" name="Charnibal Sabre" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="030f-3344-fbc2-31f8" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cc9-ddae-2a5f-8959" name="Single Lightning Claw" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b21-1c90-e831-aba6" name="Thunder Hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e366-a605-72bf-d423" name="Paragon Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="a764-9b05-169d-f3d2" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe26-f793-ef34-f906" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1e1b-7ce1-1bf6-1565" name="Combi-Weapon" hidden="false" collective="false" import="true" targetId="afb9-8560-527d-8fcd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0249-e586-e105-a700" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="056a-9135-1ab4-5d00" name="Bolter" hidden="false" collective="false" import="true" targetId="f2de-272d-1263-b056" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3644-f68b-3650-b687" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f3e4-396b-ed6e-2e66" name="Volkite Charger" hidden="false" collective="false" import="true" targetId="0f3a-58e0-9393-b8c4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9e-60a8-d272-f58a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="afb9-8560-527d-8fcd" name="Combi-Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="904f-b736-973f-b285">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac8-9a8b-f3d3-7c22" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5305-0307-10d3-26c1" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a900-5920-a9ba-5deb" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a1-9c36-2870-0c05" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5aba-38ef-541b-35a7" name="Volkite Charger" hidden="false" targetId="c440-1f53-4d20-5cab" type="profile"/>
+            <infoLink id="eb35-8754-04ef-c534" name="Deflagrate" hidden="false" targetId="cbcf-5f25-f8ea-7cfd" type="rule"/>
+            <infoLink id="26ba-bd17-f910-3842" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="904f-b736-973f-b285" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5533-f1e7-07c3-df16" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c0eb-0db6-b0b2-b8c2" name="Frag Grenades" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile"/>
+            <infoLink id="df88-b3da-6a44-0742" name="Krak Grenade (Assault)" hidden="false" targetId="ba14-6731-7c9d-ef15" type="profile"/>
+            <infoLink id="765d-e035-0ed9-8255" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="53ed-ecf7-efec-aa7b" name="Combi-Plasma" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7307-0b9a-fa47-8e33" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0642-9614-37dd-3618" name="Gets Hot" hidden="false" targetId="f4fd-d519-4769-5510" type="rule"/>
+            <infoLink id="956d-3f91-6bcc-a318" name="Plasma Gun" hidden="false" targetId="87c7-bd37-70f7-1933" type="profile"/>
+            <infoLink id="00d0-9b94-f80a-b232" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a4c7-316e-9fdb-7cf7" name="Combi-Flamer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f857-4560-27dc-1600" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6544-98c4-af85-1d12" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+            <infoLink id="134b-57a6-8f99-f744" name="Flamer" hidden="false" targetId="3a71-7de1-1948-3655" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="de3d-94d8-f9a1-93d2" name="Combi-Melta" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7008-b894-331d-2a7d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3770-fb65-3e28-5ebe" name="Melta" hidden="false" targetId="21c0-62ff-3ed2-17a7" type="rule"/>
+            <infoLink id="0679-87e8-90bb-534c" name="Meltagun" hidden="false" targetId="8ae4-74e5-7700-3804" type="profile"/>
+            <infoLink id="a5cf-10e5-b9ec-8311" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cc88-aeb4-97e2-587e" name="A Legion Praetor may exchange their bolt pistol for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d0a7-0b8a-95f0-c682">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69e4-bdd9-1197-5f77" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f982-cc8a-47ed-4f32" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7745-f5b6-2b22-555e" name="Power Weapon" hidden="false" collective="false" import="true" targetId="22e4-b027-c277-cc01" type="selectionEntryGroup"/>
+        <entryLink id="e873-76c7-84d9-237a" name="Power Fist" hidden="false" collective="false" import="true" targetId="030f-3344-fbc2-31f8" type="selectionEntry"/>
+        <entryLink id="5489-ba0e-8ec8-6dd7" name="Charnibal Sabre" hidden="false" collective="false" import="true" targetId="bec9-b645-e003-9b46" type="selectionEntry"/>
+        <entryLink id="d7b5-d07a-f306-b565" name="Single Lightning Claw" hidden="false" collective="false" import="true" targetId="9cc9-ddae-2a5f-8959" type="selectionEntry"/>
+        <entryLink id="9338-f238-0b19-0067" name="Heavy Chainsword" hidden="false" collective="false" import="true" targetId="a428-a46f-0e4b-16c7" type="selectionEntry"/>
+        <entryLink id="24de-4aba-4d22-b9e1" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="0b21-1c90-e831-aba6" type="selectionEntry"/>
+        <entryLink id="6fca-8b8e-dd8a-7fda" name="Archaeotech pisol" hidden="false" collective="false" import="true" targetId="1eff-65cb-cf3f-418b" type="selectionEntry"/>
+        <entryLink id="9e61-3524-da61-05d1" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="dab0-efc1-be16-cb18" type="selectionEntry"/>
+        <entryLink id="52bd-93d7-badd-229d" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="e366-a605-72bf-d423" type="selectionEntry"/>
+        <entryLink id="391c-1151-4d60-38b7" name="Volkite serpenta" hidden="false" collective="false" import="true" targetId="5c9f-ce2c-15d5-8957" type="selectionEntry"/>
+        <entryLink id="d0a7-0b8a-95f0-c682" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="aa96-80c6-4790-5da0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2e1f-47ca-d8c0-fde0" name="A Legion Praetor may exchange their chainsword/combat blade for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="125a-b229-e2e0-280d">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed9d-6677-4b08-7679" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fea2-975c-b39c-6307" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="125a-b229-e2e0-280d" name="Chainsword or combat blade" hidden="false" collective="false" import="true" targetId="03e6-2bd3-4222-724e" type="selectionEntry"/>
+        <entryLink id="0d79-1928-0048-1fa1" name="Archaeotech pisol" hidden="false" collective="false" import="true" targetId="1eff-65cb-cf3f-418b" type="selectionEntry"/>
+        <entryLink id="6ac6-56a6-3ef5-a235" name="Charnibal Sabre" hidden="false" collective="false" import="true" targetId="bec9-b645-e003-9b46" type="selectionEntry"/>
+        <entryLink id="816f-6c8b-ea55-f76b" name="Heavy Chainsword" hidden="false" collective="false" import="true" targetId="a428-a46f-0e4b-16c7" type="selectionEntry"/>
+        <entryLink id="195c-e31f-5fe8-8328" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="e366-a605-72bf-d423" type="selectionEntry"/>
+        <entryLink id="8c8b-5c6a-94be-b077" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="dab0-efc1-be16-cb18" type="selectionEntry"/>
+        <entryLink id="67dc-d19d-9215-a31b" name="Power Fist" hidden="false" collective="false" import="true" targetId="030f-3344-fbc2-31f8" type="selectionEntry"/>
+        <entryLink id="4bd9-bfb0-4506-5fa4" name="Single Lightning Claw" hidden="false" collective="false" import="true" targetId="9cc9-ddae-2a5f-8959" type="selectionEntry"/>
+        <entryLink id="0c0d-c05a-d9f0-5c5f" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="0b21-1c90-e831-aba6" type="selectionEntry"/>
+        <entryLink id="3526-8cce-7e6d-a38c" name="Volkite serpenta" hidden="false" collective="false" import="true" targetId="5c9f-ce2c-15d5-8957" type="selectionEntry"/>
+        <entryLink id="3fb0-ca90-aa7d-4e97" name="Power Weapon" hidden="false" collective="false" import="true" targetId="22e4-b027-c277-cc01" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="22e4-b027-c277-cc01" name="Power Weapon" hidden="false" collective="false" import="true"/>
+  </sharedSelectionEntryGroups>
 </catalogue>
