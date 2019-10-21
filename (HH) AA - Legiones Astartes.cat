@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3dbd-2316-231a-79ac" name="Legiones Astartes" revision="3" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Discord: @alphalas" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="true" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3dbd-2316-231a-79ac" name="Legiones Astartes" revision="4" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Discord: @alphalas" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="true" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="839b6f2a--pubN65537" name="Forgeworld Horus Heresy Series"/>
     <publication id="839b6f2a--pubN65653" name="HH: Rulebook"/>
@@ -260,13 +260,37 @@
   </selectionEntries>
   <entryLinks>
     <entryLink id="0bfb-9ce0-9e8e-9c9d" name="Legion Praetor in Artificer Armor" hidden="false" collective="false" import="true" targetId="a95f-23f6-99cd-45b9" type="selectionEntry"/>
+    <entryLink id="01c8-9761-a6fa-82fe" name="Legion Veteran Tactical Squad" hidden="false" collective="false" import="true" targetId="2e18-31d0-64e6-996c" type="selectionEntry"/>
+    <entryLink id="6939-d2dc-10eb-ec40" name="Damocles Command Rhino" hidden="false" collective="false" import="true" targetId="d62d-8533-8c13-8a41" type="selectionEntry"/>
+    <entryLink id="0ea2-3a01-9721-2cca" name="Legion Destroyer Squad" hidden="false" collective="false" import="true" targetId="895c-aa04-2d91-0d3a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a95f-23f6-99cd-45b9" name="Legion Praetor in Artificer Armor" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
         <entryLink id="d171-fffc-8010-706c" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true" targetId="a764-9b05-169d-f3d2" type="selectionEntryGroup"/>
-        <entryLink id="886f-102f-e28c-1774" name="A Legion Praetor may exchange their bolt pistol for one of the following:" hidden="false" collective="false" import="true" targetId="cc88-aeb4-97e2-587e" type="selectionEntryGroup"/>
-        <entryLink id="bece-7b25-4cfb-b098" name="A Legion Praetor may exchange their chainsword/combat blade for one of the following:" hidden="false" collective="false" import="true" targetId="2e1f-47ca-d8c0-fde0" type="selectionEntryGroup"/>
+        <entryLink id="886f-102f-e28c-1774" name="A Legion Praetor may exchange their bolt pistol for one of the following:" hidden="false" collective="false" import="true" targetId="cc88-aeb4-97e2-587e" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="f982-cc8a-47ed-4f32" value="0.0">
+              <conditions>
+                <condition field="selections" scope="a95f-23f6-99cd-45b9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f15c-f715-3101-52c7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="bece-7b25-4cfb-b098" name="A Legion Praetor may exchange their chainsword/combat blade for one of the following:" hidden="false" collective="false" import="true" targetId="2e1f-47ca-d8c0-fde0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="ed9d-6677-4b08-7679" value="0.0">
+              <conditions>
+                <condition field="selections" scope="a95f-23f6-99cd-45b9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f15c-f715-3101-52c7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="370b-f7dd-67ff-e4a8" name="A Legion Praetor may exchange both their bolt pistol and chainsword/combat blade for a:" hidden="false" collective="false" import="true" targetId="bc5b-4441-71e9-b700" type="selectionEntry"/>
+        <entryLink id="bfd5-b6b3-ce78-d5a5" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true" targetId="c8c6-c931-097d-856d" type="selectionEntryGroup"/>
+        <entryLink id="afa2-893f-6583-07bc" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true" targetId="39da-d8aa-0fdd-86cd" type="selectionEntryGroup"/>
+        <entryLink id="98e6-724f-f606-ef33" name="A Legion Praetor may take melta bombs" hidden="false" collective="false" import="true" targetId="d435-10f4-18d1-8dfe" type="selectionEntry"/>
+        <entryLink id="bc9c-c3f2-5320-56b6" name="A Legion Praetor may take digital lasers" hidden="false" collective="false" import="true" targetId="1c8b-e38d-495c-6916" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -293,11 +317,6 @@
       <infoLinks>
         <infoLink id="b3dc-faa2-dde3-f683" name="Chainsword/Combat Blade" hidden="false" targetId="730c-b70b-1e8f-f2e9" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="aa96-80c6-4790-5da0" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -347,6 +366,256 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="bc5b-4441-71e9-b700" name="A Legion Praetor may exchange both their bolt pistol and chainsword/combat blade for a:" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="3dd0-471d-d1e5-73c3" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" targetId="f15c-f715-3101-52c7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f15c-f715-3101-52c7" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09a7-7ff6-41dc-564e" name="Iron halo" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d435-10f4-18d1-8dfe" name="A Legion Praetor may take melta bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f65e-a0b2-5a44-2090" name="Master Crafted" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c8b-e38d-495c-6916" name="A Legion Praetor may take digital lasers" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c214-af95-47a0-19e6" name="Boarding shield" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b948-53d1-f033-dbae" name="Refractor field" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47bd-2524-bcd3-d1e9" name="Combat shield" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b6dd-5df2-24f8-4c72" name="Legion Scimitar Jetbike with a heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2020-decf-3885-af59" name="Space Marine Bike with twin-linked bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7ff-a55f-ca42-4ce0" name="Jump pack" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="21be-d0e5-a8b1-8707" name="Legion Praetor in Terminator Armor" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="f878-a45d-842b-0f1e" name="A Terminator may be equipped with one of the following:" hidden="false" collective="false" import="true" targetId="eb71-584b-6641-98e6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d43-9a44-d09d-e9cf" name="Cataphractii Terminator armour" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6189-9b37-12fc-4527" name="Tartaros Terminator armour" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29e4-43c9-2a14-0a6f" name="Terminator armour" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d62d-8533-8c13-8a41" name="Damocles Command Rhino" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="ce7a-9f51-581a-1a92" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry"/>
+        <entryLink id="df26-0a36-1d8a-186e" name="Geo-Locator Beacon" hidden="false" collective="false" import="true" targetId="137e-b70f-808c-69ca" type="selectionEntry"/>
+        <entryLink id="06c5-eb8f-74d7-3da2" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry"/>
+        <entryLink id="f63a-701e-3db0-b859" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry"/>
+        <entryLink id="993b-f6d0-3eb8-8486" name="Command Vox Relay" hidden="false" collective="false" import="true" targetId="6206-e5b7-5aa1-9fe7" type="selectionEntry"/>
+        <entryLink id="6457-345f-7682-7498" name="A Damocles may take any of the following options:" hidden="false" collective="false" import="true" targetId="3e11-042e-efdc-70d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79b0-94a7-9fc0-be28" name="Twin Linked Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="137e-b70f-808c-69ca" name="Geo-Locator Beacon" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6206-e5b7-5aa1-9fe7" name="Command Vox Relay" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b43b-8e9a-0ebe-fb82" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="263a-6848-9bef-4ba2" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="230f-3211-585d-3f53" name="Extra Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="322c-f1d8-b162-61ca" name="Pintle-Mounted Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9abd-e06d-3443-c6c8" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f375-0cfe-5079-ed45" name="Dozer Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e18-31d0-64e6-996c" name="Legion Veteran Tactical Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="84ef-074b-b896-522b" name="Legion Veteran Space Marine" hidden="false" collective="false" import="true" targetId="59cf-f2cb-b5b4-99d5" type="selectionEntry"/>
+        <entryLink id="b871-2bdc-d40b-ad3f" name="Legion Veteran Sergeant" hidden="false" collective="false" import="true" targetId="45a6-7561-02c3-373d" type="selectionEntry"/>
+        <entryLink id="c47b-b9a8-b5d4-94e1" name="Legion Veteran Space Marine w/ Nuncio Vox" hidden="false" collective="false" import="true" targetId="ff49-6dbc-33e0-c1cd" type="selectionEntry"/>
+        <entryLink id="ec03-b7c8-1e5d-dcfa" name="Legion Veteran Space Marine w/ Legion Vexilla" hidden="false" collective="false" import="true" targetId="11e9-484b-2da5-27c7" type="selectionEntry"/>
+        <entryLink id="c728-9ff9-45b3-27a1" name="Legion Veteran Space Marine w/ Specialist weapon" hidden="false" collective="false" import="true" targetId="5e9b-6cec-d326-5a12" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2571-b6ac-6734-1e33" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6ff-aef8-4379-f8a8" name="Chainsword or Combat Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae88-b975-1bcd-29f4" name="Frag and Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba72-98c5-8bc1-f893" name="Power Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45a6-7561-02c3-373d" name="Legion Veteran Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="cf63-30d7-51a2-dbc7" name="Frag and Krak Grenades" hidden="false" collective="false" import="true" targetId="ae88-b975-1bcd-29f4" type="selectionEntry"/>
+        <entryLink id="a271-c417-b55e-be4f" name="Veteran Sergeant Boltgun:" hidden="false" collective="false" import="true" targetId="07f0-eeb7-e9bc-4b72" type="selectionEntryGroup"/>
+        <entryLink id="0ba0-f94a-15e0-2abe" name="Bolt Pistol:" hidden="false" collective="false" import="true" targetId="e28b-c9e6-7214-bc1c" type="selectionEntryGroup"/>
+        <entryLink id="0ac7-41f2-51ee-1b6d" name=" Veteran Sergant Chainsword/ Close Combat Weapon" hidden="false" collective="false" import="true" targetId="3f5d-8bf0-907e-f364" type="selectionEntryGroup"/>
+        <entryLink id="6195-e26a-7b92-0d38" name="Veteran Sergant Power Armor" hidden="false" collective="false" import="true" targetId="341d-0d37-0b17-1acb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59cf-f2cb-b5b4-99d5" name="Legion Veteran Space Marine" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="eb7f-74d2-b4d1-5bde" name="Frag and Krak Grenades" hidden="false" collective="false" import="true" targetId="ae88-b975-1bcd-29f4" type="selectionEntry"/>
+        <entryLink id="d2af-c885-c60c-6ef8" name="Power Armour" hidden="false" collective="false" import="true" targetId="ba72-98c5-8bc1-f893" type="selectionEntry"/>
+        <entryLink id="0d86-9eb4-f191-357a" name="Chainsword/ Close Combat Weapon" hidden="false" collective="false" import="true" targetId="4dba-121f-4c52-7e3d" type="selectionEntryGroup"/>
+        <entryLink id="f454-b4f5-9a51-e923" name="Bolt Pistol:" hidden="false" collective="false" import="true" targetId="e28b-c9e6-7214-bc1c" type="selectionEntryGroup"/>
+        <entryLink id="cdd5-d340-ef36-6b67" name="Boltgun:" hidden="false" collective="false" import="true" targetId="2e9e-8c13-54ea-ad17" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff49-6dbc-33e0-c1cd" name="Legion Veteran Space Marine w/ Nuncio Vox" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="b4ad-ecb0-e56f-3aab" name="Frag and Krak Grenades" hidden="false" collective="false" import="true" targetId="ae88-b975-1bcd-29f4" type="selectionEntry"/>
+        <entryLink id="8305-069e-9b6a-f41f" name="Power Armour" hidden="false" collective="false" import="true" targetId="ba72-98c5-8bc1-f893" type="selectionEntry"/>
+        <entryLink id="9d02-1b24-e5de-2926" name="Chainsword or combat blade" hidden="false" collective="false" import="true" targetId="03e6-2bd3-4222-724e" type="selectionEntry"/>
+        <entryLink id="9e71-c00f-92a9-e44a" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="2571-b6ac-6734-1e33" type="selectionEntry"/>
+        <entryLink id="f487-a5ea-f506-986a" name="Bolter" hidden="false" collective="false" import="true" targetId="f2de-272d-1263-b056" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="11e9-484b-2da5-27c7" name="Legion Veteran Space Marine w/ Legion Vexilla" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="11ac-8e10-8dc9-bc5c" name="Frag and Krak Grenades" hidden="false" collective="false" import="true" targetId="ae88-b975-1bcd-29f4" type="selectionEntry"/>
+        <entryLink id="95b2-9ec6-c024-2df6" name="Power Armour" hidden="false" collective="false" import="true" targetId="ba72-98c5-8bc1-f893" type="selectionEntry"/>
+        <entryLink id="c375-b15f-d9c7-f414" name="Chainsword or combat blade" hidden="false" collective="false" import="true" targetId="03e6-2bd3-4222-724e" type="selectionEntry"/>
+        <entryLink id="16e0-8942-2992-b024" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="2571-b6ac-6734-1e33" type="selectionEntry"/>
+        <entryLink id="6797-7cfe-6d89-1bce" name="Bolter" hidden="false" collective="false" import="true" targetId="f2de-272d-1263-b056" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78ff-e94c-e52b-8a03" name="Artificer Armour" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="5e9b-6cec-d326-5a12" name="Legion Veteran Space Marine w/ Specialist weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="b031-5701-4131-3ead" name="Frag and Krak Grenades" hidden="false" collective="false" import="true" targetId="ae88-b975-1bcd-29f4" type="selectionEntry"/>
+        <entryLink id="5c6e-75b8-1fe3-7e79" name="Power Armour" hidden="false" collective="false" import="true" targetId="ba72-98c5-8bc1-f893" type="selectionEntry"/>
+        <entryLink id="ea2d-1d52-487f-dc67" name="Chainsword/ Close Combat Weapon" hidden="false" collective="false" import="true" targetId="4dba-121f-4c52-7e3d" type="selectionEntryGroup"/>
+        <entryLink id="15c9-3c79-ee27-4f64" name="Bolt Pistol:" hidden="false" collective="false" import="true" targetId="e28b-c9e6-7214-bc1c" type="selectionEntryGroup"/>
+        <entryLink id="3010-11ea-e817-29fa" name="Specialist Boltgun:" hidden="false" collective="false" import="true" targetId="9cdc-e030-2ea7-9b80" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdc3-e65c-b945-cba9" name="Missile Launcher and Suspensor Web" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntries>
+        <selectionEntry id="a6cd-bd08-cffd-da1e" name="Flakk Missiles" hidden="false" collective="false" import="true" type="upgrade"/>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="4c8f-4f37-8ee8-1b6d" name="Heavy Bolter and Suspensor Web" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="d7be-cd49-ad6d-189e" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="64bb-fe93-1cbc-1588" name="Plasma Gun" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="276f-df92-c8f4-d78b" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="6164-5edc-503b-21b5" name="Flamer" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="895c-aa04-2d91-0d3a" name="Legion Destroyer Squad" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="fd37-53fb-a1c6-2b8f" name="Legion Destroyer Space Marine" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="fc9e-e915-7f48-fba7" name="Legion Destroyer Sergeant" hidden="false" collective="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="a764-9b05-169d-f3d2" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true">
@@ -459,7 +728,7 @@
         <entryLink id="9e61-3524-da61-05d1" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="dab0-efc1-be16-cb18" type="selectionEntry"/>
         <entryLink id="52bd-93d7-badd-229d" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="e366-a605-72bf-d423" type="selectionEntry"/>
         <entryLink id="391c-1151-4d60-38b7" name="Volkite serpenta" hidden="false" collective="false" import="true" targetId="5c9f-ce2c-15d5-8957" type="selectionEntry"/>
-        <entryLink id="d0a7-0b8a-95f0-c682" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="aa96-80c6-4790-5da0" type="selectionEntry"/>
+        <entryLink id="d0a7-0b8a-95f0-c682" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="2571-b6ac-6734-1e33" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2e1f-47ca-d8c0-fde0" name="A Legion Praetor may exchange their chainsword/combat blade for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="125a-b229-e2e0-280d">
@@ -482,5 +751,91 @@
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="22e4-b027-c277-cc01" name="Power Weapon" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="c8c6-c931-097d-856d" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b3e9-24c5-37c7-5904" name="Boarding shield" hidden="false" collective="false" import="true" targetId="c214-af95-47a0-19e6" type="selectionEntry"/>
+        <entryLink id="5c6b-0dfb-43a9-bffe" name="Combat shield" hidden="false" collective="false" import="true" targetId="47bd-2524-bcd3-d1e9" type="selectionEntry"/>
+        <entryLink id="2faa-9ef0-447a-bac5" name="Iron halo" hidden="false" collective="false" import="true" targetId="09a7-7ff6-41dc-564e" type="selectionEntry"/>
+        <entryLink id="41a8-b3d1-f344-994f" name="Refractor field" hidden="false" collective="false" import="true" targetId="b948-53d1-f033-dbae" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="39da-d8aa-0fdd-86cd" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="a06c-18c6-e957-7aae" name="Legion Scimitar Jetbike with a heavy bolter" hidden="false" collective="false" import="true" targetId="b6dd-5df2-24f8-4c72" type="selectionEntry"/>
+        <entryLink id="06ff-5da1-5c1b-b8f9" name="Jump pack" hidden="false" collective="false" import="true" targetId="d7ff-a55f-ca42-4ce0" type="selectionEntry"/>
+        <entryLink id="544b-bac1-66a6-83db" name="Space Marine Bike with twin-linked bolters" hidden="false" collective="false" import="true" targetId="2020-decf-3885-af59" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="eb71-584b-6641-98e6" name="A Terminator may be equipped with one of the following:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="8a38-b8c2-aaae-04da" name="Cataphractii Terminator armour" hidden="false" collective="false" import="true" targetId="5d43-9a44-d09d-e9cf" type="selectionEntry"/>
+        <entryLink id="7ea8-be64-51c2-1b8f" name="Terminator armour" hidden="false" collective="false" import="true" targetId="29e4-43c9-2a14-0a6f" type="selectionEntry"/>
+        <entryLink id="dc60-7c77-864d-7e67" name="Tartaros Terminator armour" hidden="false" collective="false" import="true" targetId="6189-9b37-12fc-4527" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3e11-042e-efdc-70d2" name="A Damocles may take any of the following options:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="f49d-619a-18b3-1ef1" name="Pintle-Mounted Heavy Bolter" hidden="false" collective="false" import="true" targetId="322c-f1d8-b162-61ca" type="selectionEntry"/>
+        <entryLink id="aa28-24c0-f2a3-a1b9" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry"/>
+        <entryLink id="00ab-320b-b4fb-03d3" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry"/>
+        <entryLink id="00eb-ec74-0763-3432" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="f375-0cfe-5079-ed45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4dba-121f-4c52-7e3d" name="Chainsword/ Close Combat Weapon" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="76df-4004-ca54-10f0" name="Power Weapon" hidden="false" collective="false" import="true" targetId="22e4-b027-c277-cc01" type="selectionEntryGroup"/>
+        <entryLink id="3476-1152-6df0-13de" name="Chainsword or Combat Blade" hidden="false" collective="false" import="true" targetId="c6ff-aef8-4379-f8a8" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e28b-c9e6-7214-bc1c" name="Bolt Pistol:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="289b-c406-85a8-c56c" name="Volkite serpenta" hidden="false" collective="false" import="true" targetId="5c9f-ce2c-15d5-8957" type="selectionEntry"/>
+        <entryLink id="90fc-489a-daee-08a2" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="2571-b6ac-6734-1e33" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2e9e-8c13-54ea-ad17" name="Boltgun:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7354-7d44-64c4-90e7" name="Bolter" hidden="false" collective="false" import="true" targetId="f2de-272d-1263-b056" type="selectionEntry"/>
+        <entryLink id="4d67-1421-a5a5-7d97" name="Combi-Weapon" hidden="false" collective="false" import="true" targetId="afb9-8560-527d-8fcd" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3f5d-8bf0-907e-f364" name=" Veteran Sergant Chainsword/ Close Combat Weapon" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b710-6bc1-c453-d368" name="Power Weapon" hidden="false" collective="false" import="true" targetId="22e4-b027-c277-cc01" type="selectionEntryGroup"/>
+        <entryLink id="9035-eff9-0016-8db0" name="Chainsword or Combat Blade" hidden="false" collective="false" import="true" targetId="c6ff-aef8-4379-f8a8" type="selectionEntry"/>
+        <entryLink id="a522-f165-f535-8605" name="Power Fist" hidden="false" collective="false" import="true" targetId="030f-3344-fbc2-31f8" type="selectionEntry"/>
+        <entryLink id="fb56-9b82-aa55-54b6" name="Single Lightning Claw" hidden="false" collective="false" import="true" targetId="9cc9-ddae-2a5f-8959" type="selectionEntry"/>
+        <entryLink id="ad0b-db36-e2c0-07f6" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="0b21-1c90-e831-aba6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="341d-0d37-0b17-1acb" name="Veteran Sergant Power Armor" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="edf4-04c2-7f88-7673" name="Power Armour" hidden="false" collective="false" import="true" targetId="ba72-98c5-8bc1-f893" type="selectionEntry"/>
+        <entryLink id="48ec-4586-5e6d-cad8" name="Artificer Armour" hidden="false" collective="false" import="true" targetId="78ff-e94c-e52b-8a03" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="07f0-eeb7-e9bc-4b72" name="Veteran Sergeant Boltgun:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="2614-304d-75b2-53fb" name="Bolter" hidden="false" collective="false" import="true" targetId="f2de-272d-1263-b056" type="selectionEntry"/>
+        <entryLink id="431d-f13c-c140-8505" name="Combi-Weapon" hidden="false" collective="false" import="true" targetId="afb9-8560-527d-8fcd" type="selectionEntryGroup"/>
+        <entryLink id="49b1-a5d7-ca27-71f5" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="dab0-efc1-be16-cb18" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9cdc-e030-2ea7-9b80" name="Specialist Boltgun:" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="c60a-1dba-8d1d-ea2d" name="Bolter" hidden="false" collective="false" import="true" targetId="f2de-272d-1263-b056" type="selectionEntry"/>
+        <entryLink id="1570-5783-e80b-1c92" name="Combi-Weapon" hidden="false" collective="false" import="true" targetId="afb9-8560-527d-8fcd" type="selectionEntryGroup"/>
+        <entryLink id="266c-8463-22c2-30b8" name="Volkite Charger" hidden="false" collective="false" import="true" targetId="0f3a-58e0-9393-b8c4" type="selectionEntry"/>
+        <entryLink id="3998-e766-c081-3fbb" name="Heavy Bolter and Suspensor Web" hidden="false" collective="false" import="true" targetId="4c8f-4f37-8ee8-1b6d" type="selectionEntry"/>
+        <entryLink id="f451-70e5-d42d-fe53" name="Plasma Gun" hidden="false" collective="false" import="true" targetId="64bb-fe93-1cbc-1588" type="selectionEntry"/>
+        <entryLink id="5f30-ebdc-53e2-b4df" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry"/>
+        <entryLink id="54e3-fec3-3a72-158a" name="Meltagun" hidden="false" collective="false" import="true" targetId="276f-df92-c8f4-d78b" type="selectionEntry"/>
+        <entryLink id="a992-9748-2c33-8747" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" targetId="f15c-f715-3101-52c7" type="selectionEntry"/>
+        <entryLink id="030f-4657-c382-a2a3" name="Single Lightning Claw" hidden="false" collective="false" import="true" targetId="9cc9-ddae-2a5f-8959" type="selectionEntry"/>
+        <entryLink id="38ae-69bd-f08d-d074" name="Heavy Chainsword" hidden="false" collective="false" import="true" targetId="a428-a46f-0e4b-16c7" type="selectionEntry"/>
+        <entryLink id="f81f-864c-44a3-2f4d" name="Flamer" hidden="false" collective="false" import="true" targetId="6164-5edc-503b-21b5" type="selectionEntry"/>
+        <entryLink id="3df0-930a-8ede-05de" name="Missile Launcher and Suspensor Web" hidden="false" collective="false" import="true" targetId="cdc3-e65c-b945-cba9" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
