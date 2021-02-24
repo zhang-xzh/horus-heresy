@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="32d1ddc6-3187-cf6f-3bf8-9891e527a002" name="Questoris Knight Crusade Army" revision="56" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="134" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="32d1ddc6-3187-cf6f-3bf8-9891e527a002" name="骑士远征军" revision="56" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="136" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Questoris Knight Crusade Army</comment>
   <publications>
     <publication id="32d1ddc6--pubN65537" name="Age of Darkness Crusade Army List"/>
     <publication id="32d1ddc6--pubN66650" name="HH4: Conquest"/>
@@ -10,46 +11,108 @@
     <publication id="3545-f6f0-40fe-a51e" name="HH Mechanicum Knight Moirax Talon Download"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="d27d-9e9b-d8c7-afe6" name="No Force Org" hidden="false"/>
-    <categoryEntry id="485123232344415441232323" name="HQ" hidden="false"/>
-    <categoryEntry id="456c6974657323232344415441232323" name="Elites" hidden="false"/>
-    <categoryEntry id="54726f6f707323232344415441232323" name="Troops" hidden="false"/>
-    <categoryEntry id="466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false"/>
-    <categoryEntry id="486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false"/>
+    <categoryEntry id="d27d-9e9b-d8c7-afe6" name="游戏选项" hidden="false">
+      <comment>No Force Org</comment>
+    </categoryEntry>
+    <categoryEntry id="485123232344415441232323" name="指挥槽位" hidden="false">
+      <comment>HQ</comment>
+    </categoryEntry>
+    <categoryEntry id="456c6974657323232344415441232323" name="精英槽位" hidden="false">
+      <comment>Elites</comment>
+    </categoryEntry>
+    <categoryEntry id="54726f6f707323232344415441232323" name="基础槽位" hidden="false">
+      <comment>Troops</comment>
+    </categoryEntry>
+    <categoryEntry id="466173742041747461636b23232344415441232323" name="快速槽位" hidden="false">
+      <comment>Fast Attack</comment>
+    </categoryEntry>
+    <categoryEntry id="486561767920537570706f727423232344415441232323" name="重型槽位" hidden="false">
+      <comment>Heavy Support</comment>
+    </categoryEntry>
     <categoryEntry id="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false"/>
-    <categoryEntry id="466f7274696669636174696f6e23232344415441232323" name="Fortification" hidden="false"/>
-    <categoryEntry id="258478de-d031-8a7e-dcb0-7d56bee86952" name="Legion" hidden="false"/>
-    <categoryEntry id="5297-7e0f-fa0b-3537" name="Allegiance" hidden="false"/>
-    <categoryEntry id="219d-aefa-dfa5-44db" name="Compulsory Troops" hidden="false"/>
-    <categoryEntry id="becd-7a6d-e80f-878e" name="Compulsory HQ" hidden="false"/>
-    <categoryEntry id="0c56-27b8-a737-c9fd" name="Legiones Astartes" hidden="false">
+    <categoryEntry id="466f7274696669636174696f6e23232344415441232323" name="工事槽位" hidden="false">
+      <comment>Fortification</comment>
+    </categoryEntry>
+    <categoryEntry id="258478de-d031-8a7e-dcb0-7d56bee86952" name="军团" hidden="false">
+      <comment>Legion</comment>
+    </categoryEntry>
+    <categoryEntry id="5297-7e0f-fa0b-3537" name="阵营" hidden="false">
+      <comment>Allegiance</comment>
+    </categoryEntry>
+    <categoryEntry id="219d-aefa-dfa5-44db" name="强制基础槽位" hidden="false">
+      <comment>Compulsory Troops</comment>
+    </categoryEntry>
+    <categoryEntry id="becd-7a6d-e80f-878e" name="强制指挥槽位" hidden="false">
+      <comment>Compulsory HQ</comment>
+    </categoryEntry>
+    <categoryEntry id="0c56-27b8-a737-c9fd" name="阿斯塔特军团" hidden="false">
+      <comment>Legiones Astartes</comment>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb4e-167f-f60e-62bd" type="min"/>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52b3-36c7-f7a4-f22a" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="e59c-462e-9d9c-66dd" name="Tank" hidden="false"/>
-    <categoryEntry id="9480-d3f6-fff1-7b35" name="Skimmer" hidden="false"/>
-    <categoryEntry id="df44-81ea-e2ee-9849" name="Flyer" hidden="false"/>
-    <categoryEntry id="18c5-559b-55e0-382e" name="Immobile" hidden="false"/>
-    <categoryEntry id="2d6f-e613-ab10-e55a" name="Deep Strike" hidden="false"/>
-    <categoryEntry id="51a3-45ca-ea32-7519" name="Drop Pod" hidden="false"/>
-    <categoryEntry id="e448-6dab-e008-3247" name="Sentry Gun" hidden="false"/>
-    <categoryEntry id="e4e0-c5d1-3430-f101" name="Transport" hidden="false"/>
-    <categoryEntry id="c407-80ff-568e-3394" name="Dedicated Transport" hidden="false"/>
-    <categoryEntry id="264d-166e-36c0-77b7" name="Walker" hidden="false"/>
-    <categoryEntry id="53bd-99e7-aba0-e79f" name="Vehicle" hidden="false"/>
-    <categoryEntry id="37dc-7aa6-8150-41b0" name="Terminators" hidden="false"/>
-    <categoryEntry id="f74d-4679-75a6-1252" name="Infantry" hidden="false"/>
-    <categoryEntry id="47cf-71bb-d59d-f9de" name="Jump Infantry" hidden="false"/>
-    <categoryEntry id="8ec4-17b5-7fea-c682" name="Monstrous Creature" hidden="false"/>
-    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="Jetpack Infantry" hidden="false"/>
-    <categoryEntry id="25d0-388c-dd16-af9a" name="Flying Monstrous Creature" hidden="false"/>
-    <categoryEntry id="7fdd-2a97-d0e9-6524" name="Cybernetica Cortex" hidden="false"/>
-    <categoryEntry id="37f2-7398-84ee-6fdf" name="Lorica Thallax" hidden="false"/>
+    <categoryEntry id="e59c-462e-9d9c-66dd" name="坦克" hidden="false">
+      <comment>Tank</comment>
+    </categoryEntry>
+    <categoryEntry id="9480-d3f6-fff1-7b35" name="悬浮" hidden="false">
+      <comment>Skimmer</comment>
+    </categoryEntry>
+    <categoryEntry id="df44-81ea-e2ee-9849" name="飞行器" hidden="false">
+      <comment>Flyer</comment>
+    </categoryEntry>
+    <categoryEntry id="18c5-559b-55e0-382e" name="不动" hidden="false">
+      <comment>Immobile</comment>
+    </categoryEntry>
+    <categoryEntry id="2d6f-e613-ab10-e55a" name="深度打击" hidden="false">
+      <comment>Deep Strike</comment>
+    </categoryEntry>
+    <categoryEntry id="51a3-45ca-ea32-7519" name="空降仓" hidden="false">
+      <comment>Drop Pod</comment>
+    </categoryEntry>
+    <categoryEntry id="e448-6dab-e008-3247" name="岗哨炮" hidden="false">
+      <comment>Sentry Gun</comment>
+    </categoryEntry>
+    <categoryEntry id="e4e0-c5d1-3430-f101" name="运输载具" hidden="false">
+      <comment>Transport</comment>
+    </categoryEntry>
+    <categoryEntry id="c407-80ff-568e-3394" name="专用运输载具" hidden="false">
+      <comment>Dedicated Transport</comment>
+    </categoryEntry>
+    <categoryEntry id="264d-166e-36c0-77b7" name="机甲" hidden="false">
+      <comment>Walker</comment>
+    </categoryEntry>
+    <categoryEntry id="53bd-99e7-aba0-e79f" name="载具" hidden="false">
+      <comment>Vehicle</comment>
+    </categoryEntry>
+    <categoryEntry id="37dc-7aa6-8150-41b0" name="终结者" hidden="false">
+      <comment>Terminators</comment>
+    </categoryEntry>
+    <categoryEntry id="f74d-4679-75a6-1252" name="步兵" hidden="false">
+      <comment>Infantry</comment>
+    </categoryEntry>
+    <categoryEntry id="47cf-71bb-d59d-f9de" name="跳跃步兵" hidden="false">
+      <comment>Jump Infantry</comment>
+    </categoryEntry>
+    <categoryEntry id="8ec4-17b5-7fea-c682" name="巨兽" hidden="false">
+      <comment>Monstrous Creature</comment>
+    </categoryEntry>
+    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="喷气背包步兵" hidden="false">
+      <comment>Jetpack Infantry</comment>
+    </categoryEntry>
+    <categoryEntry id="25d0-388c-dd16-af9a" name="飞行巨兽" hidden="false">
+      <comment>Flying Monstrous Creature</comment>
+    </categoryEntry>
+    <categoryEntry id="7fdd-2a97-d0e9-6524" name="智控皮层" hidden="false">
+      <comment>Cybernetica Cortex</comment>
+    </categoryEntry>
+    <categoryEntry id="37f2-7398-84ee-6fdf" name="赛莱克斯甲" hidden="false">
+      <comment>Lorica Thallax</comment>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="b3ea-e268-8cb2-0152" name="Questoris Knight Crusade Army" hidden="false">
+    <forceEntry id="b3ea-e268-8cb2-0152" name="骑士远征军" hidden="false">
+      <comment>Questoris Knight Crusade Army</comment>
       <categoryLinks>
         <categoryLink id="b3ea-e268-8cb2-0152-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
           <constraints>
@@ -105,7 +168,8 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="e16c-65fe-d3da-fb93" name="Allied Detachment" hidden="false">
+    <forceEntry id="e16c-65fe-d3da-fb93" name="联军分队" hidden="false">
+      <comment>Allied Detachment</comment>
       <categoryLinks>
         <categoryLink id="b8b7-7651-9d10-29f2" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
           <constraints>
@@ -142,7 +206,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac7f-e6e4-68f0-b12e" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9e58-4f4e-5579-cb58" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
+        <categoryLink id="9e58-4f4e-5579-cb58" name="阵营" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
         <categoryLink id="818e-b32f-e6f2-d131" name="Allied Detachment" hidden="false" targetId="6077-281f-c55d-9bf0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9639-3fcc-00d3-2686" type="min"/>
@@ -318,7 +382,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <categoryLink id="97fcca37-2121-18e9-f084-4f254332c535-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fb020419-12a2-a1fe-70c9-e021de9617ba" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
+        <entryLink id="fb020419-12a2-a1fe-70c9-e021de9617ba" name="Knight Armour" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
@@ -584,8 +648,8 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
   <sharedSelectionEntries>
     <selectionEntry id="deb3-68a3-5d36-eb3d" name="Vorax Class Battle-automata Maniple" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="a080-e2a8-dc43-1112" name="New InfoLink" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
-        <infoLink id="57a5-1a50-7092-3d9c" name="New InfoLink" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
+        <infoLink id="a080-e2a8-dc43-1112" name="Fleet" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
+        <infoLink id="57a5-1a50-7092-3d9c" name="Scout" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
         <infoLink id="b4e3-29d6-986a-2b25" name="New InfoLink" hidden="false" targetId="a8c1-185a-cdd9-b5ce" type="profile"/>
       </infoLinks>
       <selectionEntries>
@@ -814,7 +878,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="7678-ae60-16f2-e948" name="" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
+        <infoLink id="7678-ae60-16f2-e948" name="Rage" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
         <infoLink id="a7f0-6bc1-ed4a-34dc" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
       </infoLinks>
       <selectionEntries>
@@ -825,8 +889,9 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
           </constraints>
           <profiles>
             <profile id="659d-11d2-faad-4259" name="Castellax" publicationId="32d1ddc6--pubN69303" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+              <comment>Monstrous Creature</comment>
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monstrous Creature</characteristic>
+                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
@@ -854,9 +919,9 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f3ce-e636-1d57-9a53" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="435a-7727-d99c-faa8" hidden="false" targetId="8200-3ef2-3ffa-4a76" type="profile"/>
+                    <infoLink id="435a-7727-d99c-faa8" name="Darkfire Cannon" hidden="false" targetId="8200-3ef2-3ffa-4a76" type="profile"/>
                     <infoLink id="98a3-557e-78ba-9891" name="New InfoLink" hidden="false" targetId="98ed-3a29-c86b-455d" type="rule"/>
-                    <infoLink id="23b8-ad9b-3d6a-700a" name="New InfoLink" hidden="false" targetId="7dae-4d12-baba-e529" type="rule"/>
+                    <infoLink id="23b8-ad9b-3d6a-700a" name="Blind" hidden="false" targetId="7dae-4d12-baba-e529" type="rule"/>
                     <infoLink id="de7e-cbef-df3d-b8a6" name="New InfoLink" hidden="false" targetId="f4fd-d519-4769-5510" type="rule"/>
                   </infoLinks>
                   <costs>
@@ -891,12 +956,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
             </selectionEntryGroup>
             <selectionEntryGroup id="c204-c9c9-9110-ca90" name="May Exchange one or both bolters for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f45-90b4-1220-dd2b">
               <modifiers>
-                <modifier type="set" field="5d2a-e961-7953-6b83" value="1">
+                <modifier type="set" field="5d2a-e961-7953-6b83" value="1.0">
                   <conditions>
                     <condition field="selections" scope="48db-84ca-2bad-520f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-3352-b97f-3693" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="813e-6a3e-bd63-d89a" value="1">
+                <modifier type="set" field="813e-6a3e-bd63-d89a" value="1.0">
                   <conditions>
                     <condition field="selections" scope="48db-84ca-2bad-520f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-3352-b97f-3693" type="equalTo"/>
                   </conditions>
@@ -1077,21 +1142,24 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7719-aa4f-3366-84f2" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7719-aa4f-3366-84f2" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Allegiance</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae6f-3de0-9682-079d" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="860a-fa24-8724-0a29" name="Allegiance" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="860a-fa24-8724-0a29" name="阵营" hidden="false" collective="false" import="true">
+          <comment>Allegiance</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6568-7e81-94f8-7946" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afb3-8086-6edb-3f3a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6951-01f7-7675-d69b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="44a9-d907-13fa-4fc4" name="Traitor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="44a9-d907-13fa-4fc4" name="反叛" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Traitor</comment>
               <modifiers>
-                <modifier type="set" field="18ef-3206-400c-0b5a" value="1">
+                <modifier type="set" field="18ef-3206-400c-0b5a" value="1.0">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27575b75-5e1e-26ab-1074-fa91b73e2216" type="equalTo"/>
                   </conditions>
@@ -1104,7 +1172,8 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="513f-ab95-ad10-b2ec" name="Loyalist" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="513f-ab95-ad10-b2ec" name="忠诚" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Loyalist</comment>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -1677,7 +1746,8 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="3fc4-9d7f-969b-35bb" name="Knight Armour" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3fc4-9d7f-969b-35bb" name="骑士机甲" hidden="false" collective="false" import="true">
+      <comment>Knight Armour</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7891-efe8-70eb-d282" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9250-2094-a907-dc6b" type="max"/>
@@ -1686,11 +1756,11 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
         <entryLink id="e8e1-c9e9-394d-5fbf" name="Cerastus Knight-Acheron" hidden="false" collective="false" import="true" targetId="b4ddbe68-7095-397e-dec4-162170dbdbcd" type="selectionEntry"/>
         <entryLink id="e499-4dc2-bbfd-53dd" name="Cerastus Knight-Atrapos" hidden="false" collective="false" import="true" targetId="baad-77d0-04c2-e05f" type="selectionEntry"/>
         <entryLink id="2aff-c26b-26b6-fd14" name="Cerastus Knight-Castigator" hidden="false" collective="false" import="true" targetId="b1cf8528-c9d0-2c2a-3f19-522e5532f273" type="selectionEntry"/>
-        <entryLink id="e1ee-e1ad-873f-a9cb" name="Lancer" hidden="false" collective="false" import="true" targetId="ca45ca55-eae1-1a81-8afc-1330611055a6" type="selectionEntry"/>
+        <entryLink id="e1ee-e1ad-873f-a9cb" name="Cerastus Knight-Lancer" hidden="false" collective="false" import="true" targetId="ca45ca55-eae1-1a81-8afc-1330611055a6" type="selectionEntry"/>
         <entryLink id="eae7-2fc9-40d1-3977" name="Questoris Knight Crusader" hidden="false" collective="false" import="true" targetId="09ee-4370-1462-2cb5" type="selectionEntry"/>
         <entryLink id="0ea8-43d3-a3c2-0554" name="Errant" hidden="false" collective="false" import="true" targetId="4b70feb1-a2e7-2f93-8320-1d6775bf5a59" type="selectionEntry"/>
         <entryLink id="a918-71fe-b21c-cbf8" name="Questoris Knight Gallant" hidden="false" collective="false" import="true" targetId="74b8-f485-4b58-0071" type="selectionEntry"/>
-        <entryLink id="f50a-385a-d690-f0dd" name="Magaera" hidden="false" collective="false" import="true" targetId="fb7cd031-7573-eb28-4446-d709eb5acdbc" type="selectionEntry"/>
+        <entryLink id="f50a-385a-d690-f0dd" name="Questoris Knight Magaera" hidden="false" collective="false" import="true" targetId="fb7cd031-7573-eb28-4446-d709eb5acdbc" type="selectionEntry"/>
         <entryLink id="f4cf-f09c-20a4-b376" name="Questoris Knight Paladin" hidden="false" collective="false" import="true" targetId="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" type="selectionEntry"/>
         <entryLink id="9a04-fad2-e544-64e5" name="Questoris Knight Styrix" hidden="false" collective="false" import="true" targetId="a5b350ff-895e-4557-70a6-d24a936919c2" type="selectionEntry"/>
         <entryLink id="1b11-f6ea-15eb-3c0f" name="Questoris Knight Warden" hidden="false" collective="false" import="true" targetId="f4f1-dad6-0596-ca5a" type="selectionEntry"/>
