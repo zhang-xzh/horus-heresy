@@ -247,7 +247,7 @@ Access Points &amp; Fire Points</comment>
     <categoryEntry id="c1d8-4cbf-e883-4e44" name="黑暗盟军" hidden="false">
       <comment>Armies of Dark Compliance</comment>
     </categoryEntry>
-    <categoryEntry id="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="战争之王" hidden="false">
+    <categoryEntry id="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="战争之王槽位" hidden="false">
       <comment>Lords of War</comment>
     </categoryEntry>
     <categoryEntry id="fdf4-0683-3e84-5a4b" name="使用测试规则" hidden="false">
@@ -3780,7 +3780,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="36608ff1-aa5c-22d2-b79f-22e56ccf59da" hidden="false" targetId="53c751ef-105f-b2a8-7a17-7812d605b9f2" type="rule"/>
+        <infoLink id="36608ff1-aa5c-22d2-b79f-22e56ccf59da" name="高速迂回" hidden="false" targetId="53c751ef-105f-b2a8-7a17-7812d605b9f2" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="b3d3-9cf2-6252-018b" name="Cerastus Shock Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -4003,12 +4003,14 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <cost name="分" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b4ddbe68-7095-397e-dec4-162170dbdbcd" name="Cerastus Knight-Acheron" publicationId="ca571888--pubN84158" page="307" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b4ddbe68-7095-397e-dec4-162170dbdbcd" name="阿刻戎骑士" publicationId="ca571888--pubN84158" page="307" hidden="false" collective="false" import="true" type="unit">
+      <comment>Cerastus Knight-Acheron</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7b5e9ae8-bdbc-ad55-b137-03e11dce5ede" name="Cerastus Knight-Acheron" publicationId="ca571888--pubN84158" page="307" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="7b5e9ae8-bdbc-ad55-b137-03e11dce5ede" name="阿刻戎骑士" publicationId="ca571888--pubN84158" page="307" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Cerastus Knight-Acheron</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4024,17 +4026,19 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="56a352e5-bd00-e34a-fab2-bddbd2f14d90" name="" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
+        <infoLink id="56a352e5-bd00-e34a-fab2-bddbd2f14d90" name="离子盾" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
         <infoLink id="ed03ee31-8955-4ab8-3285-09590bfed45e" name="Flank Speed" hidden="false" targetId="53c751ef-105f-b2a8-7a17-7812d605b9f2" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="d324-1d8d-0bed-e577" name="Acheron pattern flame cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d324-1d8d-0bed-e577" name="阿刻戎型烈焰炮" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Acheron pattern flame cannon</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b195-03d7-080a-2f4c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ad-0fc5-0465-88fc" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1d90-0e17-2039-7ff9" name="Acheron pattern flame cannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="1d90-0e17-2039-7ff9" name="阿刻戎型烈焰炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+              <comment>Acheron pattern flame cannon</comment>
               <characteristics>
                 <characteristic name="射程" typeId="52616e676523232344415441232323">Hellstorm</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -4047,24 +4051,29 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4b52-f704-ccde-df7e" name="Reaper Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4b52-f704-ccde-df7e" name="收割者链锯拳" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Reaper Chainfist</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4879-61b9-6207-6b1d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f41a-16f7-2112-b478" type="min"/>
           </constraints>
           <profiles>
-            <profile id="614c-538b-4901-19da" name="Reaper Chainfist" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="614c-538b-4901-19da" name="收割者链锯拳" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+              <comment>Reaper Chainfist
+Melee, Machine Destroyer</comment>
               <characteristics>
                 <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">D</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Machine Destroyer</characteristic>
+                <characteristic name="类型" typeId="5479706523232344415441232323">近战, 机械毁灭者</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
-            <rule id="7bce-a203-8a7d-7132" name="Machine Destroyer" publicationId="ca571888--pubN84158" page="308" hidden="false">
-              <description>When attacking any target with an Amour Value, rolls of 1 on the destroyer damage table may be re-rolled.</description>
+            <rule id="7bce-a203-8a7d-7132" name="机械毁灭者" publicationId="ca571888--pubN84158" page="308" hidden="false">
+              <comment>Machine Destroyer
+When attacking any target with an Amour Value, rolls of 1 on the destroyer damage table may be re-rolled.</comment>
+              <description>可以重投D武器损伤表的1</description>
             </rule>
           </rules>
           <costs>
@@ -4073,14 +4082,15 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="97a1af42-3800-4b30-9e22-d8955e00394e" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="97a1af42-3800-4b30-9e22-d8955e00394e" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <entryLinks>
             <entryLink id="d808-e275-8ba5-6f32" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1d72-a337-b4a1-c67b" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="1d72-a337-b4a1-c67b" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="415.0"/>
@@ -4243,7 +4253,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f723-f484-1830-89d6" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="f723-f484-1830-89d6" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="385.0"/>
@@ -4618,7 +4628,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <cost name="分" typeId="points" value="435.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="baad-77d0-04c2-e05f" name="Cerastus Knight-Atrapos" publicationId="ca571888--pubN89821" page="278" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="baad-77d0-04c2-e05f" name="阿特洛波斯骑士" publicationId="ca571888--pubN89821" page="278" hidden="false" collective="false" import="true" type="unit">
+      <comment>Cerastus Knight-Atrapos</comment>
       <modifiers>
         <modifier type="increment" field="8f86-62fb-dba4-afc4" value="1">
           <repeats>
@@ -4630,7 +4641,9 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8f86-62fb-dba4-afc4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="95c1-8de7-bef1-6fa1" name="Cerastus Knight-Atrapos" publicationId="ca571888--pubN84158" page="306" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="95c1-8de7-bef1-6fa1" name="阿特洛波斯骑士" publicationId="ca571888--pubN84158" page="306" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Cerastus Knight-Atrapos
+Super-heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4641,18 +4654,19 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ad4c-6ac3-01fb-a54c" hidden="false" targetId="53c751ef-105f-b2a8-7a17-7812d605b9f2" type="rule"/>
-        <infoLink id="7629-09d1-79f3-3f7a" name="New InfoLink" hidden="false" targetId="333c-a3b2-4353-f484" type="rule"/>
-        <infoLink id="175b-ee67-d5b7-02d8" name="New InfoLink" hidden="false" targetId="8fb5-0c46-e8b4-0ef6" type="rule"/>
-        <infoLink id="1895-e4dd-46a4-3b0a" name="New InfoLink" hidden="false" targetId="81fe-8580-34f6-28ae" type="rule"/>
+        <infoLink id="ad4c-6ac3-01fb-a54c" name="高速迂回" hidden="false" targetId="53c751ef-105f-b2a8-7a17-7812d605b9f2" type="rule"/>
+        <infoLink id="7629-09d1-79f3-3f7a" name="Macro-extinction Targeting Protocols" hidden="false" targetId="333c-a3b2-4353-f484" type="rule"/>
+        <infoLink id="175b-ee67-d5b7-02d8" name="Ionic Flare Shield" hidden="false" targetId="8fb5-0c46-e8b4-0ef6" type="rule"/>
+        <infoLink id="1895-e4dd-46a4-3b0a" name="Catastrophic Destruction" hidden="false" targetId="81fe-8580-34f6-28ae" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="797b-8685-04c6-72f4" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="797b-8685-04c6-72f4" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <entryLinks>
             <entryLink id="a890-2700-1060-bb32" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
@@ -4715,7 +4729,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="c410-3217-0bbd-cbcb" name="New InfoLink" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
+                <infoLink id="c410-3217-0bbd-cbcb" name="Wrecker" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -4725,15 +4739,17 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d35c-930d-b252-9eb3" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="d35c-930d-b252-9eb3" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="435.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ded-9de3-f964-33a7" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4ded-9de3-f964-33a7" name="泊尔菲利翁骑士" hidden="false" collective="false" import="true" type="unit">
+      <comment>Acastus Knight Porphyrion</comment>
       <profiles>
-        <profile id="208e-17a3-a067-6ea1" name="Acastus Knight Porphyrion" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="208e-17a3-a067-6ea1" name="泊尔菲利翁骑士" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Acastus Knight Porphyrion</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
@@ -4750,16 +4766,17 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
       </profiles>
       <infoLinks>
         <infoLink id="c53b-73a7-8559-d968" name="" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
-        <infoLink id="bc7f-7c35-2dd4-7136" name="New InfoLink" hidden="false" targetId="860d-1c1d-04ef-2829" type="rule"/>
+        <infoLink id="bc7f-7c35-2dd4-7136" name="实验性" hidden="false" targetId="860d-1c1d-04ef-2829" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="eb2c-a7c7-2c3f-fc1d" name="Exchange Ironstorm missiles for:" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eb2c-a7c7-2c3f-fc1d" name="可以替换钢铁风暴导弹:" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Exchange Ironstorm missiles for:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5de-b150-3eab-e8bf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ffb3-9b68-982e-edd2" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="c7e2-f145-1551-b1fa" name="New InfoLink" hidden="false" targetId="9170-c4db-7a4c-87fb" type="profile">
+            <infoLink id="c7e2-f145-1551-b1fa" name="钢铁风暴导弹" hidden="false" targetId="9170-c4db-7a4c-87fb" type="profile">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4770,22 +4787,23 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             </infoLink>
           </infoLinks>
           <entryLinks>
-            <entryLink id="3502-e290-bffb-cdbe" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b3f2-333a-7bba-54a8" type="selectionEntry"/>
+            <entryLink id="3502-e290-bffb-cdbe" name="赫利俄斯防空导弹" hidden="false" collective="false" import="true" targetId="b3f2-333a-7bba-54a8" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="688f-fb97-cd9d-72d1" name="Two Twin linked Magna Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="688f-fb97-cd9d-72d1" name="2 双联巨星激光炮" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Two Twin linked Magna Lascannons</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc07-151b-0f26-b610" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71ac-a51f-a723-8636" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3294-e89f-73ac-a7c3" name="New InfoLink" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+            <infoLink id="3294-e89f-73ac-a7c3" name="双联" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
           </infoLinks>
           <entryLinks>
-            <entryLink id="3f65-ad04-8903-6c6d" name="Magna Lascannon" hidden="false" collective="false" import="true" targetId="2553-eaa0-d6af-2ec0" type="selectionEntry">
+            <entryLink id="3f65-ad04-8903-6c6d" name="巨星激光炮" hidden="false" collective="false" import="true" targetId="2553-eaa0-d6af-2ec0" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69f0-135a-1afd-05e1" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0a1-8432-8b6a-d8e6" type="min"/>
@@ -4798,27 +4816,29 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2bb9-e33f-d3e8-0e4e" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2bb9-e33f-d3e8-0e4e" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <entryLinks>
-            <entryLink id="d283-9ab7-d74b-00b1" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
+            <entryLink id="d283-9ab7-d74b-00b1" name="Occular Augmetics" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="71f9-bc5d-f0f0-10ce" name="May exchange any autocannon for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="71f9-bc5d-f0f0-10ce" name="可以替换任何自动炮:" hidden="false" collective="false" import="true">
+          <comment>May exchange any autocannon for:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6db0-3d88-9ff3-fbf9" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ebc5-6e95-3aa1-89b3" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8036-b730-d533-e31f" type="selectionEntry">
+            <entryLink id="ebc5-6e95-3aa1-89b3" name="激光炮" hidden="false" collective="false" import="true" targetId="8036-b730-d533-e31f" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="10"/>
               </modifiers>
             </entryLink>
-            <entryLink id="52ce-4c33-8f3e-e9bf" name="New EntryLink" hidden="false" collective="false" import="true" targetId="32e0-80f7-982d-b29a" type="selectionEntry"/>
+            <entryLink id="52ce-4c33-8f3e-e9bf" name="辐射净化者" hidden="false" collective="false" import="true" targetId="32e0-80f7-982d-b29a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="de8d-df3c-f1e5-eae0" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="de8d-df3c-f1e5-eae0" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="560.0"/>
@@ -4836,12 +4856,13 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <cost name="分" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="348b-40f4-c774-1f9a" name="Occular Augmetics" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="348b-40f4-c774-1f9a" name="夜视仪" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Occular Augmetics</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20e9-5be0-6d88-afd5" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3108-3d2c-0469-83c4" hidden="false" targetId="faa4ea24-e51b-8663-3e7c-1a791b55aed7" type="profile"/>
+        <infoLink id="3108-3d2c-0469-83c4" name="夜视仪" hidden="false" targetId="faa4ea24-e51b-8663-3e7c-1a791b55aed7" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -4874,32 +4895,35 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="32e0-80f7-982d-b29a" name="Irad-Cleanser" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="32e0-80f7-982d-b29a" name="辐射净化者" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Irad-Cleanser</comment>
       <infoLinks>
         <infoLink id="10b6-2766-edca-4dc7" name="Irad-cleanser" hidden="false" targetId="7d03914a-f940-12e5-590b-822083dff647" type="profile"/>
-        <infoLink id="8aab-1812-6f5d-6eff" name="Fleshbane" hidden="false" targetId="4575-0a0a-caaf-e4bf" type="rule"/>
-        <infoLink id="cd3c-efff-0f01-9045" name="Rad-phage" hidden="false" targetId="eefe-09e4-17aa-deb2" type="rule"/>
+        <infoLink id="8aab-1812-6f5d-6eff" name="血肉杀手" hidden="false" targetId="4575-0a0a-caaf-e4bf" type="rule"/>
+        <infoLink id="cd3c-efff-0f01-9045" name="辐射噬菌体" hidden="false" targetId="eefe-09e4-17aa-deb2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3f2-333a-7bba-54a8" name="Helios defence missiles" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b3f2-333a-7bba-54a8" name="赫利俄斯防空导弹" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Helios defence missiles</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81af-e96f-4a06-239f" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="9891-7bee-2d15-f2ee" name="New InfoLink" hidden="false" targetId="69d4-4da4-6a07-623e" type="profile"/>
-        <infoLink id="4e13-0451-8dd3-0bf4" name="New InfoLink" hidden="false" targetId="be7f-8146-6cb8-9a53" type="rule"/>
-        <infoLink id="b460-5cfe-7289-d496" name="New InfoLink" hidden="false" targetId="ca3e-e94e-58f6-75d9" type="rule"/>
+        <infoLink id="9891-7bee-2d15-f2ee" name="赫利俄斯防空导弹" hidden="false" targetId="69d4-4da4-6a07-623e" type="profile"/>
+        <infoLink id="4e13-0451-8dd3-0bf4" name="对空火力" hidden="false" targetId="be7f-8146-6cb8-9a53" type="rule"/>
+        <infoLink id="b460-5cfe-7289-d496" name="拦截" hidden="false" targetId="ca3e-e94e-58f6-75d9" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2553-eaa0-d6af-2ec0" name="Magna Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2553-eaa0-d6af-2ec0" name="巨星激光炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Magna Lascannon</comment>
       <infoLinks>
-        <infoLink id="3b85-56e6-b738-a687" name="Magna Lascannon" hidden="false" targetId="3e31-9d8c-29ab-2e70" type="profile"/>
+        <infoLink id="3b85-56e6-b738-a687" name="巨星激光炮" hidden="false" targetId="3e31-9d8c-29ab-2e70" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -5973,18 +5997,21 @@ Heavy 3, Barrage, Blast (3&quot;), Fleshbane, Rad-Phage, Ignores Cover, Pinning<
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f202-38e1-7dcd-8076" name="New InfoLink" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
+        <infoLink id="f202-38e1-7dcd-8076" name="压制" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
         <infoLink id="3807-a9c0-1309-5203" name="Fleshbane" hidden="false" targetId="4575-0a0a-caaf-e4bf" type="rule"/>
-        <infoLink id="51b3-01fb-f89c-f60f" name="New InfoLink" hidden="false" targetId="acf2-681d-4188-94d7" type="rule"/>
+        <infoLink id="51b3-01fb-f89c-f60f" name="无视掩体" hidden="false" targetId="acf2-681d-4188-94d7" type="rule"/>
         <infoLink id="0685-7fdf-1831-6c0e" name="New InfoLink" hidden="false" targetId="eefe-09e4-17aa-deb2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72ad-abe8-94d8-5926" name="Acastus Knight Asterius" publicationId="ca571888--pubN106705" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="72ad-abe8-94d8-5926" name="阿斯特流斯骑士" publicationId="ca571888--pubN106705" hidden="false" collective="false" import="true" type="unit">
+      <comment>Acastus Knight Asterius</comment>
       <profiles>
-        <profile id="d0ee-8407-6d22-b0d3" name="Acastus Knight Asterius" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="d0ee-8407-6d22-b0d3" name="阿斯特流斯骑士" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Acastus Knight Asterius
+Super-heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
@@ -5995,12 +6022,12 @@ Heavy 3, Barrage, Blast (3&quot;), Fleshbane, Rad-Phage, Ignores Cover, Pinning<
             <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">8</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bed1-b54d-9881-2978" name="Ion Shield" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
+        <infoLink id="bed1-b54d-9881-2978" name="离子盾" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="567b-162a-f3e6-3076" name="双联转换光束炮" hidden="false" collective="false" import="true" type="upgrade">
@@ -6024,14 +6051,17 @@ Heavy 3, Barrage, Blast (3&quot;), Fleshbane, Rad-Phage, Ignores Cover, Pinning<
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fbc0-cca8-2aba-9596" name="Vulkite Culverin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fbc0-cca8-2aba-9596" name="爆燃蛇炮" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Vulkite Culverin</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c683-c05d-48ab-936b" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c11e-b833-a38f-a94b" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="85f3-19bf-d67d-6794" name="Volkite Culverin" hidden="false" targetId="34d1-b4db-3e75-ccce" type="profile"/>
-            <infoLink id="8e3f-63f6-e39a-7d4e" name="Deflagrate" hidden="false" targetId="b46a-a3ec-91a5-5001" type="rule"/>
+            <infoLink id="85f3-19bf-d67d-6794" name="爆燃蛇炮" hidden="false" targetId="34d1-b4db-3e75-ccce" type="profile">
+              <comment>Volkite Culverin</comment>
+            </infoLink>
+            <infoLink id="8e3f-63f6-e39a-7d4e" name="爆燃" hidden="false" targetId="b46a-a3ec-91a5-5001" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -6042,7 +6072,7 @@ Heavy 3, Barrage, Blast (3&quot;), Fleshbane, Rad-Phage, Ignores Cover, Pinning<
         <selectionEntryGroup id="cdcc-ff0c-c151-4cfa" name="可以升级:" hidden="false" collective="false" import="true">
           <comment>May be upgraded with:</comment>
           <entryLinks>
-            <entryLink id="be86-c093-5371-34ae" name="Occular Augmetics" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
+            <entryLink id="be86-c093-5371-34ae" name="夜视仪" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -12699,11 +12729,18 @@ In addition, any attacks or special abilities that permanently lower the Armour 
     <rule id="c673-4842-28f8-4e39" name="Machine Destroyer" publicationId="ca571888--pubN68042" page="264" hidden="false">
       <description>When attacking any target with an armour value, rolls of 1 on the Destroyer Damage table may be re-rolled.</description>
     </rule>
-    <rule id="f624-f475-e5ec-0dfa" name="Pinning" publicationId="ca571888--pubN106502" page="168" hidden="false">
-      <description>If a non-vehicle unit suffers one or more unsaved Wounds from a weapon with the Pinning special rule, it must take a Leadership test once the firing unit has finished its shooting attacks for that phase. This is called a Pinning test.
+    <rule id="f624-f475-e5ec-0dfa" name="压制" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Pinning
+If a non-vehicle unit suffers one or more unsaved Wounds from a weapon with the Pinning special rule, it must take a Leadership test once the firing unit has finished its shooting attacks for that phase. This is called a Pinning test.
 If the unit fails the test, it is Pinned and must immediately Go to Ground. As the unit has already taken its saves, Going to Ground does not protect it against the fire of the Pinning weapon that caused the test – it’s too late!
 As long as the test is passed, a unit can be called upon to take multiple Pinning tests in a single turn, but only once for each unit shooting at them. If a unit has already Gone to Ground, no further Pinning tests are taken.
-If the special rules of a unit specify that the unit can never be Pinned, the unit automatically passes Pinning tests. Such units can still Go to Ground voluntarily if they wish.</description>
+If the special rules of a unit specify that the unit can never be Pinned, the unit automatically passes Pinning tests. Such units can still Go to Ground voluntarily if they wish.</comment>
+      <description>非载具单位被造伤时需要做一次LD测试(压制测试).
+如果失败: 其被压制且必须卧倒, 此时不会受到卧倒带来的掩体保护加成.
+一个单位的射击只会触发一次压制测试. 
+一个单位在一个回合中可以被要求做多次压制测试, 如果其已经卧倒, 则不能再进行压制测试.
+不能被压制的单位会自动通过压制测试, 不过其仍可以自愿选择卧倒.
+</description>
     </rule>
     <rule id="21c0-62ff-3ed2-17a7" name="Melta" publicationId="ca571888--pubN106502" page="168" hidden="false">
       <description>Ranged weapons with this special rule roll an additional D6 when rolling to penetrate a vehicle’s armour at half range or less. If the weapon is more than half its maximum range away, it rolls to penetrate as normal.
@@ -12765,14 +12802,22 @@ If a model has the ability to re-roll its rolls To Hit (including because of BS6
     <rule id="f495-679e-1976-68d1" name="Paired Weapons" publicationId="ca571888--pubN66489" page="106" hidden="false">
       <description>Adds +1 to the model&apos;s attacks and count as being Twin-linked.</description>
     </rule>
-    <rule id="10a8-8d89-0bec-3e21" name="Twin-linked" publicationId="ca571888--pubN106502" page="175" hidden="false">
-      <description>Twin-linked weapons don’t get more shots than normal ones, but they give you a better chance of hitting with them. If a shooting weapon has the twin-linked special rule, or is described in a model’s wargear entry as twin-linked, it re-rolls all failed To Hit rolls.
+    <rule id="10a8-8d89-0bec-3e21" name="双联" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Twin-linked
+Twin-linked weapons don’t get more shots than normal ones, but they give you a better chance of hitting with them. If a shooting weapon has the twin-linked special rule, or is described in a model’s wargear entry as twin-linked, it re-rolls all failed To Hit rolls.
 
 Twin-linked Blast Weapons
 If the scatter dice does not roll a hit, you can choose to re-roll the dice with a Twin-linked Blast weapon. If you choose to do so, you must re-roll both the 2D6 and the scatter dice.
 
 Twin-linked Template Weapons
-Twin-linked Template weapons are fired just like a single weapon, but must re-roll failed To Wound rolls and armour penetration rolls.</description>
+Twin-linked Template weapons are fired just like a single weapon, but must re-roll failed To Wound rolls and armour penetration rolls.</comment>
+      <description>可以重投失败的命中.
+
+双联爆炸武器
+可以重投偏移(偏移骰和距离需要一起重投).
+
+双联喷射盖板武器
+可以重投失败的造伤和穿甲.</description>
     </rule>
     <rule id="7ee3-d437-bc44-3630" name="Specialist Weapon" publicationId="ca571888--pubN106502" page="172" hidden="false">
       <description>A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule.</description>
@@ -12797,20 +12842,30 @@ If a unit with Scouts is deployed inside a Dedicated Transport, they may Outflan
 Iinfiltrate and Scout
 If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
     </rule>
-    <rule id="4575-0a0a-caaf-e4bf" name="Fleshbane" publicationId="ca571888--pubN106502" page="164" hidden="false">
-      <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always Wound on a 2+ in close combat.  Similarly, if a model makes a shooting attack with a weapon that has this special rule, they always Wound on a 2+.  In either case, this special rule has no effect against vehicles or buildings.</description>
+    <rule id="4575-0a0a-caaf-e4bf" name="血肉杀手" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Fleshbane
+If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always Wound on a 2+ in close combat.  Similarly, if a model makes a shooting attack with a weapon that has this special rule, they always Wound on a 2+.  In either case, this special rule has no effect against vehicles or buildings.</comment>
+      <description>永远2+造伤, 对载具和建筑无效.
+
+</description>
     </rule>
-    <rule id="eefe-09e4-17aa-deb2" name="Rad-phage" publicationId="ca571888--pubN106502" page="170" hidden="false">
-      <description>A model which loses one or more wounds to an attack with this rule and survives suffers a -1 penalty to its Toughness value for the rest of the battle.</description>
+    <rule id="eefe-09e4-17aa-deb2" name="辐射噬菌体" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Rad-phage
+A model which loses one or more wounds to an attack with this rule and survives suffers a -1 penalty to its Toughness value for the rest of the battle.</comment>
+      <description>被造伤(一个或多个伤害)模型T-1</description>
     </rule>
     <rule id="2b06-29a6-641a-b22e" name="Crusader" publicationId="ca571888--pubN106502" page="163" hidden="false">
       <description>A unit that contains at least one model with this special rule rolls an extra dice when making Run moves, and uses the highest result rolled. In addition, a unit that contains at least one model with this special rule adds D3 to its Sweeping Advance totals (roll each time).</description>
     </rule>
-    <rule id="be7f-8146-6cb8-9a53" name="Skyfire" publicationId="ca571888--pubN106502" page="171" hidden="false">
-      <description>A model with this special rule, or that is firing a weapon with this special rule, fires using its normal Ballistic Skill when shooting at Flyers, Flying Monstrous Creatures and Skimmers, but it can only fire Snap Shots against other targets.</description>
+    <rule id="be7f-8146-6cb8-9a53" name="对空火力" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Skyfire
+A model with this special rule, or that is firing a weapon with this special rule, fires using its normal Ballistic Skill when shooting at Flyers, Flying Monstrous Creatures and Skimmers, but it can only fire Snap Shots against other targets.</comment>
+      <description>射击飞行器/飞行巨兽/悬浮载具时使用正常的BS值, 但是对其他类型的目标只能仓促射击.</description>
     </rule>
-    <rule id="acf2-681d-4188-94d7" name="Ignores Cover" publicationId="ca571888--pubN105292" hidden="false">
-      <description>Cover saves cannot be taken against Wounds, glancing hits or penetrating hits caused by weapons with the Ignores Cover special rule.</description>
+    <rule id="acf2-681d-4188-94d7" name="无视掩体" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Ignores Cover
+Cover saves cannot be taken against Wounds, glancing hits or penetrating hits caused by weapons with the Ignores Cover special rule.</comment>
+      <description>造成的伤害不能使用掩体保护.</description>
     </rule>
     <rule id="4927-560b-70be-12ee" name="Brutal Charge" publicationId="ca571888--pubN66489" page="35" hidden="false">
       <description>When charging, the unit inflicts D3 Hammer of Wrath attacks.  In the case of a unit of such models, roll once and multiply the result by the models in the unit to determine the number of hits scored.</description>
@@ -12923,8 +12978,11 @@ D6 - Result
     <rule id="45cf-653a-4ff6-f22d" name="Assault Vehicle" publicationId="ca571888--pubN106502" page="157" hidden="false">
       <description>Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</description>
     </rule>
-    <rule id="ca3e-e94e-58f6-75d9" name="Interceptor" publicationId="ca571888--pubN106502" page="167" hidden="false">
-      <description>At the end of the enemy Movement phase, a weapon with the Interceptor special rule can be fired at any one unit that has arrived from Reserve within its range and line of sight. If this rule is used, the weapon cannot be fired in the next turn, but the firing model can shoot a different weapon if it has one.</description>
+    <rule id="ca3e-e94e-58f6-75d9" name="拦截" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Interceptor
+At the end of the enemy Movement phase, a weapon with the Interceptor special rule can be fired at any one unit that has arrived from Reserve within its range and line of sight. If this rule is used, the weapon cannot be fired in the next turn, but the firing model can shoot a different weapon if it has one.</comment>
+      <description>再地方移动阶段结束时, 可以使用拦截武器射击在视线和射程范围内的敌方从预备队到达单位. 
+使用此规则后此武器不能再下回合射击.</description>
     </rule>
     <rule id="d0b7-ed3f-25c8-1e63" name="Flare Shield" hidden="false">
       <description>A flare shield operates against shooting attacks that strike the vehicle&apos;s front arc.  It reduces the strength of attacks by weapons with the Templae or Blast type by -2, and other shooting attacks by -1.  A flare shield has no effect on attacks from close combat or with the Destroyer rule.</description>
@@ -12971,8 +13029,10 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
     <rule id="3e0b-be9f-b7eb-8c5e" name="Eternal Warrior" publicationId="ca571888--pubN106502" page="163" hidden="false">
       <description>If a model with this special rule suffers an unsaved Wound from an attack that inflicts Instant Death, it only reduces its Wounds by 1, instead of automatically reducing its Wounds to 0.</description>
     </rule>
-    <rule id="860d-1c1d-04ef-2829" name="Experimental" publicationId="ca571888--pubN107025" hidden="false">
-      <description>The many rules presented for this unit are experimental rules, still under development, and are not the final version. Experimental rules will change over time before a final version is published.</description>
+    <rule id="860d-1c1d-04ef-2829" name="实验性" publicationId="ca571888--pubN107025" hidden="false">
+      <comment>Experimental
+The many rules presented for this unit are experimental rules, still under development, and are not the final version. Experimental rules will change over time before a final version is published.</comment>
+      <description>实验性规则, 随时可能会发生变化.</description>
     </rule>
     <rule id="c0a6-5a38-2ea5-e740" name="Shock Pulse" publicationId="ca571888--pubN106502" page="171" hidden="false">
       <description>Any vehicle, including super-heavies, that suffers a penetrating hit may only fire snap shots on the following game turn.</description>
@@ -13250,8 +13310,9 @@ At the beginning of every subsequent player turn, the marker scatters 2D6&quot; 
 
 If a Weapon Destroyed result is repaired, that weapon may be fired in the following shooting phase.  The Battlesmith cannot use this ability if he has gone to ground or is falling back.</description>
     </rule>
-    <rule id="53c751ef-105f-b2a8-7a17-7812d605b9f2" name="Flank Speed" publicationId="ca571888--pubN85920" page="231" hidden="false">
-      <description>If the Knight chooses to Run instead of firing a weapon in the shooting phase, may move 3D6&quot;</description>
+    <rule id="53c751ef-105f-b2a8-7a17-7812d605b9f2" name="高速迂回" publicationId="ca571888--pubN85920" page="231" hidden="false">
+      <comment>Flank Speed</comment>
+      <description>如果选择在射击阶段放弃射击一把武器奔跑, 则可以奔跑3D6寸</description>
     </rule>
     <rule id="d169-a0dc-6155-c754" name="家族阶级" publicationId="ca571888--pubN84158" page="301" hidden="false">
       <comment>Household Rank
@@ -13308,8 +13369,10 @@ Automated Artillery cannot move and cannot charge. If assaulted, theydo not Pile
     <rule id="fafd-5bc8-2192-23ff" name="Deadly Cargo" publicationId="ca571888--pubN106502" page="162" hidden="false">
       <description>If a vehicle with this special rule takes Hull point damage but is not destroyed, roll a D6. On a 6, the vehicle suffers an Explodes! result on the Vehicle Damage chart.</description>
     </rule>
-    <rule id="b46a-a3ec-91a5-5001" name="Deflagrate" publicationId="ca571888--pubN106502" page="163" hidden="false">
-      <description>After normal attacks by this weapon have been resolved, count the number of unsaved wounds caused on the target unit. Immediately resolve a number of additional automatic hits on the same unit using the weapon’s profile equal to the number of unsaved wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional hits to take effect. These additional hits do not themselves inflict more hits.</description>
+    <rule id="b46a-a3ec-91a5-5001" name="爆燃" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Deflagrate
+After normal attacks by this weapon have been resolved, count the number of unsaved wounds caused on the target unit. Immediately resolve a number of additional automatic hits on the same unit using the weapon’s profile equal to the number of unsaved wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional hits to take effect. These additional hits do not themselves inflict more hits.</comment>
+      <description>结算完正常造伤后, 额外造成未过保护伤害个数的自动命中, 目标单位须在射程范围内才会生效, 额外命中不会造成更多的命中.</description>
     </rule>
     <rule id="1a79-befa-05cf-ab0d" name="Duelist&apos;s Edge" publicationId="ca571888--pubN106502" page="163" hidden="false">
       <description>When fighting in a challenge, the user of this weapon gains a +1 bonus to their Initiative value.</description>
@@ -13902,12 +13965,14 @@ Pistol</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Pistol, Deflagrate</characteristic>
       </characteristics>
     </profile>
-    <profile id="34d1-b4db-3e75-ccce" name="Volkite Culverin" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="34d1-b4db-3e75-ccce" name="爆燃蛇炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Volkite Culverin
+Heavy 4, Deflagrate</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">45&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 4, Deflagrate</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型4, 爆燃</characteristic>
       </characteristics>
     </profile>
     <profile id="626c-d79c-9bb7-3407" name="Volkite Caliver" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14662,9 +14727,11 @@ Heavy 3</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" name="Ion Shield" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" name="离子盾" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Ion Shield
+When deployed, and at the start of each subsequent opposing side&apos;s shooting phase, the Knight&apos;s controlling player must declare a facing for the ion shield.  Choices are front, left, right, or rear.    The Knight has a 4+ invulnerable save  against all hits on that facing until the start of the opposing side&apos;s next shooting phase.  Ion shields are repositioned before any attacks are carried out and may not protect against close combat attacks.  </comment>
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">When deployed, and at the start of each subsequent opposing side&apos;s shooting phase, the Knight&apos;s controlling player must declare a facing for the ion shield.  Choices are front, left, right, or rear.    The Knight has a 4+ invulnerable save  against all hits on that facing until the start of the opposing side&apos;s next shooting phase.  Ion shields are repositioned before any attacks are carried out and may not protect against close combat attacks.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署后以及在每个对方设计阶段开始时, 骑士需要选择离子盾的朝向, 其再朝向方向有4+特保, 直到对方下个设计阶段开始. 离子盾对近战无效.</characteristic>
       </characteristics>
     </profile>
     <profile id="76f43c9f-9d2b-e019-63db-3ac3082ee07c" name="Ionic Flare Shield" publicationId="ca571888--pubN84158" page="303" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -14672,12 +14739,15 @@ Heavy 3</comment>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">When deployed, and at the start of each subsequent opposing side&apos;s shooting phase, the Knight&apos;s controlling player must declare a facing for the ionic flare shield.  Choices are front, left, right, or rear.    The Knight has a 4+ invulnerable save  against all hits on that facing until the start of the opposing side&apos;s next shooting phase.  The strength of any shooting attack is reduced by -1, increasing to -2 if the weapon has the blast or template rule.  This does not effect Destroyer or Haywire attacks.  Ionic flare shields are repositioned before any attacks are carried out and may not protect against close combat attacks.  </characteristic>
       </characteristics>
     </profile>
-    <profile id="7d03914a-f940-12e5-590b-822083dff647" name="Irad-cleanser" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="7d03914a-f940-12e5-590b-822083dff647" name="辐射净化者" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Irad-cleanser
+Template
+Assault 1, Fleshbane, Rad-Phage</comment>
       <characteristics>
-        <characteristic name="射程" typeId="52616e676523232344415441232323">Template</characteristic>
+        <characteristic name="射程" typeId="52616e676523232344415441232323">喷射盖板</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Assault 1, Fleshbane, Rad-Phage</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">突击1, 血肉杀手, 辐射噬菌体</characteristic>
       </characteristics>
     </profile>
     <profile id="69b6-e87d-f483-e57a" name="Ironstorm missile pod" publicationId="ca571888--pubN84656" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14717,9 +14787,11 @@ Heavy 3</comment>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides 4++ Invulnerable save</characteristic>
       </characteristics>
     </profile>
-    <profile id="faa4ea24-e51b-8663-3e7c-1a791b55aed7" name="Occular Augmetics" publicationId="ca571888--pubN91142" page="109" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="faa4ea24-e51b-8663-3e7c-1a791b55aed7" name="夜视仪" publicationId="ca571888--pubN91142" page="109" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Occular Augmetics
+Has Night Vision special rule, and may re-roll results of a 1 on the Vehicle Damage table and Destroyer Weapon Attack table which are inflicted by their shooting attacks at a range of 12&quot; or less.  </comment>
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Has Night Vision special rule, and may re-roll results of a 1 on the Vehicle Damage table and Destroyer Weapon Attack table which are inflicted by their shooting attacks at a range of 12&quot; or less.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">夜战时, 射击12&quot;内目标是可以重投载具损伤表和D武器攻击表的1.</characteristic>
       </characteristics>
     </profile>
     <profile id="306adc93-713f-8c18-71d3-6956c376e9e2" name="Phased-Plasma Fusil" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14810,28 +14882,34 @@ Heavy 3</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 1, Apocalyptic Blast (10&quot;), One Shot</characteristic>
       </characteristics>
     </profile>
-    <profile id="9170-c4db-7a4c-87fb" name="Ironstorm Missiles" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="9170-c4db-7a4c-87fb" name="钢铁风暴导弹" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Ironstorm Missiles
+Ordnance 1, Massive Blast (7&quot;)</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">72&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 1, Massive Blast (7&quot;)</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重炮1, 巨大爆炸(7&quot;)</characteristic>
       </characteristics>
     </profile>
-    <profile id="69d4-4da4-6a07-623e" name="Helios defence missiles" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="69d4-4da4-6a07-623e" name="赫利俄斯防空导弹" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Helios defence missiles
+Heavy 2, Skyfire, Interceptor</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">60&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 2, Skyfire, Interceptor</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 对空火力, 拦截</characteristic>
       </characteristics>
     </profile>
-    <profile id="3e31-9d8c-29ab-2e70" name="Magna Lascannon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="3e31-9d8c-29ab-2e70" name="巨星激光炮" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Magna Lascannon
+Ordnance 2, Large Blast (5&quot;)</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">70&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 2, Large Blast (5&quot;)</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重炮2, 大爆炸(5&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="01e2-722b-da0c-9ccd" name="Autogun" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
