@@ -782,7 +782,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
       <infoLinks>
         <infoLink id="743b-7e31-3aa6-10d4" name="New InfoLink" hidden="false" targetId="ca57-5483-64d5-ad52" type="rule"/>
         <infoLink id="75d6-cc56-a969-e3e2" name="New InfoLink" hidden="false" targetId="a225-e39b-3699-c8f8" type="rule"/>
-        <infoLink id="03c7-d1dd-6f84-3a4d" name="New InfoLink" hidden="false" targetId="666f-e93b-4f0b-ae40" type="rule"/>
+        <infoLink id="03c7-d1dd-6f84-3a4d" name="God-Engine" hidden="false" targetId="666f-e93b-4f0b-ae40" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="74d3-2cbb-bd1e-6bf6" name="Carapace-mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f13b-e244-f40b-5cce">
@@ -1330,8 +1330,8 @@ D6    Result		S	AP
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1734-f2be-40f6-a474" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e6ec-033f-7e6c-5f7d" name="New InfoLink" hidden="false" targetId="e64b-54b8-34df-2f13" type="rule"/>
-                <infoLink id="3d32-37b0-dff2-f558" name="New InfoLink" hidden="false" targetId="042e-a57f-0220-ddc0" type="profile"/>
+                <infoLink id="e6ec-033f-7e6c-5f7d" name="Primary Weapon" hidden="false" targetId="e64b-54b8-34df-2f13" type="rule"/>
+                <infoLink id="3d32-37b0-dff2-f558" name="Apocalypse Launcher" hidden="false" targetId="042e-a57f-0220-ddc0" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -1508,9 +1508,11 @@ D6    Result		S	AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a505-05af-bd44-56b6" name="Aegis Defense Line" publicationId="ca571888--pubN73893" page="79" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a505-05af-bd44-56b6" name="支援防线" publicationId="ca571888--pubN73893" page="79" hidden="false" collective="false" import="true" type="model">
+      <comment>Aegis Defence Line</comment>
       <profiles>
-        <profile id="acfc-9384-8119-d9d8" name="Aegis Defence Line" publicationId="ca571888--pubN73904" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+        <profile id="acfc-9384-8119-d9d8" name="支援防线" publicationId="ca571888--pubN73904" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Aegis Defence Line</comment>
           <characteristics>
             <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a defence line has a 4+ cover save. If a unit Goes to Ground, then models from the unit gain +2 to the cover save from the defence line rather than +1. Models that are in base contact with a defence line are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that defence line. Units charging an enemy that is behind a defence line count as charging through difficult terrain.</characteristic>
           </characteristics>
@@ -1518,7 +1520,7 @@ D6    Result		S	AP
       </profiles>
       <entryLinks>
         <entryLink id="0c63-f80e-a87b-c244" name="Battlements &amp; Battlefield" hidden="false" collective="false" import="true" targetId="8732-6189-cd26-de94" type="selectionEntryGroup"/>
-        <entryLink id="72f7-b924-082c-60be" name="Obstacles List" hidden="false" collective="false" import="true" targetId="ad42-921f-358f-2970" type="selectionEntryGroup"/>
+        <entryLink id="72f7-b924-082c-60be" name="障碍物" hidden="false" collective="false" import="true" targetId="ad42-921f-358f-2970" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="50.0"/>
@@ -1664,38 +1666,56 @@ D6    Result		S	AP
     <selectionEntry id="7b11-22c7-16af-3bd4" name="BRB: Command Traits" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="cfe2-9cdd-5a7f-c824" name="Warlord Trait: Inspiring Presence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Inspiring Presence
+Friendly units within 12&quot; of the Warlord can use his Leadership rather than their own.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Friendly units within 12&quot; of the Warlord can use his Leadership rather than their own.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将12寸内的友方单位使用主将的LD.</characteristic>
           </characteristics>
         </profile>
         <profile id="b0c9-26c9-a259-9acf" name="Warlord Trait: Coordinated Assault" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Coordinated Assault
+In the Assault phase, your Warlord and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">In the Assault phase, your Warlord and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">突击阶段, 主将和所有12寸范围内的的友方单位可以重投命中骰的1.</characteristic>
           </characteristics>
         </profile>
         <profile id="faee-6ac9-e1e9-2475" name="Warlord Trait: Target Priority" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Target Priority
+In the Shooting phase, your Warlord and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">In the Shooting phase, your Warlord and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">射击阶段, 主将和所有12寸范围内的的友方单位可以重投命中骰的1.</characteristic>
           </characteristics>
         </profile>
         <profile id="a578-9a31-6f36-26da" name="Warlord Trait: Master of the Vanguard" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Master of the Vanguard
+Your Warlord, and all friendly units within 12&quot;, add 1&quot; to the distance that they can move when they Run or Charge.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord, and all friendly units within 12&quot;, add 1&quot; to the distance that they can move when they Run or Charge.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将和所有12寸范围内的的友方单位, 冲锋和奔跑距离+1.</characteristic>
           </characteristics>
         </profile>
         <profile id="e2fd-c583-0688-4738" name="Warlord Trait: Intimidating Presence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Intimidating Presence
+Enemy units within 12&quot; of the Warlord must use their Lowest Leadership value, not the highest.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Enemy units within 12&quot; of the Warlord must use their Lowest Leadership value, not the highest.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将12寸内的敌方单位使用较低的LD.</characteristic>
           </characteristics>
         </profile>
         <profile id="2123-b3b6-de4b-0db5" name="Warlord Trait: The Dust of a Thousand Worlds" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>2123-b3b6-de4b-0db5
+Your Warlord, and all friendly units within 12&quot;, have the Move Through Cover special rule.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord, and all friendly units within 12&quot;, have the Move Through Cover special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将和所有12寸范围内的的友方单位, 获得穿越地形规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6c7c-ed04-aa17-16c0" name="New InfoLink" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
+        <infoLink id="6c7c-ed04-aa17-16c0" name="穿越地形" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -1704,43 +1724,61 @@ D6    Result		S	AP
     <selectionEntry id="6d89-6ae9-05ea-0579" name="BRB: Personal Traits" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="5814-8698-8309-5c7a" name="Warlord Trait: Master of Defence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Master of Defence
+Your Warlord has the Counter-attack special rule.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord has the Counter-attack special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得反击规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="8b51-c91b-bd55-2d71" name="Warlord Trait: Immovable Object" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Immovable Object
+Your Warlord has the Fearless and It Will Not Die special rules.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord has the Fearless and It Will Not Die special rules.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得无畏和他不会死规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="9828-d73e-e464-4daa" name="Warlord Trait: Tenacity" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Tenacity
+Your Warlord has the Feel No Pain special rule.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord has the Feel No Pain special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得不知疼痛规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="ffa3-f6d9-cd71-beb0" name="Warlord Trait: Master of Manoeuvre" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Master of Manoeuvre
+Your Warlord has the Outflank special rule.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord has the Outflank special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得侧击规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="5621-6e23-64e7-642d" name="Warlord Trait: Legendary Fighter" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Legendary Fighter
+Your army gains 1 Victory Point for each enemy character slain by your Warlord in a challenge.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your army gains 1 Victory Point for each enemy character slain by your Warlord in a challenge.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将在单挑中每击杀1个敌方人物, 获得1VP.</characteristic>
           </characteristics>
         </profile>
         <profile id="ecf1-07e8-857f-2c3a" name="Warlord Trait: Master of Offence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Master of Offence
+Your Warlord has the Furious Charge special rule.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord has the Furious Charge special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得狂怒冲锋规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9349-53b1-5292-0aad" name="New InfoLink" hidden="false" targetId="0900-71d5-1937-aa96" type="rule"/>
-        <infoLink id="0dd6-36b1-1130-b3d8" name="New InfoLink" hidden="false" targetId="de18-25a0-504b-74be" type="rule"/>
+        <infoLink id="9349-53b1-5292-0aad" name="Counter-attack" hidden="false" targetId="0900-71d5-1937-aa96" type="rule"/>
+        <infoLink id="0dd6-36b1-1130-b3d8" name="Outflank" hidden="false" targetId="de18-25a0-504b-74be" type="rule"/>
         <infoLink id="395c-34cf-a1fc-d50c" name="New InfoLink" hidden="false" targetId="3aa7-9a8f-1e0d-921d" type="rule"/>
         <infoLink id="5543-976c-9383-a9f2" name="New InfoLink" hidden="false" targetId="72d9-7041-9d30-d150" type="rule"/>
         <infoLink id="1f0e-8d40-d30e-9afc" name="New InfoLink" hidden="false" targetId="9bdd-5ec7-8dd6-63c0" type="rule"/>
-        <infoLink id="6b65-4aa0-383d-fc12" name="New InfoLink" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
+        <infoLink id="6b65-4aa0-383d-fc12" name="Fearless" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -1749,49 +1787,70 @@ D6    Result		S	AP
     <selectionEntry id="fd25-8750-1716-cff8" name="BRB: Strategic Traits" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="fb07-ddb8-23f5-7eda" name="Warlord Trait: Conqueror of Cities" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Conqueror of Cities
+Your units have the Move Through Cover special rule if moving through Ruins, and the Stealth (Ruins) Special rule.</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your units have the Move Through Cover special rule if moving through Ruins, and the Stealth (Ruins) Special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">单位移动穿过废墟时获得穿越地形和隐蔽(废墟)规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="90ee-2233-de3f-e122" name="Warlord Trait: Night Attacker" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Night Attacker
+If you choose to use the Night Fighting rules in your game, there is no need to roll - it is Night on the first turn, and all models in your army have the Night Vision special rule.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">If you choose to use the Night Fighting rules in your game, there is no need to roll - it is Night on the first turn, and all models in your army have the Night Vision special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">如果使用夜战规则, 则首回合无需投掷便是夜战,所有模型获得夜视规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="c745-d7b2-68f7-9d92" name="Warlord Trait: Master of Ambush" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Master of Ambush
+Your Warlord and three non-vehicle units of your choice have the Infiltrate special rule.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord and three non-vehicle units of your choice have the Infiltrate special rule.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将和三个非载具单位获得渗透规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="312e-33bf-d4e0-36ba" name="Warlord Trait: Strategic Genius" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Strategic Genius
+You add +1 to any Seize the Initiative roll.  In addition, whilst your Warlord is alive, you can re-roll any Reserve Rolls (failed or successful).
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">You add +1 to any Seize the Initiative roll.  In addition, whilst your Warlord is alive, you can re-roll any Reserve Rolls (failed or successful).</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">抢先手骰+1. 此外只要主将存活, 可以重投预备队进场骰(失败或成功的).</characteristic>
           </characteristics>
         </profile>
         <profile id="cde5-6744-ed87-eaa7" name="Warlord Trait: Princeps of Deceit" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Princeps of Deceit
+At the start of your opponent&apos;s first turn, pick 3 units in the enemy army.  Each of these units must take a Pinning test.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">At the start of your opponent&apos;s first turn, pick 3 units in the enemy army.  Each of these units must take a Pinning test.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">首个己方回合开始时, 指定三个敌方单位. 这些单位必须做一次压制测试.</characteristic>
           </characteristics>
         </profile>
         <profile id="ead1-056f-4340-b428" name="Warlord Trait: Divide to Conquer" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+          <comment>Warlord Trait: Divide to Conquer
+Whilst your Warlord is alive, your opponent has a -1 modifier to their Reserve Rolls.
+</comment>
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Whilst your Warlord is alive, your opponent has a -1 modifier to their Reserve Rolls.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">只要主将存活, 对手预备队进场骰-1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4ea7-c6ea-7e3c-e1b1" name="New InfoLink" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule">
+        <infoLink id="4ea7-c6ea-7e3c-e1b1" name="穿越地形" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="(Ruins)"/>
+            <modifier type="set" field="name" value="(废墟)">
+              <comment>(Ruins)</comment>
+            </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="d2f0-9fe0-b4ab-36d8" name="New InfoLink" hidden="false" targetId="34c7-8b61-a5b8-a301" type="rule"/>
-        <infoLink id="6c58-32bf-1d79-e4e1" name="New InfoLink" hidden="false" targetId="0d66-14c9-d2f4-708b" type="rule">
+        <infoLink id="d2f0-9fe0-b4ab-36d8" name="Infiltrate" hidden="false" targetId="34c7-8b61-a5b8-a301" type="rule"/>
+        <infoLink id="6c58-32bf-1d79-e4e1" name="隐蔽" hidden="false" targetId="0d66-14c9-d2f4-708b" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="(Ruins)"/>
+            <modifier type="set" field="name" value="(废墟)">
+              <comment>(Ruins)</comment>
+            </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="9c06-531a-c502-a158" name="New InfoLink" hidden="false" targetId="a225-e39b-3699-c8f8" type="rule"/>
+        <infoLink id="9c06-531a-c502-a158" name="夜视" hidden="false" targetId="a225-e39b-3699-c8f8" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -2560,7 +2619,7 @@ D6    Result		S	AP
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="236b-b61b-4a07-4ba6" hidden="false" targetId="cf90-39d9-c923-f6bf" type="rule"/>
+        <infoLink id="236b-b61b-4a07-4ba6" name="Repel the Enemy" hidden="false" targetId="cf90-39d9-c923-f6bf" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="f8c9-8047-e3cc-b2c2" name="Eemplaced Heavy Bolters" page="" hidden="false" collective="false" import="true" type="upgrade">
@@ -2569,7 +2628,7 @@ D6    Result		S	AP
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae5c-63f3-0067-e60d" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="15bf-185c-863c-0af6" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
+            <infoLink id="15bf-185c-863c-0af6" name="重爆弹" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -2577,11 +2636,11 @@ D6    Result		S	AP
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9986-91a1-d559-864d" hidden="false" collective="false" import="true" targetId="8732-6189-cd26-de94" type="selectionEntryGroup"/>
+        <entryLink id="9986-91a1-d559-864d" name="Battlements &amp; Battlefield" hidden="false" collective="false" import="true" targetId="8732-6189-cd26-de94" type="selectionEntryGroup"/>
         <entryLink id="4288-fee0-9a5d-60ba" hidden="false" collective="false" import="true" targetId="ad42-921f-358f-2970" type="selectionEntryGroup"/>
         <entryLink id="e3f5-954e-ed7a-0510" name="Buildings List" hidden="false" collective="false" import="true" targetId="6bfa-e532-4165-63ce" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="cd03-be61-f336-ac4c" value="2"/>
+            <modifier type="set" field="cd03-be61-f336-ac4c" value="2.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
@@ -4631,7 +4690,7 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
     <selectionEntry id="baad-77d0-04c2-e05f" name="阿特洛波斯骑士" publicationId="ca571888--pubN89821" page="278" hidden="false" collective="false" import="true" type="unit">
       <comment>Cerastus Knight-Atrapos</comment>
       <modifiers>
-        <modifier type="increment" field="8f86-62fb-dba4-afc4" value="1">
+        <modifier type="increment" field="8f86-62fb-dba4-afc4" value="1.0">
           <repeats>
             <repeat field="points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
           </repeats>
@@ -4660,9 +4719,9 @@ Super-heavy Walker</comment>
       </profiles>
       <infoLinks>
         <infoLink id="ad4c-6ac3-01fb-a54c" name="高速迂回" hidden="false" targetId="53c751ef-105f-b2a8-7a17-7812d605b9f2" type="rule"/>
-        <infoLink id="7629-09d1-79f3-3f7a" name="Macro-extinction Targeting Protocols" hidden="false" targetId="333c-a3b2-4353-f484" type="rule"/>
-        <infoLink id="175b-ee67-d5b7-02d8" name="Ionic Flare Shield" hidden="false" targetId="8fb5-0c46-e8b4-0ef6" type="rule"/>
-        <infoLink id="1895-e4dd-46a4-3b0a" name="Catastrophic Destruction" hidden="false" targetId="81fe-8580-34f6-28ae" type="rule"/>
+        <infoLink id="7629-09d1-79f3-3f7a" name="巨型灭绝协议" hidden="false" targetId="333c-a3b2-4353-f484" type="rule"/>
+        <infoLink id="175b-ee67-d5b7-02d8" name="离子闪光盾" hidden="false" targetId="8fb5-0c46-e8b4-0ef6" type="rule"/>
+        <infoLink id="1895-e4dd-46a4-3b0a" name="灾难性毁灭" hidden="false" targetId="81fe-8580-34f6-28ae" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="797b-8685-04c6-72f4" name="可以升级:" hidden="false" collective="false" import="true">
@@ -4671,31 +4730,39 @@ Super-heavy Walker</comment>
             <entryLink id="a890-2700-1060-bb32" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ea91-b3c1-b65c-bdaf" name="Singularity Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6cf-46ab-5358-3771">
+        <selectionEntryGroup id="ea91-b3c1-b65c-bdaf" name="重力奇点炮" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6cf-46ab-5358-3771">
+          <comment>Singularity Cannon</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f91-871d-6bef-5216" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8477-2187-7951-fdb3" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c6cf-46ab-5358-3771" name="Singularity Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c6cf-46ab-5358-3771" name="重力奇点炮" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Singularity Cannon</comment>
               <profiles>
-                <profile id="0483-ace3-ca6b-e55e" name="Gravaton Singularity Cannon" publicationId="ca571888--pubN89821" page="279" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="0483-ace3-ca6b-e55e" name="重力奇点炮" publicationId="ca571888--pubN89821" page="279" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Gravaton Singularity Cannon
+Heavy 1, Large Blast (5&quot;), Armourbane, Concussive, Collapsing Singularity</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Large Blast (5&quot;), Armourbane, Concussive, Collapsing Singularity</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 大爆炸(5寸), 装甲杀手, 震荡, 崩溃奇点</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <rules>
-                <rule id="3431-e056-229c-9e40" name="Collapsing Singularity" publicationId="ca571888--pubN89821" page="279" hidden="false">
-                  <description>Before firing the weapon, roll a D6. On a r, the firing Knight-Atrapos suffers a single Hull Point of damage with no saves of any kind before the attack is carried out. On a result of a 6, the attack is carried out with the Vortex special rule.</description>
+                <rule id="3431-e056-229c-9e40" name="崩溃奇点" publicationId="ca571888--pubN89821" page="279" hidden="false">
+                  <comment>Collapsing Singularity
+Before firing the weapon, roll a D6. On a r, the firing Knight-Atrapos suffers a single Hull Point of damage with no saves of any kind before the attack is carried out. On a result of a 6, the attack is carried out with the Vortex special rule.</comment>
+                  <description>射击前投掷D6:
+若结果为1, 则在射击前受到一点不可保护的伤害.
+若结果为6, 则此次射击视为具有漩涡规则.</description>
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="73d2-c7e5-ff62-be2f" name="New InfoLink" hidden="false" targetId="e182-50cd-0867-9a8d" type="rule"/>
-                <infoLink id="568b-52ba-ba70-631b" name="New InfoLink" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule"/>
+                <infoLink id="73d2-c7e5-ff62-be2f" name="装甲杀手" hidden="false" targetId="e182-50cd-0867-9a8d" type="rule"/>
+                <infoLink id="568b-52ba-ba70-631b" name="震荡" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -4703,33 +4770,37 @@ Super-heavy Walker</comment>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d520-383c-95ed-8e5f" name="Lascutter" hidden="false" collective="false" import="true" defaultSelectionEntryId="5b2d-434f-7a2d-7ad3">
+        <selectionEntryGroup id="d520-383c-95ed-8e5f" name="阿特洛波斯激光切割机" hidden="false" collective="false" import="true" defaultSelectionEntryId="5b2d-434f-7a2d-7ad3">
+          <comment>Lascutter</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2044-af1a-9add-b6dc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2225-b3bc-9b72-de91" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5b2d-434f-7a2d-7ad3" name="Lascutter" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5b2d-434f-7a2d-7ad3" name="阿特洛波斯激光切割机" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Lascutter</comment>
               <profiles>
-                <profile id="3825-cb38-0956-1089" name="Atrapos Lascutter (Beam)" publicationId="ca571888--pubN89821" page="279" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="3825-cb38-0956-1089" name="阿特洛波斯激光切割机(射线)" publicationId="ca571888--pubN89821" page="279" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Atrapos Lascutter (Beam)</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">8&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">D</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, </characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型1, </characteristic>
                   </characteristics>
                 </profile>
-                <profile id="24d7-a4aa-f9ff-d5d0" name="Atrapos Lascutter (Melee)" publicationId="ca571888--pubN89821" page="279" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="24d7-a4aa-f9ff-d5d0" name="阿特洛波斯激光切割机(近战)" publicationId="ca571888--pubN89821" page="279" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Atrapos Lascutter (Melee)</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">D</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Wrecker</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">近战, Wrecker</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="c410-3217-0bbd-cbcb" name="Wrecker" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
+                <infoLink id="c410-3217-0bbd-cbcb" name="破城者" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -4844,13 +4915,14 @@ Super-heavy Walker</comment>
         <cost name="分" typeId="points" value="560.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ae6ac18-0fd0-ee6d-17e8-9b9354820d04" name="Paragon of Metal" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ae6ac18-0fd0-ee6d-17e8-9b9354820d04" name="金属之傲" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Paragon of Metal</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="f24656bf-c677-271e-8c55-71099c7ff534" hidden="false" targetId="cb2c-171e-df0f-2bec" type="rule"/>
+        <infoLink id="f24656bf-c677-271e-8c55-71099c7ff534" name="金属之傲" hidden="false" targetId="cb2c-171e-df0f-2bec" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="35.0"/>
@@ -6093,7 +6165,7 @@ Super-heavy Walker</comment>
             <characteristic name="射程" typeId="52616e676523232344415441232323">42&quot; - 72&quot;</characteristic>
             <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
             <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">重炮1, 巨大爆炸(7&quot;), Wrecker, 破甲</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">重炮1, 巨大爆炸(7&quot;), 破城者, 破甲</characteristic>
           </characteristics>
         </profile>
         <profile id="9af1-3185-a3de-5781" name="转换光束炮(2)" publicationId="ca571888--pubN67636" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -6102,7 +6174,7 @@ Super-heavy Walker</comment>
             <characteristic name="射程" typeId="52616e676523232344415441232323">18&quot; - 42&quot;</characteristic>
             <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
             <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">重炮1, 大爆炸(5&quot;), Wrecker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">重炮1, 大爆炸(5&quot;), 破城者</characteristic>
           </characteristics>
         </profile>
         <profile id="ea62-d627-ee8e-9c5f" name="转换光束炮(1)" publicationId="ca571888--pubN67636" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -6117,7 +6189,7 @@ Super-heavy Walker</comment>
       </profiles>
       <infoLinks>
         <infoLink id="0415-8fc8-4097-3195" name="破甲" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
-        <infoLink id="7a81-5dee-82df-f0e0" name="Wrecker" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
+        <infoLink id="7a81-5dee-82df-f0e0" name="破城者" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -9493,14 +9565,17 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4014-7d86-22e9-5d96" name="Legiones Astartes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4014-7d86-22e9-5d96" name="阿斯塔特军团" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Legiones Astartes</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e67-5920-ee61-e529" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6540-4eb5-6087-c4fb" type="min"/>
       </constraints>
       <rules>
-        <rule id="31b1-4bb2-e8c5-8fe8" name="Legiones Astartes" page="" hidden="false">
-          <description>- Units with this special rules may always attempt to regroup regardless of casualties.</description>
+        <rule id="31b1-4bb2-e8c5-8fe8" name="阿斯塔特军团" page="" hidden="false">
+          <comment>Legiones Astartes
+- Units with this special rules may always attempt to regroup regardless of casualties.</comment>
+          <description>拥有此规则的单位可以无视伤亡重整.</description>
         </rule>
       </rules>
       <costs>
@@ -11246,17 +11321,19 @@ Command Benefits:
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="dff8-d7b6-960a-aa5b" name="A single Maniple may be upgraded with:" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="dff8-d7b6-960a-aa5b" name="单模型小队可以升级:" hidden="false" collective="false" import="true">
+      <comment>A single Maniple may be upgraded with</comment>
       <selectionEntries>
-        <selectionEntry id="2949-16a3-071b-d0b9" name="Paragon of Metal" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2949-16a3-071b-d0b9" name="金属之傲" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Paragon of Metal</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0716-a566-b315-297d" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81dd-8b1b-7229-0636" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="2cc7-1fcc-2cbe-2110" name="New InfoLink" hidden="false" targetId="cb2c-171e-df0f-2bec" type="rule"/>
-            <infoLink id="b7b9-d6dc-7d9d-e012" name="New InfoLink" hidden="false" targetId="0ba8-83bc-74c1-43c2" type="rule"/>
-            <infoLink id="0359-426a-c35b-23a0" name="New InfoLink" hidden="false" targetId="72d9-7041-9d30-d150" type="rule"/>
+            <infoLink id="2cc7-1fcc-2cbe-2110" name="金属之傲" hidden="false" targetId="cb2c-171e-df0f-2bec" type="rule"/>
+            <infoLink id="b7b9-d6dc-7d9d-e012" name="狂暴" hidden="false" targetId="0ba8-83bc-74c1-43c2" type="rule"/>
+            <infoLink id="0359-426a-c35b-23a0" name="他不会死" hidden="false" targetId="72d9-7041-9d30-d150" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="35.0"/>
@@ -11269,49 +11346,53 @@ Command Benefits:
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="531f-b464-7260-61c0" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="1ab6-0259-78c2-2859" name="Ammunition Dump" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1ab6-0259-78c2-2859" name="弹药库" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Ammunition Dump</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="adc4-6993-7e9b-72dc" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="359f-949e-fa6c-f375" name="Ammunition Dump" hidden="false" targetId="58a2-c92e-57cc-d44c" type="profile"/>
+            <infoLink id="359f-949e-fa6c-f375" name="弹药库" hidden="false" targetId="58a2-c92e-57cc-d44c" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e18f-3135-557c-b555" name="Comms Relay" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e18f-3135-557c-b555" name="通信中继" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Comms Relay</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8995-bdf2-3d31-1950" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="c111-e21c-0718-d8d7" name="Comms Relay" hidden="false" targetId="70aa-366f-15ac-da4d" type="profile"/>
+            <infoLink id="c111-e21c-0718-d8d7" name="通信中继" hidden="false" targetId="70aa-366f-15ac-da4d" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="053b-1e04-02d6-0bcb" name="Gun Emplacement with Icarus Lascannon" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="053b-1e04-02d6-0bcb" name="伊卡洛斯激光炮塔" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Gun Emplacement with Icarus Lascannon</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="55f8-49ae-4459-4580" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="e451-84da-1115-23cb" name="Gun Emplacement" hidden="false" targetId="1da7-2e0b-0114-762c" type="profile"/>
-            <infoLink id="c4f7-3c4d-38eb-2484" name="Icarus Lascannon" hidden="false" targetId="cb26-27b4-9393-a768" type="profile"/>
-            <infoLink id="ceef-e79c-eddc-37a6" name="Gun Emplacement (Details)" hidden="false" targetId="705c-91aa-6591-507b" type="profile"/>
+            <infoLink id="e451-84da-1115-23cb" name="炮位" hidden="false" targetId="1da7-2e0b-0114-762c" type="profile"/>
+            <infoLink id="c4f7-3c4d-38eb-2484" name="伊卡洛斯激光炮" hidden="false" targetId="cb26-27b4-9393-a768" type="profile"/>
+            <infoLink id="ceef-e79c-eddc-37a6" name="炮位(描述)" hidden="false" targetId="705c-91aa-6591-507b" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e8de-684d-09d2-1f63" name="Gun Emplacement with Quad-gun" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e8de-684d-09d2-1f63" name="四联防空炮塔" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Gun Emplacement with Quad-gun</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7139-092c-bb08-430f" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3e9f-b912-bc41-b28e" hidden="false" targetId="1f7d-9765-ed8e-f6e5" type="profile"/>
-            <infoLink id="0a02-2306-4221-00f1" hidden="false" targetId="705c-91aa-6591-507b" type="profile"/>
-            <infoLink id="5712-0be9-2ca9-0aea" name="Gun Emplacement" hidden="false" targetId="1da7-2e0b-0114-762c" type="profile"/>
+            <infoLink id="3e9f-b912-bc41-b28e" name="四联防空炮" hidden="false" targetId="1f7d-9765-ed8e-f6e5" type="profile"/>
+            <infoLink id="0a02-2306-4221-00f1" name="炮位(描述)" hidden="false" targetId="705c-91aa-6591-507b" type="profile"/>
+            <infoLink id="5712-0be9-2ca9-0aea" name="炮位" hidden="false" targetId="1da7-2e0b-0114-762c" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="50.0"/>
@@ -11392,39 +11473,43 @@ Command Benefits:
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ad42-921f-358f-2970" name="Obstacles List" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ad42-921f-358f-2970" name="障碍物" hidden="false" collective="false" import="true">
+      <comment>Obstacles List</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8d1-a4f4-3a6c-1878" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="bf1d-555b-a16e-8d29" name="Tanglewire" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bf1d-555b-a16e-8d29" name="线缆" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Tanglewire</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c01c-615a-ea39-45e3" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a3f7-2cdf-78f2-f8bf" name="Tanglewire" publicationId="ca571888--pubN106502" page="101" hidden="false" targetId="e158-7adf-1565-ef08" type="profile"/>
+            <infoLink id="a3f7-2cdf-78f2-f8bf" name="线缆" publicationId="ca571888--pubN106502" page="101" hidden="false" targetId="e158-7adf-1565-ef08" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="72be-367c-ce98-20db" name="Barricades" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="72be-367c-ce98-20db" name="路障" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Barricades</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c39f-64e0-0897-1fad" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a149-5d28-9796-309d" name="Barricades" hidden="false" targetId="68d8-f686-c260-76db" type="profile"/>
+            <infoLink id="a149-5d28-9796-309d" name="路障" hidden="false" targetId="68d8-f686-c260-76db" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fe7e-1a9a-5566-5e06" name="Tank Traps" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe7e-1a9a-5566-5e06" name="坦克陷阱" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Tank Traps</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b5f-e5d3-b643-5081" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f133-1126-a49c-52c0" name="Tank Traps" hidden="false" targetId="4a45-65e5-2d8c-8792" type="profile"/>
+            <infoLink id="f133-1126-a49c-52c0" name="坦克陷阱" hidden="false" targetId="4a45-65e5-2d8c-8792" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="15.0"/>
@@ -12588,14 +12673,19 @@ The unit is placed in Ongoing Reserves.</description>
     <rule id="e6e1-afb0-377d-27a8" name="Skilled Rider" publicationId="ca571888--pubN106502" page="171" hidden="false">
       <description>A unit that contains at least one model with this special rule automatically passes Dangerous Terrain tests, and receives +1 to its Jink cover saves (other cover saves are unaffected).</description>
     </rule>
-    <rule id="fe2f-3220-3fef-b177" name="Wrecker" publicationId="ca571888--pubN106502" page="175" hidden="false">
-      <description>Attacks with this special rule may re-roll failed armour penetration rolls against fortifications and immobile structures and add +1 to any result rolled on the Building Damage chart.  If this attack damages a bulkhead or wall section of terrain and destroys it, remove that section of terrain from play if possible.</description>
+    <rule id="fe2f-3220-3fef-b177" name="破城者" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Wrecker
+Attacks with this special rule may re-roll failed armour penetration rolls against fortifications and immobile structures and add +1 to any result rolled on the Building Damage chart.  If this attack damages a bulkhead or wall section of terrain and destroys it, remove that section of terrain from play if possible.</comment>
+      <description>攻击工事和固定建筑时可以重投失败的穿甲骰, 且建筑损伤表结果+1.
+如果破坏或摧毁了防御体系/阵线/建筑群的一部分的话,, 可能的话请将这部分地形移除.</description>
     </rule>
     <rule id="5d88-bcf6-e410-6e01" name="Tank Hunters" publicationId="ca571888--pubN106502" page="173" hidden="false">
       <description>A unit that contains at least one model with this special rule re-rolls failed armour penetration rolls against vehicles (both with shooting and in close combat) and can choose to re-roll glancing hits, in an attempt to instead get a penetrating hit – but the second result must be kept.</description>
     </rule>
-    <rule id="a225-e39b-3699-c8f8" name="Night Vision" publicationId="ca571888--pubN106502" page="168" hidden="false">
-      <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</description>
+    <rule id="a225-e39b-3699-c8f8" name="夜视" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Night Vision
+A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</comment>
+      <description>在夜战状态中, 至少含有一个此规则模型的单位无视夜战规则的效果.</description>
     </rule>
     <rule id="9bdd-5ec7-8dd6-63c0" name="Feel No Pain" publicationId="ca571888--pubN106502" page="164" hidden="false">
       <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
@@ -12622,6 +12712,16 @@ Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take 
 If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
     </rule>
     <rule id="34c7-8b61-a5b8-a301" name="Infiltrate" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Infiltrate
+Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
+
+Infiltrators can be set up anywhere on the table that is more than 12&quot; from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12&quot; from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18&quot; from any enemy unit, even in plain sight.
+
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Infiltrate along with their Transport. 
+
+A unit that deploys using these rules cannot charge in their first turn. Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</comment>
       <description>Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
 
 Infiltrators can be set up anywhere on the table that is more than 12&quot; from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12&quot; from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18&quot; from any enemy unit, even in plain sight.
@@ -12671,8 +12771,11 @@ If a model with this special rule charges a building or vehicle, the hit is reso
       <description>If a unit contains at least one model with this special rule, and that unit is charged, every model with the Counter-attack special rule in the unit gets +1 Attack until the end of the phase.
 If, when charged, the unit was already locked in combat, the Counter-attack special rule has no effect.</description>
     </rule>
-    <rule id="6d06-5ea0-9a17-ca97" name="Move Through Cover" publicationId="ca571888--pubN106502" page="168" hidden="false">
-      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+    <rule id="6d06-5ea0-9a17-ca97" name="穿越地形" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Move Through Cover
+A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</comment>
+      <description>至少包含一个拥有该规则模型的单位在移动穿越困难地形时额外投掷一个D6, 这意味着在大部分情况下会投掷3D6然后取大. 并且不会因为冲锋穿越困难地形而减速.
+此外, 拥有此规则的模型(注意不是单位)自动通过危险地形测试.</description>
     </rule>
     <rule id="69e5-fc02-1f9d-63c2" name="Fleet" publicationId="ca571888--pubN106502" page="164" hidden="false">
       <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
@@ -12686,28 +12789,44 @@ If, when charged, the unit was already locked in combat, the Counter-attack spec
     <rule id="f899-8f9d-fc7e-d855" name="Master-crafted" publicationId="ca571888--pubN106502" page="168" hidden="false">
       <description>Weapons with the Master-crafted special rule allow the bearer to re-roll one failed roll To Hit per turn with that weapon.</description>
     </rule>
-    <rule id="0ba8-83bc-74c1-43c2" name="Rampage" publicationId="ca571888--pubN106502" page="170" hidden="false">
-      <description>At the start of any Fight sub-phase, models with the Rampage special rule gain +D3 attacks if the combat they are in contains more enemy models than friendly models – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that phase. A model that has made a disordered charge that turn receives no benefit from Rampage.</description>
+    <rule id="0ba8-83bc-74c1-43c2" name="狂暴" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Rampage
+At the start of any Fight sub-phase, models with the Rampage special rule gain +D3 attacks if the combat they are in contains more enemy models than friendly models – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that phase. A model that has made a disordered charge that turn receives no benefit from Rampage.</comment>
+      <description>在任意战斗子阶段开始时, 如果参加近战的敌方模型数超过友方模型数, 则具有该规则的模型A+D3. 
+计算所有被锁入这场近战的模型, 而不仅是接触的模型. 
+每个狂暴模型的加值单独计算.
+发起散乱冲锋的模型本回合无法从狂暴中受益.</description>
     </rule>
-    <rule id="9d85-46f7-f5e6-a5f7" name="Concussive" publicationId="ca571888--pubN106502" page="161" hidden="false">
-      <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
+    <rule id="9d85-46f7-f5e6-a5f7" name="震荡" publicationId="ca571888--pubN106502" page="161" hidden="false">
+      <comment>Concussive
+A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</comment>
+      <description>被带有该规则的武器成功造伤的模型, 直到下个突击阶段结束时为止, I 减为1.</description>
     </rule>
     <rule id="89da-0cb5-bee4-8ec2" name="Shred" publicationId="ca571888--pubN106502" page="171" hidden="false">
       <description>If a model has the Shred special rule, or is attacking with a Melee weapon that has the Shred special rule, it re-rolls failed To Wound rolls in close combat.  Similarly, if a model makes a shooting attack with a weapon that has the Shred special rule, it re-rolls its failed To Wound rolls.</description>
     </rule>
-    <rule id="cb2c-171e-df0f-2bec" name="Paragon of Metal" publicationId="ca571888--pubN103311" page="113" hidden="false">
-      <description>- Not subject to the Programmed Behavior special rule and gains It Will Not Die and Rampage special rules
+    <rule id="cb2c-171e-df0f-2bec" name="金属之傲" publicationId="ca571888--pubN103311" page="113" hidden="false">
+      <comment>Paragon of Metal
+- Not subject to the Programmed Behavior special rule and gains It Will Not Die and Rampage special rules
 - Never counts as scoring regardless of mission type
-- In the case of a failed Cybertheurgy attempt, always apply Malifica result instead of rolling</description>
+- In the case of a failed Cybertheurgy attempt, always apply Malifica result instead of rolling</comment>
+      <description>模型不受程序化行为规则的影响, 并拥有他不会死和狂暴规则
+无论任务规则如何, 永远不算作得分单位.
+如果对此模型的智控仪式失败, 无需投掷结果, 直接执行恶毒敌意.</description>
     </rule>
-    <rule id="72d9-7041-9d30-d150" name="It Will Not Die" publicationId="ca571888--pubN106502" page="167" hidden="false">
-      <description>At the end of each of your turns, roll a D6 for each of your models with this special rule that has less than its starting number of Wounds or Hull Points, but has not been removed as a casualty or destroyed. On a roll of 5+, that model regains a Wound, or Hull Point, lost earlier in the game.</description>
+    <rule id="72d9-7041-9d30-d150" name="他不会死" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>It Will Not Die
+At the end of each of your turns, roll a D6 for each of your models with this special rule that has less than its starting number of Wounds or Hull Points, but has not been removed as a casualty or destroyed. On a roll of 5+, that model regains a Wound, or Hull Point, lost earlier in the game.</comment>
+      <description>在每个我方回合结束时, 为每个具有该规则W或HP少于起始值但还未被移除的模型投D6. 若结果为5+, 该模型回复1点在之前失去的W或HP.</description>
     </rule>
     <rule id="666f-e93b-4f0b-ae40" name="God-Engine" publicationId="ca571888--pubN69050" page="91" hidden="false">
       <description>All friendly Mechanicum units within 24&quot; are Fearless</description>
     </rule>
-    <rule id="e64b-54b8-34df-2f13" name="Primary Weapon" publicationId="ca571888--pubN105292" hidden="false">
-      <description>A model shooting a Primary weapon shoots the number of times indicated on its profile – whether or not the bearer has moved. A model carrying a Primary weapon can fire it in the Shooting phase and still charge into close combat in the Assault phase. In addition, when you roll for armour penetration with hits caused by a Primary weapon, roll two dice instead of one and pick the highest result. If the weapon rolls 2D6 for armour penetration (because of the Armourbane special rule, for example), roll three dice instead of two and pick the two highest results.</description>
+    <rule id="e64b-54b8-34df-2f13" name="主武器" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Primary Weapon
+A model shooting a Primary weapon shoots the number of times indicated on its profile – whether or not the bearer has moved. A model carrying a Primary weapon can fire it in the Shooting phase and still charge into close combat in the Assault phase. In addition, when you roll for armour penetration with hits caused by a Primary weapon, roll two dice instead of one and pick the highest result. If the weapon rolls 2D6 for armour penetration (because of the Armourbane special rule, for example), roll three dice instead of two and pick the two highest results.</comment>
+      <description>移动不影响射击,射击不影响冲锋.
+对载具的穿甲投2D6取大, 如果武器附加其他规则, 已经投2D6穿甲, 那么投3D6取2大.</description>
     </rule>
     <rule id="ca57-5483-64d5-ad52" name="Reactor Meltdown" publicationId="ca571888--pubN69050" page="90" hidden="false">
       <description>If the Titan suffers a Titanic Explosion result on the Catastrophic Damage table, its reactor goes nuclear!  This is the same as a Titanic Explosion except that all hits are resolved as Destroyer hits.</description>
@@ -12908,9 +13027,12 @@ In addition, units containing one or more models with the Zealot special rule re
     <rule id="5eea-958c-d623-c3c9" name="Unwieldy" publicationId="ca571888--pubN106502" page="175" hidden="false">
       <description>A model attacking with this weapon Piles In and fights at Initiative step 1, unless it is a Monstrous Creature or a Walker.</description>
     </rule>
-    <rule id="e182-50cd-0867-9a8d" name="Armourbane" publicationId="ca571888--pubN106502" page="157" hidden="false">
-      <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, it rolls an additional D6 for armour penetration in close combat.
-If a model makes a shooting attack with a weapon that has this special rule, it rolls an additional D6 for armour penetration. In either case, this special rule has no effect against non-vehicle models.</description>
+    <rule id="e182-50cd-0867-9a8d" name="装甲杀手" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Armourbane
+If a model has this special rule, or is attacking with a Melee weapon that has this special rule, it rolls an additional D6 for armour penetration in close combat.
+If a model makes a shooting attack with a weapon that has this special rule, it rolls an additional D6 for armour penetration. In either case, this special rule has no effect against non-vehicle models.</comment>
+      <description>拥有此规则的模型或拥有此规则的近战武器, 在近战攻击载具时多投1D6穿甲.
+拥有此规则的射击武器在射击载具时多投1D6穿甲.</description>
     </rule>
     <rule id="9430-a4d5-6f01-57e2" name="Assault Grenades" publicationId="ca571888--pubN106502" hidden="false">
       <description>Shooting: When a unit equiped with Assualt Greandes makes a shooting attack, one model can choose to throw a Grenade, rather than using another shooting weapon.e
@@ -13016,9 +13138,13 @@ Models using an escape hatch (see page 106) may not make use of this special rul
     <rule id="38ff-a919-70c4-aec4" name="Split Fire" publicationId="ca571888--pubN106502" page="172" hidden="false">
       <description>When a unit that contains at least one model with this special rule shoots, one model in the unit can shoot at a different target to the rest of his unit. Once this shooting attack has been resolved, resolve the shooting attacks made by the rest of the unit. These must be at a different target, which cannot be a unit forced to disembark as a result of the Split Firing unit’s initial shooting attack.</description>
     </rule>
-    <rule id="0d66-14c9-d2f4-708b" name="Stealth" publicationId="ca571888--pubN106502" page="173" hidden="false">
-      <description>A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Woods) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type.
-Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+    <rule id="0d66-14c9-d2f4-708b" name="隐蔽" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Stealth
+A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Woods) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type.
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</comment>
+      <description>至少拥有一个此规则模型的单位, 获得的掩体保护+1, 这意味着即使在开阔地面也有6+掩体保护.
+这个规则有时会指定生效的地形类别, 比如隐蔽(森林)/隐蔽(废墟).
+笼罩规则可以和隐蔽规则叠加.</description>
     </rule>
     <rule id="7911-b951-c819-2f4f" name="Strafing Run" publicationId="ca571888--pubN106502" page="173" hidden="false">
       <description>When shooting Assault, Heavy, Rapid Fire or Salvo weapons at Artillery, Beasts, Bikes, Cavalry, Infantry, Monstrous Creatures and vehicles without the Flyer or Skimmer type, this vehicle has +1 Ballistic Skill.</description>
@@ -13325,16 +13451,23 @@ The model is subject to the Household Rank special rule, which may grant it an a
     <rule id="5a6e2a63-286a-a771-587c-6a41724b1e6b" name="Warning Relay" publicationId="ca571888--pubN85920" page="207" hidden="false">
       <description>Confers Interceptor to all friendly models within the same detachment 3&quot;</description>
     </rule>
-    <rule id="333c-a3b2-4353-f484" name="Macro-extinction Targeting Protocols" publicationId="ca571888--pubN89821" page="279" hidden="false">
-      <description>When making shooting attacks against targets of the Super-heavy or Gargantuan Creature type, the Cerastus Knight-Atrapos counts its weapons as Twin-linked.</description>
+    <rule id="333c-a3b2-4353-f484" name="巨型灭绝协议" publicationId="ca571888--pubN89821" page="279" hidden="false">
+      <comment>Macro-extinction Targeting Protocols
+When making shooting attacks against targets of the Super-heavy or Gargantuan Creature type, the Cerastus Knight-Atrapos counts its weapons as Twin-linked.</comment>
+      <description>武器设计超重型或巨兽时视作双联.</description>
     </rule>
-    <rule id="8fb5-0c46-e8b4-0ef6" name="Ionic Flare Shield" publicationId="ca571888--pubN89821" page="279" hidden="false">
-      <description>When a Cerastus Knight-Atrapos is deployed, and subsequently at the start of each of the opposing side&apos;s Shooting phases, the Cerastus
+    <rule id="8fb5-0c46-e8b4-0ef6" name="离子闪光盾" publicationId="ca571888--pubN89821" page="279" hidden="false">
+      <comment>Ionic Flare Shield
+When a Cerastus Knight-Atrapos is deployed, and subsequently at the start of each of the opposing side&apos;s Shooting phases, the Cerastus
 Knight-Atrapos&apos; controlling player must declare which facing each Cerastus Knight-Atrapos&apos; ion flare shield is covering. The choices are front, left side, right side or rear. The Knight has a 4+ invulnerable save against all hits against the shield facing and the strength of any 
-Shooting attack against the shield facing is reduced by -1, the effect increasing to -2 if the weapon has the Blast or Template special rules (note however that this strength reduction has no effect on Destroyer or Haywire attacks). Ionic flare shields are repositioned before any attacks are carried out in the Shooting phase and may not be used to make 	saving throws against close combat attacks.</description>
+Shooting attack against the shield facing is reduced by -1, the effect increasing to -2 if the weapon has the Blast or Template special rules (note however that this strength reduction has no effect on Destroyer or Haywire attacks). Ionic flare shields are repositioned before any attacks are carried out in the Shooting phase and may not be used to make 	saving throws against close combat attacks.</comment>
+      <description>所有方向拥有对抗射击的4+特保, 对近战无效,</description>
     </rule>
-    <rule id="81fe-8580-34f6-28ae" name="Catastrophic Destruction" publicationId="ca571888--pubN89821" page="279" hidden="false">
-      <description>When destroyed, the Cerastus Knight-Atrapos adds +2 to the result rolled on the Catastrophic Damage table.</description>
+    <rule id="81fe-8580-34f6-28ae" name="灾难性毁灭" publicationId="ca571888--pubN89821" page="279" hidden="false">
+      <comment>Catastrophic Destruction
+When destroyed, the Cerastus Knight-Atrapos adds +2 to the result rolled on the Catastrophic Damage table.
+</comment>
+      <description>爆炸时灾难性伤害表结果+2</description>
     </rule>
     <rule id="841f-9119-9f9d-5058" name="破甲" publicationId="ca571888--pubN106502" page="172" hidden="false">
       <comment>Sunder
@@ -14393,12 +14526,14 @@ Heavy 2</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 4, Rending</characteristic>
       </characteristics>
     </profile>
-    <profile id="1f7d-9765-ed8e-f6e5" name="Quad Gun" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="1f7d-9765-ed8e-f6e5" name="四联防空炮" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Quad Gun
+Heavy 4, Interceptor, Skyfire, Twin-linked</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 4, Interceptor, Skyfire, Twin-linked</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型4, 拦截, 对空火力, 双联</characteristic>
       </characteristics>
     </profile>
     <profile id="94da-501b-a2f5-6c61" name="Battlecannon" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14414,12 +14549,14 @@ Heavy 2</comment>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A unit occupying this building re-rolls To Hit rolls of a 1 when firing out of the building’s fire points. Note this does not apply to a model manually firing an emplaced weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="58a2-c92e-57cc-d44c" name="弹药库" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Ammunition Dump </comment>
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind an ammunition dump has a 5+ cover save. Any model within 2&quot; of an ammunition dump re-rolls failed To Hit rolls of 1 in the Shooting phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="68d8-f686-c260-76db" name="Barricades" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="68d8-f686-c260-76db" name="路障" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Barricades</comment>
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a barricade or wall has a 4+ cover save. For the purposes of charge moves, models that are both in base contact with a barricade and within 2&quot; of each other are treated as being in base contact. Despite the models on either side not literally being in base contact, they may fight in the Fight sub-phase as normal. Units charging an enemy that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
       </characteristics>
@@ -14437,7 +14574,8 @@ Heavy 2</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Armourbane, Specialist Weapon, Unwieldy</characteristic>
       </characteristics>
     </profile>
-    <profile id="70aa-366f-15ac-da4d" name="Comms Relay" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="70aa-366f-15ac-da4d" name="通信中继" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Comms Relay</comment>
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Any player with an unengaged model within 2&quot; of a comms relay can re-roll Reserves rolls. A model in cover behind a comms relay has a 5+ cover save.</characteristic>
       </characteristics>
@@ -14487,7 +14625,8 @@ Heavy 2</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Force</characteristic>
       </characteristics>
     </profile>
-    <profile id="1da7-2e0b-0114-762c" name="Gun Emplacement" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="1da7-2e0b-0114-762c" name="炮位" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+      <comment>Gun Emplacement</comment>
       <characteristics>
         <characteristic name="单位类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -14501,17 +14640,20 @@ Heavy 2</comment>
         <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="705c-91aa-6591-507b" name="Gun Emplacement (Details)" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="705c-91aa-6591-507b" name="炮位(描述)" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Gun Emplacement (Details)</comment>
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a gun emplacement has a 4+ cover save. One non-vehicle model in base contact with a gun emplacement can fire it instead of firing its own weapons. A model that fires a gun emplacement has the Relentless special rule for that shooting attack. A gun emplacement can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cb26-27b4-9393-a768" name="Icarus Lascannon" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="cb26-27b4-9393-a768" name="伊卡洛斯激光炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Icarus Lascannon
+Heavy 1, Interceptor, Skyfire</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">96</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Interceptor, Skyfire</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型1, 拦截, 对空火力</characteristic>
       </characteristics>
     </profile>
     <profile id="7571-d9f2-17b0-c3e0" name="Imperial Statuary" publicationId="ca571888--pubN74520" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -14614,12 +14756,14 @@ Heavy 3</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Assault 2</characteristic>
       </characteristics>
     </profile>
-    <profile id="e158-7adf-1565-ef08" name="Tanglewire" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="e158-7adf-1565-ef08" name="线缆" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Tanglewire</comment>
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Dangerous Terrain. A model in cover behind tanglewire has a 6+ cover save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4a45-65e5-2d8c-8792" name="Tank Traps" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="4a45-65e5-2d8c-8792" name="坦克陷阱" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+      <comment>Tank Traps</comment>
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Impassable Terrain to non-Skimmer vehicles, Dangerous Terrain to Bikes, and open ground for all other units. A model in cover behind tank traps hasa 4+ cover save.</characteristic>
       </characteristics>
