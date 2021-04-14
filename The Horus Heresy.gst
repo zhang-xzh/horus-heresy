@@ -3443,12 +3443,15 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" name="Questoris Knight Paladin" publicationId="ca571888--pubN84158" page="301" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" name="圣骑士" publicationId="ca571888--pubN84158" page="301" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Paladin</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bbc7426f-0a42-4f60-04e5-890db3826ec3" name="Questoris Knight Paladin" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="bbc7426f-0a42-4f60-04e5-890db3826ec3" name="圣骑士" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Questoris Knight Paladin
+Super-Heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3459,7 +3462,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3467,13 +3470,14 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <infoLink id="a9800c8c-4e65-b796-cea4-ddcfa68e7a1b" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="6dbe-7589-1abb-a1cf" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6dbe-7589-1abb-a1cf" name="重机枪" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Heavy Stubber</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7f3-582f-22dc-f4b4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f1-ec7d-08a5-c7c4" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3413-cced-a36f-251e" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
+            <infoLink id="3413-cced-a36f-251e" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -3481,23 +3485,27 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f89283d8-d9d1-7f20-b630-4ad158e12292" name="May exchange Questoris battlecannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0f48-46fe-d1cb-df97">
+        <selectionEntryGroup id="f89283d8-d9d1-7f20-b630-4ad158e12292" name="可以更换战斗炮:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0f48-46fe-d1cb-df97">
+          <comment>May exchange Questoris battlecannon for:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9f-23dc-aa80-e0bc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e148-c24d-71da-f5b1" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c7e655d1-24ba-0f3c-b15e-3874f6ee954c" name="Rapid-fire battlecannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c7e655d1-24ba-0f3c-b15e-3874f6ee954c" name="速射战斗炮" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Rapid-fire battlecannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7c3d4d95-4d1d-f3c9-d69e-b36b0b160159" name="Rapid-fire battlecannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="7c3d4d95-4d1d-f3c9-d69e-b36b0b160159" name="速射战斗炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Rapid-fire battlecannon
+Ordnance 2, Large Blast</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 2, Large Blast</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重炮 2, 大爆炸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3505,17 +3513,20 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0f48-46fe-d1cb-df97" name="Questoris Battlecannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0f48-46fe-d1cb-df97" name="战斗炮" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Questoris Battlecannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd0-25d1-b0d3-8b26" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2b27-11b0-4ced-338e" name="Questoris battlecannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="2b27-11b0-4ced-338e" name="战斗炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Questoris battlecannon
+Ordnance 3, Large Blast</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 3, Large Blast</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重炮 3, 大爆炸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3525,19 +3536,23 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="eef5e012-fb2a-a50a-34b1-85268e51cadc" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="eef5e012-fb2a-a50a-34b1-85268e51cadc" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <selectionEntries>
-            <selectionEntry id="a0fe2e7e-0934-d570-9b21-ffd094742e42" name="Bio-corrosive rounds for its heavy stubbers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a0fe2e7e-0934-d570-9b21-ffd094742e42" name="重机枪装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Bio-corrosive rounds for its heavy stubbers</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ceeb7d99-c289-77eb-8929-28f66fb2d166" name="Heavy Stubber (Bio-corrosive rounds)" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="ceeb7d99-c289-77eb-8929-28f66fb2d166" name="重机枪装填生化弹药" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Heavy Stubber (Bio-corrosive rounds)
+Heavy 3, Poisoned (4+)</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">30&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 3, Poisoned (4+)</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 3, 毒伤(4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3550,12 +3565,14 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <entryLink id="8650-f3c0-85c2-6ea7" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b496-156d-b9eb-95f3" name="May take one of the following carapace weapons:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b496-156d-b9eb-95f3" name="可以选择一个顶部武器:" hidden="false" collective="false" import="true">
+          <comment>May take one of the following carapace weapons:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="fd9e-6e9b-8b90-94ff" name="Ironstorm missile pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fd9e-6e9b-8b90-94ff" name="钢铁风暴导弹仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Ironstorm missile pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -3566,7 +3583,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
                 <cost name="分" typeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a763-1661-0c22-7b87" name="Twin Icarus autocannon" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a763-1661-0c22-7b87" name="双联伊卡洛斯自动炮" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Twin Icarus autocannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -3577,7 +3595,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
                 <cost name="分" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9ffd-1a7c-b311-69e3" name="Stormspear rocket pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9ffd-1a7c-b311-69e3" name="风暴之矛火箭仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Stormspear rocket pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -3592,8 +3611,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6fd6-0678-7777-d0b9" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
-        <entryLink id="19f6-e986-d848-69c7" name="Reaper Chainsword" hidden="false" collective="false" import="true" targetId="8ebf-e508-6a0e-94cf" type="selectionEntry">
+        <entryLink id="6fd6-0678-7777-d0b9" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="19f6-e986-d848-69c7" name="收割者链锯剑" hidden="false" collective="false" import="true" targetId="8ebf-e508-6a0e-94cf" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40f3-4c0b-d6a2-be79" type="min"/>
           </constraints>
@@ -3603,12 +3622,15 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <cost name="分" typeId="points" value="375.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b70feb1-a2e7-2f93-8320-1d6775bf5a59" name="Questoris Knight Errant" publicationId="ca571888--pubN84158" page="302" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4b70feb1-a2e7-2f93-8320-1d6775bf5a59" name="游侠骑士" publicationId="ca571888--pubN84158" page="302" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Errant</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2bc44173-c43d-b7d0-9ad5-65c0f0c6ff82" name="Questoris Knight Errant" publicationId="ca571888--pubN84158" page="302" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="2bc44173-c43d-b7d0-9ad5-65c0f0c6ff82" name="游侠骑士" publicationId="ca571888--pubN84158" page="302" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Questoris Knight Errant
+Super-Heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3619,7 +3641,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3627,30 +3649,34 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <infoLink id="73815ee7-021e-82ba-5d28-73241105349e" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="ff6b-3e75-9a86-99c5" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ff6b-3e75-9a86-99c5" name="重机枪" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Heavy Stubber</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3365-6777-0bdf-065e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3a4-3d4f-3667-bb46" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="fd6c-d575-e699-54e6" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
+            <infoLink id="fd6c-d575-e699-54e6" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c01b-8c75-85a4-faa9" name="Thermal Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c01b-8c75-85a4-faa9" name="热能炮" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Thermal Cannon</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc9f-422e-17a5-5f13" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc99-d66a-0daf-0cf7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="dcaa-45ae-5990-dab5" name="Thermal Cannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="dcaa-45ae-5990-dab5" name="热能炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+              <comment>Thermal Cannon
+Heavy 1, Melta, Large Blast</comment>
               <characteristics>
                 <characteristic name="射程" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-                <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Melta, Large Blast</characteristic>
+                <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 热熔, 大爆炸</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3660,19 +3686,23 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="423c1873-c56d-8ca1-b01f-a2660b0b0198" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="423c1873-c56d-8ca1-b01f-a2660b0b0198" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <selectionEntries>
-            <selectionEntry id="24f0bce9-4d48-7761-798a-06d983bc9e09" name="Bio-corrosive rounds for its heavy stubbers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="24f0bce9-4d48-7761-798a-06d983bc9e09" name="重机枪装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Bio-corrosive rounds for its heavy stubbers</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b76bfe96-595e-e8ec-1aa2-b24d127c6a8c" name="Heavy Stubber (Bio-corrosive rounds)" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="b76bfe96-595e-e8ec-1aa2-b24d127c6a8c" name="重机枪装填生化弹药" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Heavy Stubber (Bio-corrosive rounds)
+Heavy 3, Poisoned (4+)</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">30&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 3, Poisoned (4+)</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 3, 毒伤(4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3685,12 +3715,14 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <entryLink id="daa4-d280-3978-ddee" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="161b-6e36-d2e5-516d" name="May take one of the following carapace weapons:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="161b-6e36-d2e5-516d" name="可以选择一个顶部武器:" hidden="false" collective="false" import="true">
+          <comment>May take one of the following carapace weapons:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e776-6427-6f58-cc8d" name="Ironstorm missile pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e776-6427-6f58-cc8d" name="钢铁风暴导弹仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Ironstorm missile pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -3701,7 +3733,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
                 <cost name="分" typeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e989-298b-b903-ae34" name="Twin Icarus autocannon" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e989-298b-b903-ae34" name="双联伊卡洛斯自动炮" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Twin Icarus autocannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -3712,7 +3745,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
                 <cost name="分" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5572-200a-f887-3d7a" name="Stormspear rocket pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5572-200a-f887-3d7a" name="风暴之矛火箭仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Stormspear rocket pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -3738,12 +3772,14 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <cost name="分" typeId="points" value="370.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb7cd031-7573-eb28-4446-d709eb5acdbc" name="Questoris Knight Magaera" publicationId="ca571888--pubN84158" page="303" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fb7cd031-7573-eb28-4446-d709eb5acdbc" name="墨纪拉骑士" publicationId="ca571888--pubN84158" page="303" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Magaera</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b47bae59-6ba9-18c4-2954-8966bd11beb8" name="Questoris Knight Magaera" publicationId="ca571888--pubN84158" page="303" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="b47bae59-6ba9-18c4-2954-8966bd11beb8" name="墨纪拉骑士" publicationId="ca571888--pubN84158" page="303" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Questoris Knight Magaera</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3754,35 +3790,37 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a0d42172-1a16-82ae-561a-98218604c374" hidden="false" targetId="6ce7-5e83-a2dd-571e" type="rule"/>
-        <infoLink id="7df4e2c0-74dd-c2ef-9341-c4fdc2ac2f89" hidden="false" targetId="76f43c9f-9d2b-e019-63db-3ac3082ee07c" type="profile"/>
-        <infoLink id="959d6be5-d04c-aa61-b1db-a1b93e4b0888" hidden="false" targetId="409ed051-b4d2-fcc4-916d-1f2e7090366f" type="rule"/>
+        <infoLink id="a0d42172-1a16-82ae-561a-98218604c374" name="Blessed Autosimulacra" hidden="false" targetId="6ce7-5e83-a2dd-571e" type="rule"/>
+        <infoLink id="7df4e2c0-74dd-c2ef-9341-c4fdc2ac2f89" name="Ionic Flare Shield" hidden="false" targetId="76f43c9f-9d2b-e019-63db-3ac3082ee07c" type="profile"/>
+        <infoLink id="959d6be5-d04c-aa61-b1db-a1b93e4b0888" name="Overtaxed Reactor" hidden="false" targetId="409ed051-b4d2-fcc4-916d-1f2e7090366f" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="c660-973f-7dbb-e420" name="Lightning Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c660-973f-7dbb-e420" name="闪电炮" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Lightning Cannon</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c5-f0cf-a2fc-fcb3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f1-42b9-bb33-10fb" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="4d59-6445-f646-35f5" hidden="false" targetId="418fbfed-277a-7376-dfd3-7d5a95fae9f5" type="profile"/>
+            <infoLink id="4d59-6445-f646-35f5" name="闪电炮" hidden="false" targetId="418fbfed-277a-7376-dfd3-7d5a95fae9f5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ff5a-489d-3c6f-f032" name="Phased-Plasma Fusil" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ff5a-489d-3c6f-f032" name="相位离子枪" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Phased-Plasma Fusil</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63e-9851-6d01-1438" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b3a-012e-3d83-4b24" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="0e4d-2282-12dc-04c6" hidden="false" targetId="306adc93-713f-8c18-71d3-6956c376e9e2" type="profile"/>
+            <infoLink id="0e4d-2282-12dc-04c6" name="相位离子枪" hidden="false" targetId="306adc93-713f-8c18-71d3-6956c376e9e2" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -3800,7 +3838,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <entryLink id="2404-a7b2-fd9c-63f2" name="Hekaton Siege Claw with twin-linked Rad Cleanser" hidden="false" collective="false" import="true" targetId="b88e-94da-ec10-0278" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e2e886d2-716d-2139-a5d9-650bae4bc53c" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e2e886d2-716d-2139-a5d9-650bae4bc53c" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <entryLinks>
             <entryLink id="bcb5-069f-bb42-5343" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
@@ -3910,8 +3949,8 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="21e2a0b0-d74c-3255-04c6-5a85bf6a3ee7" hidden="false" targetId="76f43c9f-9d2b-e019-63db-3ac3082ee07c" type="profile"/>
-        <infoLink id="6b1dd6b7-11fe-89b1-192a-393a50932fbe" hidden="false" targetId="409ed051-b4d2-fcc4-916d-1f2e7090366f" type="rule"/>
+        <infoLink id="21e2a0b0-d74c-3255-04c6-5a85bf6a3ee7" name="Ionic Flare Shield" hidden="false" targetId="76f43c9f-9d2b-e019-63db-3ac3082ee07c" type="profile"/>
+        <infoLink id="6b1dd6b7-11fe-89b1-192a-393a50932fbe" name="Overtaxed Reactor" hidden="false" targetId="409ed051-b4d2-fcc4-916d-1f2e7090366f" type="rule"/>
         <infoLink id="42d3d4f7-1fbe-6440-1bf2-22ee91ed7d0d" hidden="false" targetId="6ce7-5e83-a2dd-571e" type="rule"/>
       </infoLinks>
       <selectionEntries>
@@ -4155,12 +4194,15 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         <cost name="分" typeId="points" value="415.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f4f1-dad6-0596-ca5a" name="Questoris Knight Warden" publicationId="ca571888--pubN87368" page="104" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f4f1-dad6-0596-ca5a" name="守望骑士" publicationId="ca571888--pubN87368" page="104" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Warden</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="472f-d151-1754-59fd" name="Questoris Knight Warden" publicationId="ca571888--pubN87368" page="104" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="472f-d151-1754-59fd" name="守望骑士" publicationId="ca571888--pubN87368" page="104" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Questoris Knight Warden
+Super-Heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4171,7 +4213,7 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4179,18 +4221,21 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         <infoLink id="78ac-5e2a-fb4a-04c5" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="99bd-1939-7f04-5aea" name="Avenger Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="99bd-1939-7f04-5aea" name="复仇者加特林炮" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Avenger Gatling Cannon</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="317e-eaaa-b848-1b89" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a7-48ed-d6ff-a518" type="min"/>
           </constraints>
           <profiles>
-            <profile id="32eb-25e3-31a0-1121" name="Avenger Gatling Cannon" publicationId="ca571888--pubN87368" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="32eb-25e3-31a0-1121" name="复仇者加特林炮" publicationId="ca571888--pubN87368" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+              <comment>Avenger Gatling Cannon
+Heavy 12, Rending</comment>
               <characteristics>
                 <characteristic name="射程" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 12, Rending</characteristic>
+                <characteristic name="类型" typeId="5479706523232344415441232323">重型 12, 撕裂</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4200,9 +4245,11 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c89a-2e7e-cc89-dfc4" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c89a-2e7e-cc89-dfc4" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <selectionEntries>
-            <selectionEntry id="7b07-791a-2a51-34d2" name="Bio-corrosive rounds for its heavy stubbers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7b07-791a-2a51-34d2" name="重机枪装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Bio-corrosive rounds for its heavy stubbers</comment>
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4215,12 +4262,14 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
-                <profile id="92e9-39dc-8cb0-ace3" name="Heavy Stubber (Bio-corrosive rounds)" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="92e9-39dc-8cb0-ace3" name="重机枪装填生化弹药" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Heavy Stubber (Bio-corrosive rounds)
+Heavy 3, Poisoned (4+)</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">30&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 3, Poisoned (4+)</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 3, 毒伤(4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4233,39 +4282,43 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             <entryLink id="3b5e-0a97-6a33-f3db" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7e6c-a072-4bf1-2f4b" name="May take one of the following carapace weapons:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7e6c-a072-4bf1-2f4b" name="可以选择一个顶部武器:" hidden="false" collective="false" import="true">
+          <comment>May take one of the following carapace weapons:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="afec-cc37-37b7-8074" name="Ironstorm missile pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="afec-cc37-37b7-8074" name="钢铁风暴导弹仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Ironstorm missile pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="4bad-7a95-b434-29da" hidden="false" targetId="69b6-e87d-f483-e57a" type="profile"/>
+                <infoLink id="4bad-7a95-b434-29da" name="钢铁风暴导弹仓" hidden="false" targetId="69b6-e87d-f483-e57a" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="db94-3b91-29b1-6317" name="Twin Icarus autocannon" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="db94-3b91-29b1-6317" name="双联伊卡洛斯自动炮" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Twin Icarus autocannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="10f3-a633-6f7b-4b39" hidden="false" targetId="534b-67b0-62d7-b977" type="profile"/>
+                <infoLink id="10f3-a633-6f7b-4b39" name="双联伊卡洛斯自动炮" hidden="false" targetId="534b-67b0-62d7-b977" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0f57-b26d-e805-bd83" name="Stormspear rocket pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0f57-b26d-e805-bd83" name="风暴之矛火箭仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Stormspear rocket pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="edd3-e891-d47a-131f" hidden="false" targetId="05cc-32b8-e59e-7dff" type="profile"/>
+                <infoLink id="edd3-e891-d47a-131f" name="风暴之矛火箭仓" hidden="false" targetId="05cc-32b8-e59e-7dff" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="40.0"/>
@@ -4273,23 +4326,26 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b490-5f1c-feaf-6394" name="May exchange Reaper Chainsword for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a706-b96a-faa9-00e6">
+        <selectionEntryGroup id="b490-5f1c-feaf-6394" name="可以更换收割者链锯剑:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a706-b96a-faa9-00e6">
+          <comment>May exchange Reaper Chainsword for:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de91-3d47-ee44-d79e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebf9-39db-a536-ec6a" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a706-b96a-faa9-00e6" name="Reaper Chainsword" hidden="false" collective="false" import="true" targetId="8ebf-e508-6a0e-94cf" type="selectionEntry"/>
+            <entryLink id="a706-b96a-faa9-00e6" name="收割者链锯剑" hidden="false" collective="false" import="true" targetId="8ebf-e508-6a0e-94cf" type="selectionEntry"/>
             <entryLink id="798e-a910-16cb-e832" name="Thunderstrike Gauntlet" hidden="false" collective="false" import="true" targetId="c922-0345-a2e3-1427" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8035-65ed-a788-4c0e" name="May exchange Heavy Stubber for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="730c-58e0-4343-22ba">
+        <selectionEntryGroup id="8035-65ed-a788-4c0e" name="可以更换重机枪:" hidden="false" collective="false" import="true" defaultSelectionEntryId="730c-58e0-4343-22ba">
+          <comment>May exchange Heavy Stubber for:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56dd-276b-7241-4b15" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1559-a699-504a-9f0d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e244-6d45-c2f5-61a7" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e244-6d45-c2f5-61a7" name="热熔枪" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Meltagun</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -4297,12 +4353,13 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="730c-58e0-4343-22ba" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="730c-58e0-4343-22ba" name="重机枪" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Heavy Stubber</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7718-94c9-8108-eb90" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="2db3-a1cb-5288-1cbd" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
+                <infoLink id="2db3-a1cb-5288-1cbd" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -4318,12 +4375,15 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         <cost name="分" typeId="points" value="385.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74b8-f485-4b58-0071" name="Questoris Knight Gallant" publicationId="ca571888--pubN87368" page="105" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="74b8-f485-4b58-0071" name="勇武骑士" publicationId="ca571888--pubN87368" page="105" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Gallant</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1f3a-39b8-f98b-a0bd" name="Questoris Knight Gallant" publicationId="ca571888--pubN87368" page="105" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="1f3a-39b8-f98b-a0bd" name="勇武骑士" publicationId="ca571888--pubN87368" page="105" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Questoris Knight Gallant
+Super-Heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4334,22 +4394,26 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="64a7-36c9-dac6-0d1f" name="Colossal" publicationId="ca571888--pubN87368" page="117" hidden="false">
-          <description>A model fighting with this weapon Piles In and fights at Initiative 1</description>
+        <rule id="64a7-36c9-dac6-0d1f" name="巨大" publicationId="ca571888--pubN87368" page="117" hidden="false">
+          <comment>Colossal
+A model fighting with this weapon Piles In and fights at Initiative 1</comment>
+          <description>此武器以I1速度攻击</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="cf6e-f66e-6c52-dded" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c12e-0c88-5050-819f" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c12e-0c88-5050-819f" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <selectionEntries>
-            <selectionEntry id="566f-f1ce-0901-fc99" name="Bio-corrosive rounds for its heavy stubbers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="566f-f1ce-0901-fc99" name="重机枪装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Bio-corrosive rounds for its heavy stubbers</comment>
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4362,12 +4426,14 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7c58-cf04-e2e2-0551" name="Heavy Stubber (Bio-corrosive rounds)" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="7c58-cf04-e2e2-0551" name="重机枪装填生化弹药" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Heavy Stubber (Bio-corrosive rounds)
+Heavy 3, Poisoned (4+)</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">30&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 3, Poisoned (4+)</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 3, 毒伤(4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4380,12 +4446,14 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             <entryLink id="5bb8-a7b6-80df-e61f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c583-687e-8127-66d2" name="May take one of the following carapace weapons:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c583-687e-8127-66d2" name="可以选择一个顶部武器:" hidden="false" collective="false" import="true">
+          <comment>May take one of the following carapace weapons:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7a8b-9722-8b68-ceec" name="Ironstorm missile pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7a8b-9722-8b68-ceec" name="钢铁风暴导弹仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Ironstorm missile pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -4396,7 +4464,8 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <cost name="分" typeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ddc5-3ff7-2159-e724" name="Twin Icarus autocannon" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ddc5-3ff7-2159-e724" name="双联伊卡洛斯自动炮" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Twin Icarus autocannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -4407,7 +4476,8 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <cost name="分" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="af90-9278-046f-9058" name="Stormspear rocket pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="af90-9278-046f-9058" name="风暴之矛火箭仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Stormspear rocket pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -4420,13 +4490,15 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c827-6e76-4d1d-ee3e" name="May exchange Heavy Stubber for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d74d-76b2-2afb-53a5">
+        <selectionEntryGroup id="c827-6e76-4d1d-ee3e" name="可以更换重机枪:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d74d-76b2-2afb-53a5">
+          <comment>May exchange Heavy Stubber for:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="331e-e807-bc6b-2a76" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c2d-99bb-9248-1ca7" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f7e1-9700-a27d-b2f7" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f7e1-9700-a27d-b2f7" name="热熔枪" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Meltagun</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -4434,12 +4506,13 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d74d-76b2-2afb-53a5" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d74d-76b2-2afb-53a5" name="重机枪" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Heavy Stubber</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd34-f585-0bfc-fda4" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0222-dec8-44dc-8578" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
+                <infoLink id="0222-dec8-44dc-8578" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -4449,13 +4522,13 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f3c2-a76b-fad8-0cd0" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="f3c2-a76b-fad8-0cd0" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
         <entryLink id="668d-6e8c-0ee0-cc4e" name="Reaper Chainsword" hidden="false" collective="false" import="true" targetId="8ebf-e508-6a0e-94cf" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d4-5588-8262-819f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="d828-16e2-e8a9-139c" name="Thunderstrike Gauntlet" hidden="false" collective="false" import="true" targetId="c922-0345-a2e3-1427" type="selectionEntry">
+        <entryLink id="d828-16e2-e8a9-139c" name="雷霆拳甲" hidden="false" collective="false" import="true" targetId="c922-0345-a2e3-1427" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
@@ -4468,12 +4541,15 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         <cost name="分" typeId="points" value="335.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="09ee-4370-1462-2cb5" name="Questoris Knight Crusader" publicationId="ca571888--pubN87368" page="106" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="09ee-4370-1462-2cb5" name="远征骑士" publicationId="ca571888--pubN87368" page="106" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Crusader</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="29b8-80d5-1d6d-5410" name="Questoris Knight Crusader" publicationId="ca571888--pubN87368" page="106" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+        <profile id="29b8-80d5-1d6d-5410" name="远征骑士" publicationId="ca571888--pubN87368" page="106" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+          <comment>Questoris Knight Crusader
+Super-Heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4484,7 +4560,7 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4492,18 +4568,21 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         <infoLink id="a1b7-d5bc-52b1-5954" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="9cc0-d275-568e-05d9" name="Avenger Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9cc0-d275-568e-05d9" name="复仇者加特林炮" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Avenger Gatling Cannon</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7544-8d04-d419-9034" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5974-baee-7986-9215" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ba58-9f53-d1d9-7d9d" name="Avenger Gatling Cannon" publicationId="ca571888--pubN87368" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="ba58-9f53-d1d9-7d9d" name="复仇者加特林炮" publicationId="ca571888--pubN87368" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+              <comment>Avenger Gatling Cannon
+Heavy 12, Rending</comment>
               <characteristics>
                 <characteristic name="射程" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 12, Rending</characteristic>
+                <characteristic name="类型" typeId="5479706523232344415441232323">重型 12, 撕裂</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4513,9 +4592,11 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ee0a-75b3-4033-d106" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ee0a-75b3-4033-d106" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <selectionEntries>
-            <selectionEntry id="7472-d17f-5dd2-d902" name="Bio-corrosive rounds for its heavy stubbers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7472-d17f-5dd2-d902" name="重机枪装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Bio-corrosive rounds for its heavy stubbers</comment>
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -4533,12 +4614,14 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1a38-e593-534a-7e7e" name="Heavy Stubber (Bio-corrosive rounds)" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="1a38-e593-534a-7e7e" name="重机枪装填生化弹药" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Heavy Stubber (Bio-corrosive rounds)
+Heavy 3, Poisoned (4+)</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">30&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 3, Poisoned (4+)</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 3, 毒伤(4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4551,39 +4634,43 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             <entryLink id="8451-15e6-de8b-cb69" name="New EntryLink" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6a4c-1d50-97f2-fbb0" name="May take one of the following carapace weapons:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6a4c-1d50-97f2-fbb0" name="可以选择一个顶部武器:" hidden="false" collective="false" import="true">
+          <comment>May take one of the following carapace weapons:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="891a-3a0e-4430-9259" name="Ironstorm missile pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="891a-3a0e-4430-9259" name="钢铁风暴导弹仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Ironstorm missile pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="8ebd-01d8-f6d2-b8d8" hidden="false" targetId="69b6-e87d-f483-e57a" type="profile"/>
+                <infoLink id="8ebd-01d8-f6d2-b8d8" name="钢铁风暴导弹仓" hidden="false" targetId="69b6-e87d-f483-e57a" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5c4e-c76c-4a09-5a44" name="Twin Icarus autocannon" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5c4e-c76c-4a09-5a44" name="双联伊卡洛斯自动炮" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Twin Icarus autocannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="21aa-ff29-1d93-bdad" hidden="false" targetId="534b-67b0-62d7-b977" type="profile"/>
+                <infoLink id="21aa-ff29-1d93-bdad" name="双联伊卡洛斯自动炮" hidden="false" targetId="534b-67b0-62d7-b977" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ede7-688a-78de-eb97" name="Stormspear rocket pod" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ede7-688a-78de-eb97" name="风暴之矛火箭仓" publicationId="ca571888--pubN84656" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Stormspear rocket pod</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="3242-04e5-5799-a5c3" hidden="false" targetId="05cc-32b8-e59e-7dff" type="profile"/>
+                <infoLink id="3242-04e5-5799-a5c3" name="风暴之矛火箭仓" hidden="false" targetId="05cc-32b8-e59e-7dff" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="40.0"/>
@@ -4591,9 +4678,11 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bf22-efc3-ea2a-769f" name="May exchange Heavy Stubber for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ecc-02aa-5cad-44b0">
+        <selectionEntryGroup id="bf22-efc3-ea2a-769f" name="可以更换重机枪:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ecc-02aa-5cad-44b0">
+          <comment>May exchange Heavy Stubber for:</comment>
           <selectionEntries>
-            <selectionEntry id="75f8-4e76-795a-4f09" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="75f8-4e76-795a-4f09" name="热熔枪" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Meltagun</comment>
               <modifiers>
                 <modifier type="increment" field="maxSelections" value="1.0">
                   <repeats>
@@ -4608,12 +4697,13 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1ecc-02aa-5cad-44b0" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1ecc-02aa-5cad-44b0" name="重机枪" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Heavy Stubber</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a2-86f8-c71b-d202" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="efc6-05d8-d773-9a44" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
+                <infoLink id="efc6-05d8-d773-9a44" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -4621,19 +4711,23 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="493b-2822-4d17-0885" name="May exchange Thermal cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="958c-5ced-fbad-38c9">
+        <selectionEntryGroup id="493b-2822-4d17-0885" name="可以更换热能炮:" hidden="false" collective="false" import="true" defaultSelectionEntryId="958c-5ced-fbad-38c9">
+          <comment>May exchange Thermal cannon for:</comment>
           <selectionEntries>
-            <selectionEntry id="4e60-ef5b-d3df-669d" name="Rapid-fire battlecannon and Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4e60-ef5b-d3df-669d" name="速射战斗炮和重机枪" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Rapid-fire battlecannon and Heavy Stubber</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c82a-9a9a-b00b-aeab" name="Rapid-fire battlecannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="c82a-9a9a-b00b-aeab" name="速射战斗炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Rapid-fire battlecannon
+Ordnance 2, Large Blast</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 2, Large Blast</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重炮 2, 大爆炸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4641,17 +4735,20 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="958c-5ced-fbad-38c9" name="Thermal Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="958c-5ced-fbad-38c9" name="热能炮" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Thermal Cannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88f0-a6e5-955d-05aa" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c2c1-638e-c0e6-9808" name="Thermal Cannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="c2c1-638e-c0e6-9808" name="热能炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Thermal Cannon
+Heavy 1, Melta, Large Blast</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Melta, Large Blast</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 热熔, 大爆炸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4659,17 +4756,20 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0eff-f659-730a-0b99" name="Questoris Battlecannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0eff-f659-730a-0b99" name="战斗炮" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Questoris Battlecannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae37-8308-547f-0670" type="max"/>
               </constraints>
               <profiles>
-                <profile id="34f2-7ec9-f209-adaf" name="Questoris battlecannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="34f2-7ec9-f209-adaf" name="战斗炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Questoris battlecannon
+Ordnance 3, Large Blast</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 3, Large Blast</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重炮 3, 大爆炸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4681,7 +4781,7 @@ When attacking any target with an Amour Value, rolls of 1 on the destroyer damag
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="da6b-9be6-897e-c0c9" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="da6b-9be6-897e-c0c9" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="435.0"/>
@@ -5095,7 +5195,8 @@ Attacking player rolls 2D6.  If the target has a Toughness characteristic, they 
         <cost name="分" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb92-d215-2011-f911" name="Warlord-Sinister Pattern Battle Psi-Titan" publicationId="ca571888--pubN92115" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fb92-d215-2011-f911" name="恶将型主战灵能泰坦" publicationId="ca571888--pubN92115" page="" hidden="false" collective="false" import="true" type="model">
+      <comment>Warlord-Sinister Pattern Battle Psi-Titan</comment>
       <profiles>
         <profile id="453d-fead-0bd1-2aa3" name="Warlord Battle Titan" publicationId="ca571888--pubN68042" page="262" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
           <characteristics>
@@ -5210,7 +5311,7 @@ D6    Result		S	AP
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89e-ea20-e5f3-fce3" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="30eb-80db-5372-9f10" name="New InfoLink" hidden="false" targetId="2189-13e6-c68c-ab23" type="rule"/>
+            <infoLink id="30eb-80db-5372-9f10" name="Psychic Pilot" hidden="false" targetId="2189-13e6-c68c-ab23" type="rule"/>
             <infoLink id="af99-aca2-528a-c233" name="New InfoLink" hidden="false" targetId="0122-421f-88f2-9c68" type="rule">
               <modifiers>
                 <modifier type="append" field="name" value="Mastery level 3"/>
@@ -5529,9 +5630,12 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6eec-767d-0b14-95ab" name="Questoris Knight Dominus" publicationId="ca571888--pubN94574" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6eec-767d-0b14-95ab" name="统御骑士" publicationId="ca571888--pubN94574" page="" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Dominus</comment>
       <profiles>
-        <profile id="a3b2-1faa-b33e-2e3d" name="Questoris Knight Dominus" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="0694-6ddb-9e1d-40bd" typeName="超重型机甲">
+        <profile id="a3b2-1faa-b33e-2e3d" name="统御骑士" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="0694-6ddb-9e1d-40bd" typeName="超重型机甲">
+          <comment>Questoris Knight Dominus
+Super-Heavy Walker</comment>
           <characteristics>
             <characteristic name="WS" typeId="abd6-ed07-8491-eb85">4</characteristic>
             <characteristic name="BS" typeId="aabf-e6cf-1929-65fd">4</characteristic>
@@ -5542,7 +5646,7 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
             <characteristic name="I" typeId="d7de-23c6-aa99-cb87">3</characteristic>
             <characteristic name="A" typeId="ec4e-6e09-1493-1867">3</characteristic>
             <characteristic name="HP" typeId="36e0-e195-2d91-3e2a">7</characteristic>
-            <characteristic name="类型" typeId="c887-e846-fa1f-9389">Super-Heavy Walker</characteristic>
+            <characteristic name="类型" typeId="c887-e846-fa1f-9389">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5550,13 +5654,14 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
         <infoLink id="8c07-caf0-2bff-3f08" name="Ion Shield" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="09cb-c235-3d33-c28d" name="Twin-Linked Meltaguns" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="09cb-c235-3d33-c28d" name="双联热熔枪" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Twin-Linked Meltaguns</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3675-d6da-3a78-3ad0" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0317-e7c9-7800-00ec" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a9d2-2db0-4ba5-0a41" name="Twin-Linked Meltagun" hidden="false" targetId="3084-edd3-6247-da94" type="profile"/>
+            <infoLink id="a9d2-2db0-4ba5-0a41" name="双联热熔枪" hidden="false" targetId="3084-edd3-6247-da94" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -5564,28 +5669,33 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3847-b91a-939b-e57b" name="May be upgraded with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3847-b91a-939b-e57b" name="可以升级:" hidden="false" collective="false" import="true">
+          <comment>May be upgraded with:</comment>
           <entryLinks>
             <entryLink id="fd0e-d219-805e-fdaf" name="Occular Augmetics" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="47e0-33bf-7ed9-db78" name="May take Three of the following carapace weapons:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f687-ee00-9d48-f14d">
+        <selectionEntryGroup id="47e0-33bf-7ed9-db78" name="可以选个三个顶部武器:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f687-ee00-9d48-f14d">
+          <comment>May take Three of the following carapace weapons:</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b075-2282-b17f-b2b3" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="57f7-1cbf-a142-c87c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f687-ee00-9d48-f14d" name="Twin-Linked Siegebreaker Cannon" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f687-ee00-9d48-f14d" name="双联破城炮" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Twin-Linked Siegebreaker Cannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6f-06d6-d6ec-6715" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2885-bab4-7713-3172" name="Twin-Linked Siegebreaker Cannon" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="2885-bab4-7713-3172" name="双联破城炮" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Twin-Linked Siegebreaker Cannon
+Heavy 2, Twin-Linked</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 2, Twin-Linked</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 双联</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5593,17 +5703,20 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="35d2-a3b3-5853-36f6" name="Two Shieldbreaker Missiles" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="35d2-a3b3-5853-36f6" name="2 碎盾导弹" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Two Shieldbreaker Missiles</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8041-348e-4cee-f2ea" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b804-d938-06ab-91e4" name="Two Shieldbreaker Missiles" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="b804-d938-06ab-91e4" name="2 碎盾导弹" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Two Shieldbreaker Missiles
+Heavy 1, Shieldbreaker, One Use</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Shieldbreaker, One Use</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 碎盾, 一次性</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5613,23 +5726,28 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9cd8-0c11-3a8c-a176" name="May take 2 weapons for the following" hidden="false" collective="false" import="true" defaultSelectionEntryId="7ce7-0abc-5ee8-7760">
+        <selectionEntryGroup id="9cd8-0c11-3a8c-a176" name="可以选择两个武器:" hidden="false" collective="false" import="true" defaultSelectionEntryId="7ce7-0abc-5ee8-7760">
+          <comment>May take 2 weapons for the following</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1621-d6c6-49d7-9982" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a901-f6e4-e3b1-5aa5" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7ce7-0abc-5ee8-7760" name="Canflagration Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7ce7-0abc-5ee8-7760" name="爆炎炮" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Canflagration Cannon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="938b-92e7-d38d-bf9c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ff17-70e2-8229-d57f" name="Conflagration Cannon" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="ff17-70e2-8229-d57f" name="爆炎炮" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Conflagration Cannon
+Hellstorm
+Ordnance 1</comment>
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">Hellstorm</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">地狱风暴盖板</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 1</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重炮1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5637,17 +5755,20 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
                 <cost name="分" typeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8b49-18a1-9b65-1cac" name="Plasma Decimator" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8b49-18a1-9b65-1cac" name="等离子灭杀者" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Plasma Decimator</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="558f-f728-39a9-49d6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4bf5-2c1d-2e7a-ddd5" name="Plasma Decimator" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="4bf5-2c1d-2e7a-ddd5" name="等离子灭杀者" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Plasma Decimator
+Heavy 1, Large Blast 5&quot;, Gets Hot</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Large Blast 5&quot;, Gets Hot</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 大爆炸 5&quot;, 过热</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5655,40 +5776,49 @@ Immediately place an objective marker within 3&quot; of any part of the Crashed 
                 <cost name="分" typeId="points" value="55.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a5ae-f632-aae1-a99c" name="Thundercoil Harpoon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a5ae-f632-aae1-a99c" name="雷鸣鱼叉" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Thundercoil Harpoon</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a84b-0f85-ac03-69db" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2b58-4c2a-dd23-b822" name="Thundercoil Harpoon" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="2b58-4c2a-dd23-b822" name="雷鸣鱼叉" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Thundercoil Harpoon
+Ordnance 1, Armourbane, Fleshbane, Instant Death, Sunder, Harpoon</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">12&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 1, Armourbane, Fleshbane, Instant Death, Sunder, Harpoon</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重炮 1, 装甲杀手, 血肉杀手, 即死, 破甲, 鱼叉</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <rules>
-                <rule id="0f61-e7b9-bda8-7629" name="Harpoon" hidden="false">
-                  <description>Once fired, regardless of whether the attack results in a hit or not, this weapon may not be fired again in the controlling player’s next Shooting phase. Effectively, it may only be fired every other turn. In addition, any model that fails a save against a Wound or Hull point of damage inflicted by a weapon with this type suffers D6 Wounds or D6 Hull points of damage instead of just one (these wounds do not carry over to other models in the same unit).</description>
+                <rule id="0f61-e7b9-bda8-7629" name="鱼叉" hidden="false">
+                  <comment>Harpoon
+Once fired, regardless of whether the attack results in a hit or not, this weapon may not be fired again in the controlling player’s next Shooting phase. Effectively, it may only be fired every other turn. In addition, any model that fails a save against a Wound or Hull point of damage inflicted by a weapon with this type suffers D6 Wounds or D6 Hull points of damage instead of just one (these wounds do not carry over to other models in the same unit).</comment>
+                  <description>一旦发射, 无论是否命中, 在下个射击阶段都不能再次使用. 
+此武器任何成功的造伤都会使目标造成D6点伤害而非1点(伤害只针对1个模型)</description>
                 </rule>
               </rules>
               <costs>
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9438-64ab-798b-4ade" name="Volcano Lance" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9438-64ab-798b-4ade" name="火山矛" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Volcano Lance</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2577-986e-d563-93ea" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b839-ed30-5604-100f" name="Volcano Lance" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="b839-ed30-5604-100f" name="火山矛" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                  <comment>Volcano Lance
+Heavy 1, Blast 3&quot;</comment>
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">80&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Blast 3&quot;</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 3&quot;</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5993,34 +6123,40 @@ or Gargantuan Creatures. </description>
         <cost name="分" typeId="points" value="2100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ebf-e508-6a0e-94cf" name="Reaper Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8ebf-e508-6a0e-94cf" name="收割者链锯剑" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Reaper Chainsword</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fac-87be-a084-5cea" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="90a0-842f-408e-a367" hidden="false" targetId="76191f60-ba9c-4e52-9faf-24b23e46c7a9" type="profile"/>
+        <infoLink id="90a0-842f-408e-a367" name="收割者链锯剑" hidden="false" targetId="76191f60-ba9c-4e52-9faf-24b23e46c7a9" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c922-0345-a2e3-1427" name="Thunderstrike Gauntlet" publicationId="ca571888--pubN87368" page="117" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c922-0345-a2e3-1427" name="雷霆拳甲" publicationId="ca571888--pubN87368" page="117" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Thunderstrike Gauntlet</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ee-41e6-df5b-c8ac" type="max"/>
       </constraints>
       <profiles>
-        <profile id="170a-11b7-2ea7-8777" name="Thunderstrike Gauntlet" publicationId="ca571888--pubN87368" page="117" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+        <profile id="170a-11b7-2ea7-8777" name="雷霆拳甲" publicationId="ca571888--pubN87368" page="117" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+          <comment>Thunderstrike Gauntlet
+Melee, Colossal, Hurl</comment>
           <characteristics>
             <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
             <characteristic name="S" typeId="537472656e67746823232344415441232323">D</characteristic>
             <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Colossal, Hurl</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 巨大, 猛投</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="3ac9-ed08-f3d9-df0c" name="Colossal" publicationId="ca571888--pubN87368" page="117" hidden="false">
-          <description>A model fighting with this weapon Piles In and fights at Initiative 1</description>
+        <rule id="3ac9-ed08-f3d9-df0c" name="巨大" publicationId="ca571888--pubN87368" page="117" hidden="false">
+          <comment>Colossal
+A model fighting with this weapon Piles In and fights at Initiative 1</comment>
+          <description>此武器以I1速度攻击</description>
         </rule>
       </rules>
       <costs>
@@ -6206,9 +6342,12 @@ Super-heavy Walker</comment>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="093f-6472-95d0-553f" name="Baneblade" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="093f-6472-95d0-553f" name="毒刃" page="" hidden="false" collective="false" import="true" type="unit">
+      <comment>Baneblade</comment>
       <profiles>
-        <profile id="1e4f-2e49-6e5f-44dd" name="Baneblade" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+        <profile id="1e4f-2e49-6e5f-44dd" name="毒刃" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+          <comment>Baneblade
+Super-Heavy</comment>
           <modifiers>
             <modifier type="increment" field="425323232344415441232323" value="1">
               <repeats>
@@ -6227,7 +6366,7 @@ Super-heavy Walker</comment>
             <characteristic name="侧甲" typeId="5369646523232344415441232323">13</characteristic>
             <characteristic name="背甲" typeId="5265617223232344415441232323">12</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">9</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">Super-Heavy</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">超重型</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6284,7 +6423,7 @@ Super-heavy Walker</comment>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de8-7992-288e-98a8" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="8f37-209e-4c25-6bfe" name="Demonlisher Cannon" hidden="false" targetId="431c-d4dc-7243-5e8f" type="profile"/>
+            <infoLink id="8f37-209e-4c25-6bfe" name="Demolisher Cannon" hidden="false" targetId="431c-d4dc-7243-5e8f" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -14894,20 +15033,24 @@ Assault 1, Fleshbane, Rad-Phage</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">突击1, 血肉杀手, 辐射噬菌体</characteristic>
       </characteristics>
     </profile>
-    <profile id="69b6-e87d-f483-e57a" name="Ironstorm missile pod" publicationId="ca571888--pubN84656" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="69b6-e87d-f483-e57a" name="钢铁风暴导弹仓" publicationId="ca571888--pubN84656" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Ironstorm missile pod
+Heavy 1, Large Blast, Barrage </comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">72&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">5</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Large Blast, Barrage </characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 大爆炸, 曲射</characteristic>
       </characteristics>
     </profile>
-    <profile id="418fbfed-277a-7376-dfd3-7d5a95fae9f5" name="Lightning Cannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="418fbfed-277a-7376-dfd3-7d5a95fae9f5" name="闪电炮" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Lightning Cannon
+Heavy 1, Rending, Shred, Large Blast</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 1, Rending, Shred, Large Blast</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 撕裂, 撕碎, 大爆炸</characteristic>
       </characteristics>
     </profile>
     <profile id="2850d06c-1eef-bae4-1314-6a3d9635193b" name="Lightning Gun" publicationId="ca571888--pubN66500" page="240" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14938,12 +15081,14 @@ Has Night Vision special rule, and may re-roll results of a 1 on the Vehicle Dam
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">夜战时, 射击12&quot;内目标是可以重投载具损伤表和D武器攻击表的1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="306adc93-713f-8c18-71d3-6956c376e9e2" name="Phased-Plasma Fusil" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="306adc93-713f-8c18-71d3-6956c376e9e2" name="相位离子枪" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Phased-Plasma Fusil
+Salvo 2/3</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">24&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Salvo 2/3</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">齐射2/3</characteristic>
       </characteristics>
     </profile>
     <profile id="d0f5-09ae-4c91-8764" name="Plasma Blastgun (Overload)" publicationId="ca571888--pubN67227" page="65" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14970,12 +15115,14 @@ Has Night Vision special rule, and may re-roll results of a 1 on the Vehicle Dam
         <characteristic name="类型" typeId="5479706523232344415441232323">Assault 1, Fleshbane, Rad-Phage</characteristic>
       </characteristics>
     </profile>
-    <profile id="76191f60-ba9c-4e52-9faf-24b23e46c7a9" name="Reaper Chainsword" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="76191f60-ba9c-4e52-9faf-24b23e46c7a9" name="收割者链锯剑" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Reaper Chainsword
+Melee</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">D</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Melee</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">近战</characteristic>
       </characteristics>
     </profile>
     <profile id="871025a3-7729-f97d-378d-804c3571cdf3" name="Rotor Cannon" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14994,12 +15141,14 @@ Has Night Vision special rule, and may re-roll results of a 1 on the Vehicle Dam
         <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Concussive, Wrecker, Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="05cc-32b8-e59e-7dff" name="Stormspear rocket pod" publicationId="ca571888--pubN84656" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="05cc-32b8-e59e-7dff" name="风暴之矛火箭仓" publicationId="ca571888--pubN84656" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Stormspear rocket pod
+Heavy 3</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 3</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型3</characteristic>
       </characteristics>
     </profile>
     <profile id="d9b3-3506-e372-22e2" name="Turbo Laser Destructor" publicationId="ca571888--pubN67227" page="73" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -15010,12 +15159,14 @@ Has Night Vision special rule, and may re-roll results of a 1 on the Vehicle Dam
         <characteristic name="类型" typeId="5479706523232344415441232323">Primary Weapon 1,  Large Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="534b-67b0-62d7-b977" name="Twin Icarus Autocannon" publicationId="ca571888--pubN84656" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="534b-67b0-62d7-b977" name="双联伊卡洛斯自动炮" publicationId="ca571888--pubN84656" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Twin Icarus Autocannon
+Heavy 2, Interceptor, Skyfire, Twin-linked</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 2, Interceptor, Skyfire, Twin-linked</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 拦截, 对空火力, 双联</characteristic>
       </characteristics>
     </profile>
     <profile id="8f57-fa37-5c5c-e7cb" name="Vortex Missile" publicationId="ca571888--pubN66500" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -15330,12 +15481,14 @@ Ordnance 2, Large Blast (5&quot;)</comment>
         <characteristic name="类型" typeId="5479706523232344415441232323">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile id="3084-edd3-6247-da94" name="Twin-Linked Meltagun" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="3084-edd3-6247-da94" name="双联热熔枪" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Twin-Linked Meltagun
+Assault 1, Melta, Twin-Linked</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">12&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">Assault 1, Melta, Twin-Linked</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">突击1, 热熔, 双联</characteristic>
       </characteristics>
     </profile>
     <profile id="a168-873e-7e5e-ccc9" name="Anvillus Pattern Defence Batteries" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
