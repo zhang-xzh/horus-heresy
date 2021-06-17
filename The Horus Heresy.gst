@@ -7207,7 +7207,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8026,18 +8026,18 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4cfa-7c96-eb2d-8b02" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="62e8-c935-5b56-8ffb" name="Armour Plates" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+                    <profile id="62e8-c935-5b56-8ffb" name="Armour Plates" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
                       <characteristics>
                         <characteristic name="WS" typeId="575323232344415441232323"/>
                         <characteristic name="BS" typeId="425323232344415441232323"/>
                         <characteristic name="S" typeId="5323232344415441232323"/>
-                        <characteristic name="Front" typeId="46726f6e7423232344415441232323"/>
-                        <characteristic name="Side" typeId="5369646523232344415441232323"/>
-                        <characteristic name="Rear" typeId="5265617223232344415441232323"/>
+                        <characteristic name="正甲" typeId="46726f6e7423232344415441232323"/>
+                        <characteristic name="侧甲" typeId="5369646523232344415441232323"/>
+                        <characteristic name="背甲" typeId="5265617223232344415441232323"/>
                         <characteristic name="I" typeId="4923232344415441232323"/>
                         <characteristic name="A" typeId="4123232344415441232323"/>
                         <characteristic name="HP" typeId="485023232344415441232323"/>
-                        <characteristic name="Type" typeId="5479706523232344415441232323"/>
+                        <characteristic name="类型" typeId="5479706523232344415441232323"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8066,7 +8066,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="6768-af37-423c-ed59" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="46fb-85ec-74b9-1d8e" name="Heavy Bolter Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8074,7 +8074,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="09c7-13d3-c87a-f061" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f4d9-6e91-218c-6895" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8082,7 +8082,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="6823-3420-ad62-100a" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8118,7 +8118,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="8e4d-55d7-76eb-7835" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0171-4926-196d-d1c5" name="Heavy Bolter Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8126,7 +8126,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="9786-5a1d-8ae7-8ecf" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ec9e-035c-cd61-6cc7" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8134,7 +8134,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="c27e-086f-95f0-3555" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8150,7 +8150,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="4d8b-c821-9e80-889e" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="69f7-18a9-3390-17d8" name="Heavy Flamer Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8166,7 +8166,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="2ca7-18b7-1554-d811" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6884-9f04-e090-f14b" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8174,7 +8174,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="c306-f213-0a6c-dff8" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8202,7 +8202,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="2149-025b-c0dd-33d6" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cc94-6dc7-0931-46bf" name="Heavy Flamer Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8210,7 +8210,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="0ff9-f0c3-b168-30e7" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f18c-1fc1-fedd-600d" name="Heavy Bolter Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8218,7 +8218,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="cda6-909c-1545-c8e4" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b2bf-df34-ce6a-52ac" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8226,7 +8226,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="3920-a6e3-daa1-bf2d" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8245,7 +8245,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="7639-eaa4-bb63-5266" name="Heavy Stubber" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ad02-103f-69ca-a330" name="Pintle-Mounted Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -8253,7 +8253,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="b5d9-6293-b64c-3903" name="Storm Bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8375,7 +8375,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="9311-3e3c-2c18-2106" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5241-10e1-34ac-36f6" name="Heavy Flamer Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8383,7 +8383,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="e36d-702e-cedc-63ed" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8813-39b6-7eab-e713" name="Heavy Bolter Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8391,7 +8391,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="a3c2-0cfe-8f46-aa5c" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="46a5-7a63-accc-daf7" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8399,7 +8399,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="395e-0bbc-48a7-223f" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8415,7 +8415,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="9650-6727-2170-63f7" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7417-1b35-7946-d96b" name="Heavy Flamer Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8423,7 +8423,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="4963-f2f0-2f98-95a8" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d4cc-24f5-0681-14aa" name="Heavy Bolter Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8431,7 +8431,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="ceba-81ea-a3b9-07b4" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8b48-7074-6848-fb44" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8439,7 +8439,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="8370-0059-0c2f-feb2" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8471,7 +8471,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="1f37-499e-6299-b39f" name="Heavy Stubber" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d238-b100-ff91-098d" name="Pintle-Mounted Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -8479,7 +8479,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="a891-8da2-a4b8-dc51" name="Storm Bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8621,7 +8621,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="8f78-5368-5ce4-eb79" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="fe5d-ec08-8c6a-b4d1" name="Heavy Flamer Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8629,7 +8629,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="c727-c7a6-3ede-b443" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3fd2-a631-6b30-138b" name="Heavy Bolter Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8637,7 +8637,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="fe39-2bdd-9c09-102b" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d9a1-f4f7-e415-683f" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8645,7 +8645,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="ae6e-2992-d36d-08e4" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8661,7 +8661,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="a241-f472-1fa5-da2e" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b4f1-4edf-a25f-a60b" name="Heavy Flamer Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8669,7 +8669,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="fae3-b61f-eb5e-007f" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cf9b-1102-c43b-3f6b" name="Heavy Bolter Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8677,7 +8677,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="8338-2299-72f3-5294" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name="分" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f0fe-450c-305e-ff9e" name="Autocannon Sponson" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8685,7 +8685,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="f2a5-c0e2-ea0f-bf7d" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name="分" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8704,7 +8704,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="d4c0-94d2-a2ef-905a" name="Heavy Stubber" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="42c4-a33e-4a8c-961a" name="Pintle-Mounted Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -8712,7 +8712,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                         <infoLink id="76b2-e78d-cc92-28d6" name="Storm Bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -11019,12 +11019,12 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e97-5413-0c38-757d" type="max"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d13d-19a9-1519-3474" name="Varangian Heresy Rules Active" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8fd-6769-6b2e-40d3" name="Veneration of Wrath" hidden="false" collective="false" import="true" type="upgrade">
