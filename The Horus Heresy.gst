@@ -283,7 +283,8 @@ Access Points &amp; Fire Points</comment>
     <categoryEntry id="baa4-80e4-c41d-6875" name="主将特性" hidden="false">
       <comment>Warlord Traits</comment>
     </categoryEntry>
-    <categoryEntry id="974d-7438-c940-914b" name="Jump Units" hidden="false">
+    <categoryEntry id="974d-7438-c940-914b" name="跳跃单位" hidden="false">
+      <comment>Jump Units</comment>
       <infoLinks>
         <infoLink id="c2d9-f5c8-4cd9-d853" name="Bulky" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
         <infoLink id="0436-90de-7b75-9c53" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
@@ -305,7 +306,7 @@ Access Points &amp; Fire Points</comment>
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="7d9f-d54b-09db-e954" name="Use Playtest Rules Errata 1.0 (From FAQ 1.1 Feb/2019)" hidden="false" collective="false" import="true" targetId="5a90-c53e-42ca-b4ca" type="selectionEntry"/>
+    <entryLink id="7d9f-d54b-09db-e954" name="使用测试规则 勘误1.0 (2019年2月 FAQ 1.1)" hidden="false" collective="false" import="true" targetId="5a90-c53e-42ca-b4ca" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="11c8-2e78-8328-31e4" name="Crusade Fleet Avenger Strike Fighter" publicationId="ca571888--pubN66489" page="47" hidden="false" collective="false" import="true" type="unit">
@@ -558,7 +559,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
         <infoLink id="8421-ec3c-1a56-1bc4" name="New InfoLink" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ecdf-eeee-18f4-5ab7" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ecdf-eeee-18f4-5ab7" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="ef9a-362f-b5ff-e5b4" name="Cyber Familiar" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -6453,7 +6454,7 @@ Super-Heavy</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9719-3af6-108d-fbaf" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9719-3af6-108d-fbaf" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="373a-0800-b21d-16e1" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -6500,7 +6501,7 @@ Super-Heavy</comment>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="aa98-3e05-bd91-610f" name="May take up to two: (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="aa98-3e05-bd91-610f" name="可以选择最多两个 (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="070b-633f-838c-5070" type="max"/>
           </constraints>
@@ -6599,7 +6600,7 @@ Super-Heavy</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cbae-32e5-2600-bd74" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cbae-32e5-2600-bd74" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94fd-9a0e-9619-78d1" type="max"/>
           </constraints>
@@ -6628,7 +6629,7 @@ Super-Heavy</comment>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4351-648e-3b6e-c6f1" name="May take up to two: (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4351-648e-3b6e-c6f1" name="可以选择最多两个 (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2673-38a2-7c19-a82b" type="max"/>
           </constraints>
@@ -6716,7 +6717,7 @@ Super-Heavy</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1041-2c19-1195-ca77" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1041-2c19-1195-ca77" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="31ec-926d-621c-26f6" type="max"/>
           </constraints>
@@ -6736,7 +6737,7 @@ Super-Heavy</comment>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e5c9-ff6b-221f-30fd" name="May take up to two: (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e5c9-ff6b-221f-30fd" name="可以选择最多两个 (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6be2-1f3d-a65f-efb7" type="max"/>
           </constraints>
@@ -7054,7 +7055,7 @@ Super-Heavy</comment>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3ea6-ebce-191e-1514" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="3ea6-ebce-191e-1514" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6aa-47af-d58a-7e59" type="max"/>
               </constraints>
@@ -7563,7 +7564,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fb49-74ca-9e7f-6262" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fb49-74ca-9e7f-6262" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="5454-8ae5-141e-35af" name="Super-heavy Command Tank" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -7604,7 +7605,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6507-482b-b553-2db4" name="May take up to two: (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6507-482b-b553-2db4" name="可以选择最多两个 (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef56-e144-5219-9a14" type="max"/>
           </constraints>
@@ -7730,7 +7731,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4395-c456-436d-0f63" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4395-c456-436d-0f63" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="4129-625b-8122-115a" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -7777,7 +7778,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a23a-8d43-cbc8-1dd4" name="May take up to two: (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a23a-8d43-cbc8-1dd4" name="可以选择最多两个 (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d041-43ec-af1b-ed38" type="max"/>
           </constraints>
@@ -7871,7 +7872,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d2fa-c119-4cca-5263" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d2fa-c119-4cca-5263" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="c832-8643-5a56-819b" name="Super-heavy Command Tank" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -7920,7 +7921,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7456-0481-cd88-3002" name="May take up to two: (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true" targetId="8ffb-2a32-888b-41ef" type="selectionEntryGroup"/>
+        <entryLink id="7456-0481-cd88-3002" name="可以选择最多两个 (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true" targetId="8ffb-2a32-888b-41ef" type="selectionEntryGroup"/>
         <entryLink id="4cee-8f4b-42eb-9097" name="Searchlight and Smoke Launchers" hidden="false" collective="false" import="true" targetId="1ecc-b3b6-1fe1-8bd5" type="selectionEntry"/>
         <entryLink id="5dcf-bcdf-e942-b62b" name="May take one of the following pintle-mounted weapons: (Baneblade and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
       </entryLinks>
@@ -8845,7 +8846,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="bf21-7844-af80-811b" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="bf21-7844-af80-811b" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="fba3-0644-c9bb-7034" name="Dozer Blade" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -8893,7 +8894,7 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="ce1b-cea6-4351-fe32" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="ce1b-cea6-4351-fe32" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a79e-f1bd-1b4c-5722" type="max"/>
               </constraints>
@@ -12518,7 +12519,7 @@ An Aetherkine Projector is a Whitefire psychic power which is automatically know
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8ffb-2a32-888b-41ef" name="May take up to two: (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8ffb-2a32-888b-41ef" name="可以选择最多两个 (Baneblade/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64af-1353-f7bb-c164" type="max"/>
       </constraints>

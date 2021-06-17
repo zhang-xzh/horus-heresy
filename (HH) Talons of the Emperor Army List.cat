@@ -3612,7 +3612,7 @@
             <infoLink id="84fe-bde7-9d72-8cdd" name="New InfoLink" hidden="false" targetId="d18b-f29b-a2b1-d194" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6a38-cb0f-955a-9bbb" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6a38-cb0f-955a-9bbb" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="2b3f-f1e8-1029-92f7" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2dbb-47ce-c902-cc3d" type="selectionEntry">
                   <modifiers>
@@ -4384,7 +4384,7 @@
             <infoLink id="ea89-a309-935c-094d" name="New InfoLink" hidden="false" targetId="4c13-7e48-ffef-d350" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="4699-df8d-02ea-d60b" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="4699-df8d-02ea-d60b" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="70c6-a877-4d6a-24b8" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2dbb-47ce-c902-cc3d" type="selectionEntry">
                   <modifiers>

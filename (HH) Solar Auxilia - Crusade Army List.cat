@@ -1947,7 +1947,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b58a4e2f-69be-93ed-0892-baa0b5f53fd2" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b58a4e2f-69be-93ed-0892-baa0b5f53fd2" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="159cc8e5-66d8-b631-6a0b-2aed5c3f4af3" name="Flare/chaff launcher" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2081,7 +2081,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6dcaf67f-f39b-11b5-789a-63b9646e07d1" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6dcaf67f-f39b-11b5-789a-63b9646e07d1" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="afc12f55-0a4f-29cc-ac41-9554686ba7f2" name="Flare Shield" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2342,7 +2342,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="e073-6ec6-9545-c816" name="May take any of the following:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="e073-6ec6-9545-c816" name="可以任意选择一个" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="16fd-2bfd-df48-4223" name="Hunter-killer missile" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -2468,7 +2468,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="a913-b2e0-53fe-afda" name="May take any of the following:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="a913-b2e0-53fe-afda" name="可以任意选择一个" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="a292-f136-5559-4dd0" name="Hunter-killer missile" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -2595,7 +2595,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="2cce-0046-0f3e-a874" name="May take any of the following:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="2cce-0046-0f3e-a874" name="可以任意选择一个" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="9328-759a-287e-59a8" name="Hunter-killer missile" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -3153,7 +3153,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="3a4e-fb57-1764-1c8f" hidden="false" collective="false" import="true" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup"/>
-                <entryLink id="3dac-35a7-1a2c-65ec" name="May take any of the following:" hidden="false" collective="false" import="true" targetId="e2c18037-76a2-67ad-2abc-cdf9bdf62e01" type="selectionEntryGroup"/>
+                <entryLink id="3dac-35a7-1a2c-65ec" name="可以任意选择一个" hidden="false" collective="false" import="true" targetId="e2c18037-76a2-67ad-2abc-cdf9bdf62e01" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="170.0"/>
@@ -3537,7 +3537,7 @@ but the tank loses the Fast special rule.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1868-d6ed-1959-aba2" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1868-d6ed-1959-aba2" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
             <selectionEntryGroup id="97b6-a218-8651-e58a" name="Pintle-mounted Multi-laser or heavy flamer" hidden="false" collective="false" import="true">
               <constraints>
@@ -3791,7 +3791,7 @@ EDITORS NOTE... I think this rule is now redundant, as I think the rules for how
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9029-0b9a-54bc-cc88" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9029-0b9a-54bc-cc88" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da53-412c-7484-fe6a" type="max"/>
           </constraints>
@@ -4215,7 +4215,7 @@ EDITORS NOTE... I think this rule is now redundant, as I think the rules for how
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8266-0d23-72b0-a698" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8266-0d23-72b0-a698" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="3839-eab9-1953-69ed" name="Hunter-killer Missile" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4349,7 +4349,7 @@ EDITORS NOTE... I think this rule is now redundant, as I think the rules for how
             <entryLink id="c2e9-3a98-30c9-2aac" hidden="false" collective="false" import="true" targetId="295c915a-e52d-28fd-ee28-9b06f080a237" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="284b-ef49-4285-aba5" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="284b-ef49-4285-aba5" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="e8af-7dd8-cce8-463b" name="Hunter-killer Missile" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -5001,7 +5001,7 @@ Precision Shots</description>
             <entryLink id="52e0-b4d3-6a6f-a933" name="New EntryLink" hidden="false" collective="false" import="true" targetId="60cf-f5f1-77f6-f613" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="afba-4361-3144-fdbd" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="afba-4361-3144-fdbd" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="b59e-a7db-8245-6ea6" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
             <entryLink id="9808-8f99-9cd6-ce57" name="New EntryLink" hidden="false" collective="false" import="true" targetId="63f3-9b71-80b3-11e4" type="selectionEntryGroup"/>
@@ -6021,7 +6021,7 @@ Precision Shots</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="04d1-2564-1c14-9097" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="04d1-2564-1c14-9097" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="0aab-079c-2cf0-7eac" name="Melta Bombs" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -9277,7 +9277,7 @@ Precision Shots</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e2c18037-76a2-67ad-2abc-cdf9bdf62e01" name="May take any of the following:" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e2c18037-76a2-67ad-2abc-cdf9bdf62e01" name="可以任意选择一个" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="c750a417-0b8f-8a43-feb5-941d22ea04f9" name="Pintle-mounted multi-laser or heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>

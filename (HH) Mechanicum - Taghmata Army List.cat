@@ -3259,7 +3259,7 @@ A model equipped with a machinator array may make two additional attacks per tur
         <categoryLink id="6da2-a031-1275-c287" name="New CategoryLink" hidden="false" targetId="e59c-462e-9d9c-66dd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="63c3-25e2-df81-fced" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="63c3-25e2-df81-fced" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="bb31-3968-59a1-0fbe" name="Dozer Blade" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4287,7 +4287,7 @@ Reduces transport capacity to 8.</description>
         <entryLink id="fbeb-5ea1-c9da-c323" name="Flare Shield" hidden="false" collective="false" import="true" targetId="776e-2ea5-2be8-fee3" type="selectionEntry"/>
         <entryLink id="267e-df38-e055-f06c" name="Triaros/Karacnos optionals:" hidden="false" collective="false" import="true" targetId="4e41-e567-a14d-8e3a" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="name" value="May take any of the following:"/>
+            <modifier type="set" field="name" value="可以任意选择一个"/>
           </modifiers>
         </entryLink>
         <entryLink id="a381-97d9-7a14-e63b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="0a18-686c-1dfb-4b71" type="selectionEntry"/>
@@ -4973,7 +4973,7 @@ Reduces transport capacity to 8.</description>
         <entryLink id="5e35-a71f-5e13-e6dc" name="Flare Shield" hidden="false" collective="false" import="true" targetId="776e-2ea5-2be8-fee3" type="selectionEntry"/>
         <entryLink id="56d4-93c4-a502-cdd0" name="Triaros/Karacnos optionals:" hidden="false" collective="false" import="true" targetId="4e41-e567-a14d-8e3a" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="name" value="May take any of the following:"/>
+            <modifier type="set" field="name" value="可以任意选择一个"/>
           </modifiers>
         </entryLink>
         <entryLink id="8f96-0dba-f6cb-ec83" name="New EntryLink" hidden="false" collective="false" import="true" targetId="0a18-686c-1dfb-4b71" type="selectionEntry"/>
@@ -5664,7 +5664,7 @@ Buildings and Fortifications D</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fc2a-42d9-ddfd-9063" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fc2a-42d9-ddfd-9063" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="38cf-1d32-10ba-1a5b" name="Chaff launcher" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -5779,7 +5779,7 @@ Buildings and Fortifications D</description>
         <categoryLink id="0744-a35e-1ec4-92cb" name="New CategoryLink" hidden="false" targetId="2d6f-e613-ab10-e55a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e744-5ed2-aa42-fdaa" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e744-5ed2-aa42-fdaa" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="ce59-f93f-70ae-31ba" name="Ramjet Diffraction Grid" publicationId="cf03-f607-pubN80892" page="43" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -6885,7 +6885,7 @@ Armour Value, an additional Hull point, on the same model. Invulnerable saves ma
         <categoryLink id="780c-7e5b-62e1-e1b1" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ab8f-8f11-7d1f-0ea5" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ab8f-8f11-7d1f-0ea5" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="52f0-4597-785c-60c3" name="Cyber Familiar" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -7141,7 +7141,7 @@ Armour Value, an additional Hull point, on the same model. Invulnerable saves ma
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="acff-d064-1798-9ac4" name="May take any of the following:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="acff-d064-1798-9ac4" name="可以任意选择一个" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="d300-472d-4e0a-8dd1" name="Volkite Sentinels" page="0" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -7223,7 +7223,7 @@ Armour Value, an additional Hull point, on the same model. Invulnerable saves ma
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="3902-3df6-4236-eb7f" name="May take any of the following:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="3902-3df6-4236-eb7f" name="可以任意选择一个" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="f57f-7c7b-968e-b773" name="Volkite Sentinels" page="0" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -7547,7 +7547,7 @@ Armour Value, an additional Hull point, on the same model. Invulnerable saves ma
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="d54d-126a-3fd2-d4ec" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d54d-126a-3fd2-d4ec" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="82d7-7304-a000-3470" name="Dozer Blade" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -7660,7 +7660,7 @@ Armour Value, an additional Hull point, on the same model. Invulnerable saves ma
             <infoLink id="47f3-ff6d-56c4-ffeb" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="38e7-2ba9-0576-6f26" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="38e7-2ba9-0576-6f26" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="e62b-6c0c-87ec-af00" name="Dozer Blade" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -8471,7 +8471,7 @@ Infantry (Character)</comment>
             <entryLink id="b12a-8c7a-29c8-6b85" name="Machinator Array" hidden="false" collective="false" import="true" targetId="9d9f-63d3-f635-7fd5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c31d-db59-e6a8-d2ae" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c31d-db59-e6a8-d2ae" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="f4ce-e28c-ef89-5a03" name="Cyber-familiar" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -9479,7 +9479,7 @@ Infantry (Character)</comment>
             <entryLink id="fd25-794a-04f3-54e0" name="Machinator Array" hidden="false" collective="false" import="true" targetId="9d9f-63d3-f635-7fd5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d70a-ccf8-c7eb-0a4a" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d70a-ccf8-c7eb-0a4a" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="72fd-d462-81df-114f" name="Cyber-familiar" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -9810,7 +9810,7 @@ Infantry (Character)</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c365-bcb4-95bf-2a07" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c365-bcb4-95bf-2a07" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="ecfe-6bb7-bbdb-552d" name="Cyber-familiar" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -10444,7 +10444,7 @@ Alternatively, instead of firing any weapons in the Shooting phase, the Magos/Ar
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0d38-2a53-4395-130f" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0d38-2a53-4395-130f" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="71bb-299d-de81-f3fd" name="Cyber-familiar" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>

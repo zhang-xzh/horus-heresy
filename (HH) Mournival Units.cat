@@ -23300,7 +23300,7 @@ cognis-signum.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
-                <selectionEntryGroup id="d759-7cff-0473-11b0" name="May take any of the following:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="d759-7cff-0473-11b0" name="可以任意选择一个" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="017e-69ff-2bd7-4d18" name="Extra Armour" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>

@@ -1678,7 +1678,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="b989-fd59-0a3d-2800" name="New CategoryLink" hidden="false" targetId="e4e0-c5d1-3430-f101" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5985-12b4-d6b2-a55f" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5985-12b4-d6b2-a55f" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="ebf8-c8ba-74aa-8d9e" name="Flare/chaff launcher" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2324,7 +2324,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9abb-6c6b-71dc-5b13" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9abb-6c6b-71dc-5b13" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="d7bd-494a-f825-9050" name="Extra Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2524,7 +2524,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="98ca-1345-e81c-c97c" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="98ca-1345-e81c-c97c" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="1f96-2a8b-379b-f327" name="Auxiliary Drive" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3055,7 +3055,7 @@ D3     Mutation
               </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="7026-5eda-86af-181e" name="May exchange heavy bolter for:" hidden="false" collective="false" import="true" targetId="4be5-eee6-ab84-8558" type="selectionEntryGroup"/>
-                <entryLink id="23fe-3937-656d-7dae" name="May take any of the following:" hidden="false" collective="false" import="true" targetId="bbe6-a89e-c49e-15c6" type="selectionEntryGroup"/>
+                <entryLink id="23fe-3937-656d-7dae" name="可以任意选择一个" hidden="false" collective="false" import="true" targetId="bbe6-a89e-c49e-15c6" type="selectionEntryGroup"/>
                 <entryLink id="f4c7-725d-0ac5-ef46" name="May take one of the following pintle-mounted weapons:" hidden="false" collective="false" import="true" targetId="e218-c4f7-0220-e158" type="selectionEntryGroup"/>
                 <entryLink id="8809-a6d1-512a-49a3" name="May take a pair of sponsons:" hidden="false" collective="false" import="true" targetId="525c-a63f-e928-d7d5" type="selectionEntryGroup"/>
               </entryLinks>
@@ -3839,7 +3839,7 @@ D3     Mutation
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="58b9-eff0-0170-7183" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="58b9-eff0-0170-7183" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="1ca7-ad9f-2fea-5ebd" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4315,7 +4315,7 @@ D3     Mutation
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="89b7-a306-f780-8560" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="89b7-a306-f780-8560" name="可以任意选择一个" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="135f-f331-d356-cbd5" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -7018,7 +7018,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c647-3757-8342-e0a8" name="May take any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="c647-3757-8342-e0a8" name="可以任意选择一个" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="ca90-4e2e-5c0b-771a" name="Hunter-killer Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -11045,7 +11045,7 @@ A model may only use this weapon if it has successfully charged that player turn
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bbe6-a89e-c49e-15c6" name="May take any of the following:" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bbe6-a89e-c49e-15c6" name="可以任意选择一个" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="7aa1-96c8-c1f9-eb05" name="Hunter-killer missile" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
