@@ -1,118 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="32d1ddc6-3187-cf6f-3bf8-9891e527a002" name="骑士远征军" revision="56" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="136" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Questoris Knight Crusade Army</comment>
-  <publications>
-    <publication id="32d1ddc6--pubN65537" name="Age of Darkness Crusade Army List"/>
-    <publication id="32d1ddc6--pubN66650" name="HH4: Conquest"/>
-    <publication id="32d1ddc6--pubN69303" name="HH:MT"/>
-    <publication id="32d1ddc6--pubN72251" name="HH-Questoris-Knight-Dominus Download"/>
-    <publication id="32d1ddc6--pubN73210" name="HH-Questoris-Knight-Armiger-Talon Download"/>
-    <publication id="32d1ddc6--pubN74776" name="LA:AODAL"/>
-    <publication id="3545-f6f0-40fe-a51e" name="HH Mechanicum Knight Moirax Talon Download"/>
-  </publications>
+<catalogue id="32d1ddc6-3187-cf6f-3bf8-9891e527a002" name="Questoris Knight Crusade Army" revision="57" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="143" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="d27d-9e9b-d8c7-afe6" name="游戏选项" hidden="false">
-      <comment>No Force Org</comment>
-    </categoryEntry>
-    <categoryEntry id="485123232344415441232323" name="指挥槽位" hidden="false">
-      <comment>HQ</comment>
-    </categoryEntry>
-    <categoryEntry id="456c6974657323232344415441232323" name="精英槽位" hidden="false">
-      <comment>Elites</comment>
-    </categoryEntry>
-    <categoryEntry id="54726f6f707323232344415441232323" name="基础槽位" hidden="false">
-      <comment>Troops</comment>
-    </categoryEntry>
-    <categoryEntry id="466173742041747461636b23232344415441232323" name="快速槽位" hidden="false">
-      <comment>Fast Attack</comment>
-    </categoryEntry>
-    <categoryEntry id="486561767920537570706f727423232344415441232323" name="重型槽位" hidden="false">
-      <comment>Heavy Support</comment>
-    </categoryEntry>
+    <categoryEntry id="d27d-9e9b-d8c7-afe6" name="No Force Org" hidden="false"/>
+    <categoryEntry id="485123232344415441232323" name="HQ" hidden="false"/>
+    <categoryEntry id="456c6974657323232344415441232323" name="Elites" hidden="false"/>
+    <categoryEntry id="54726f6f707323232344415441232323" name="Troops" hidden="false"/>
+    <categoryEntry id="466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false"/>
+    <categoryEntry id="486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false"/>
     <categoryEntry id="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false"/>
-    <categoryEntry id="466f7274696669636174696f6e23232344415441232323" name="工事槽位" hidden="false">
-      <comment>Fortification</comment>
-    </categoryEntry>
-    <categoryEntry id="258478de-d031-8a7e-dcb0-7d56bee86952" name="军团" hidden="false">
-      <comment>Legion</comment>
-    </categoryEntry>
-    <categoryEntry id="5297-7e0f-fa0b-3537" name="阵营" hidden="false">
-      <comment>Allegiance</comment>
-    </categoryEntry>
-    <categoryEntry id="219d-aefa-dfa5-44db" name="强制基础槽位" hidden="false">
-      <comment>Compulsory Troops</comment>
-    </categoryEntry>
-    <categoryEntry id="becd-7a6d-e80f-878e" name="强制指挥槽位" hidden="false">
-      <comment>Compulsory HQ</comment>
-    </categoryEntry>
-    <categoryEntry id="0c56-27b8-a737-c9fd" name="阿斯塔特军团" hidden="false">
-      <comment>Legiones Astartes</comment>
+    <categoryEntry id="466f7274696669636174696f6e23232344415441232323" name="Fortification" hidden="false"/>
+    <categoryEntry id="258478de-d031-8a7e-dcb0-7d56bee86952" name="Legion" hidden="false"/>
+    <categoryEntry id="5297-7e0f-fa0b-3537" name="Allegiance" hidden="false"/>
+    <categoryEntry id="219d-aefa-dfa5-44db" name="Compulsory Troops" hidden="false"/>
+    <categoryEntry id="becd-7a6d-e80f-878e" name="Compulsory HQ" hidden="false"/>
+    <categoryEntry id="0c56-27b8-a737-c9fd" name="Legiones Astartes" hidden="false">
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb4e-167f-f60e-62bd" type="min"/>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52b3-36c7-f7a4-f22a" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="e59c-462e-9d9c-66dd" name="坦克" hidden="false">
-      <comment>Tank</comment>
-    </categoryEntry>
-    <categoryEntry id="9480-d3f6-fff1-7b35" name="悬浮" hidden="false">
-      <comment>Skimmer</comment>
-    </categoryEntry>
-    <categoryEntry id="df44-81ea-e2ee-9849" name="飞行器" hidden="false">
-      <comment>Flyer</comment>
-    </categoryEntry>
-    <categoryEntry id="18c5-559b-55e0-382e" name="不动" hidden="false">
-      <comment>Immobile</comment>
-    </categoryEntry>
-    <categoryEntry id="2d6f-e613-ab10-e55a" name="深度打击" hidden="false">
-      <comment>Deep Strike</comment>
-    </categoryEntry>
-    <categoryEntry id="51a3-45ca-ea32-7519" name="空降仓" hidden="false">
-      <comment>Drop Pod</comment>
-    </categoryEntry>
-    <categoryEntry id="e448-6dab-e008-3247" name="岗哨炮" hidden="false">
-      <comment>Sentry Gun</comment>
-    </categoryEntry>
-    <categoryEntry id="e4e0-c5d1-3430-f101" name="运输载具" hidden="false">
-      <comment>Transport</comment>
-    </categoryEntry>
-    <categoryEntry id="c407-80ff-568e-3394" name="专用运输载具" hidden="false">
-      <comment>Dedicated Transport</comment>
-    </categoryEntry>
-    <categoryEntry id="264d-166e-36c0-77b7" name="机甲" hidden="false">
-      <comment>Walker</comment>
-    </categoryEntry>
-    <categoryEntry id="53bd-99e7-aba0-e79f" name="载具" hidden="false">
-      <comment>Vehicle</comment>
-    </categoryEntry>
-    <categoryEntry id="37dc-7aa6-8150-41b0" name="终结者" hidden="false">
-      <comment>Terminators</comment>
-    </categoryEntry>
-    <categoryEntry id="f74d-4679-75a6-1252" name="步兵" hidden="false">
-      <comment>Infantry</comment>
-    </categoryEntry>
-    <categoryEntry id="47cf-71bb-d59d-f9de" name="跳跃步兵" hidden="false">
-      <comment>Jump Infantry</comment>
-    </categoryEntry>
-    <categoryEntry id="8ec4-17b5-7fea-c682" name="巨兽" hidden="false">
-      <comment>Monstrous Creature</comment>
-    </categoryEntry>
-    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="喷气背包步兵" hidden="false">
-      <comment>Jetpack Infantry</comment>
-    </categoryEntry>
-    <categoryEntry id="25d0-388c-dd16-af9a" name="飞行巨兽" hidden="false">
-      <comment>Flying Monstrous Creature</comment>
-    </categoryEntry>
-    <categoryEntry id="7fdd-2a97-d0e9-6524" name="智控皮层" hidden="false">
-      <comment>Cybernetica Cortex</comment>
-    </categoryEntry>
-    <categoryEntry id="37f2-7398-84ee-6fdf" name="赛莱克斯甲" hidden="false">
-      <comment>Lorica Thallax</comment>
-    </categoryEntry>
+    <categoryEntry id="e59c-462e-9d9c-66dd" name="Tank" hidden="false"/>
+    <categoryEntry id="9480-d3f6-fff1-7b35" name="Skimmer" hidden="false"/>
+    <categoryEntry id="df44-81ea-e2ee-9849" name="Flyer" hidden="false"/>
+    <categoryEntry id="18c5-559b-55e0-382e" name="Immobile" hidden="false"/>
+    <categoryEntry id="2d6f-e613-ab10-e55a" name="Deep Strike" hidden="false"/>
+    <categoryEntry id="51a3-45ca-ea32-7519" name="Drop Pod" hidden="false"/>
+    <categoryEntry id="e448-6dab-e008-3247" name="Sentry Gun" hidden="false"/>
+    <categoryEntry id="e4e0-c5d1-3430-f101" name="Transport" hidden="false"/>
+    <categoryEntry id="c407-80ff-568e-3394" name="Dedicated Transport" hidden="false"/>
+    <categoryEntry id="264d-166e-36c0-77b7" name="Walker" hidden="false"/>
+    <categoryEntry id="53bd-99e7-aba0-e79f" name="Vehicle" hidden="false"/>
+    <categoryEntry id="37dc-7aa6-8150-41b0" name="Terminators" hidden="false"/>
+    <categoryEntry id="f74d-4679-75a6-1252" name="Infantry" hidden="false"/>
+    <categoryEntry id="47cf-71bb-d59d-f9de" name="Jump Infantry" hidden="false"/>
+    <categoryEntry id="8ec4-17b5-7fea-c682" name="Monstrous Creature" hidden="false"/>
+    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="Jetpack Infantry" hidden="false"/>
+    <categoryEntry id="25d0-388c-dd16-af9a" name="Flying Monstrous Creature" hidden="false"/>
+    <categoryEntry id="7fdd-2a97-d0e9-6524" name="Cybernetica Cortex" hidden="false"/>
+    <categoryEntry id="37f2-7398-84ee-6fdf" name="Lorica Thallax" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="b3ea-e268-8cb2-0152" name="骑士远征军" hidden="false">
-      <comment>Questoris Knight Crusade Army</comment>
+    <forceEntry id="b3ea-e268-8cb2-0152" name="Questoris Knight Crusade Army" hidden="false">
       <categoryLinks>
         <categoryLink id="b3ea-e268-8cb2-0152-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
           <constraints>
@@ -168,8 +96,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="e16c-65fe-d3da-fb93" name="联军分队" hidden="false">
-      <comment>Allied Detachment</comment>
+    <forceEntry id="e16c-65fe-d3da-fb93" name="Allied Detachment" hidden="false">
       <categoryLinks>
         <categoryLink id="b8b7-7651-9d10-29f2" name="HQ" hidden="false" targetId="485123232344415441232323" primary="false">
           <constraints>
@@ -206,7 +133,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac7f-e6e4-68f0-b12e" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9e58-4f4e-5579-cb58" name="阵营" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
+        <categoryLink id="9e58-4f4e-5579-cb58" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
         <categoryLink id="818e-b32f-e6f2-d131" name="Allied Detachment" hidden="false" targetId="6077-281f-c55d-9bf0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9639-3fcc-00d3-2686" type="min"/>
@@ -217,17 +144,17 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="48ee846f-5f68-d83d-4f9a-e1a797dc1cd1" name="Aucteller" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="48ee846f-5f68-d83d-4f9a-e1a797dc1cd1" name="Aucteller" publicationId="ca571888--pubN84158" page="296" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="1a6b815b-3423-47b1-06e4-98cb5e9119ee" name="Sworn Enemy" publicationId="32d1ddc6--pubN66650" page="296" hidden="false">
+        <rule id="1a6b815b-3423-47b1-06e4-98cb5e9119ee" name="Sworn Enemy" publicationId="ca571888--pubN84158" page="296" hidden="false">
           <description>After set-up but before the game begins, the Aucteller&apos;s owning player must specify one of the following as the Knight&apos;s &apos;Sworn Enemy&apos;: the enemy Warlord, a Lords of War unit other than a Flyer, a Super-heavy Walker or ground vehicle, or a Gargantuan Creature. Should the Aucteller destroy the unit (i.e., cause its last Hull Point or wound to be lost, or the unit to flee from the table), the Aucteller&apos;s owning player gains an additional D3 Victory points (this is in addition to any other provision of the mission, such as Slay the Warlord). If the Sworn Enemy unit is destroyed or removed from play by any other means, no additional Victory points are scored for the Sworn Enemy unit by either side.
 
 If the Sword Enemy still remains in play at the end of the game, its owning player gains +1 Victory point.</description>
         </rule>
-        <rule id="3bf0ccd0-6cb5-4f84-88d6-b6eb6cc464d2" name="From Death I Strike" publicationId="32d1ddc6--pubN66650" page="296" hidden="false">
+        <rule id="3bf0ccd0-6cb5-4f84-88d6-b6eb6cc464d2" name="From Death I Strike" publicationId="ca571888--pubN84158" page="296" hidden="false">
           <description>If the Aucteller&apos;s Knight is destroyed in an assault against their sworn foe, before any other effects take place (for example, rolle on hte Catastrophic Damage table), the Knight may immediately make an additional single close combat attack using its normal profile and weapon against their Sworn Enemy.</description>
         </rule>
       </rules>
@@ -241,12 +168,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9c2bc37-7048-4ed5-80c0-fb13d224f96a" name="Lord Scion" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c9c2bc37-7048-4ed5-80c0-fb13d224f96a" name="Lord Scion" publicationId="ca571888--pubN84158" page="295" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="bfe1e278-e31a-bfcd-ee10-5c38fedf7314" name="Veteran Knight" publicationId="32d1ddc6--pubN66650" page="295" hidden="false">
+        <rule id="bfe1e278-e31a-bfcd-ee10-5c38fedf7314" name="Veteran Knight" publicationId="ca571888--pubN84158" page="295" hidden="false">
           <description>Add +1 to the Weapon Skill and Ballistic Skill shown on the Knight&apos;s profile.</description>
         </rule>
       </rules>
@@ -261,9 +188,9 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5137fc47-e383-8e21-a01a-cdf4cbb73094" name="Preceptor" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5137fc47-e383-8e21-a01a-cdf4cbb73094" name="Preceptor" publicationId="ca571888--pubN84158" page="296" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="c95171e5-7f98-b827-ef57-0b6e15cc6719" name="Oracle of Battle" publicationId="32d1ddc6--pubN66650" page="296" hidden="false">
+        <rule id="c95171e5-7f98-b827-ef57-0b6e15cc6719" name="Oracle of Battle" publicationId="ca571888--pubN84158" page="296" hidden="false">
           <description>While at least one Preceptor is on the table, Knights from the same detachment may add +1 to their Reserves rolls. In addition, the Preceptor and any Knight models that are part of the same detachment and within 6&quot; have the Interceptor special rule and may fire Overwatch with any eligible weapons until their next player turn. Note that this is an exception to the normal special rule for Super-heavy Walkters, and in the case of Hellfire template weapons, D6 hits are scored rather than D3.</description>
         </rule>
       </rules>
@@ -277,9 +204,9 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0374f5e8-736f-e990-acd5-75cb44d303a1" name="Scion Arbalester" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0374f5e8-736f-e990-acd5-75cb44d303a1" name="Scion Arbalester" publicationId="ca571888--pubN84158" page="298" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="b6d3b822-a604-fbc5-8dbf-4dcdb913ad6b" name="Weapon Calibration" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
+        <rule id="b6d3b822-a604-fbc5-8dbf-4dcdb913ad6b" name="Weapon Calibration" publicationId="ca571888--pubN84158" page="298" hidden="false">
           <description>The weapons-mounts and targeting systems of a Knight Arbalester have been finely attuned by their pilot and are extremely responsive to their skills. The Knight has the Tank Hunters special rule and, in addition, so long as it has not moved in the preceding Movement phase, it may, if its controlling player wishes, count all its weapons as having the Skyfire special rule in the Shooting phase.</description>
         </rule>
       </rules>
@@ -296,7 +223,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f44-17e9-3707-22f2" name="Scion Aspirant" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2f44-17e9-3707-22f2" name="Scion Aspirant" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="maxInForce" value="1">
           <repeats>
@@ -348,10 +275,10 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="20c36841-86b5-f4c2-406e-c82ca71c107a" name="Aspirant" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
+        <rule id="20c36841-86b5-f4c2-406e-c82ca71c107a" name="Aspirant" publicationId="ca571888--pubN84158" page="297" hidden="false">
           <description>Subtract -1 from the Weapon Skill and Ballistic Skill shown on the Knight&apos;s profile and also reduce any invulnerable save the Knight has by -1.</description>
         </rule>
-        <rule id="88442dbc-2d8c-971d-5cb2-887d12378fd4" name="Young Blood" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
+        <rule id="88442dbc-2d8c-971d-5cb2-887d12378fd4" name="Young Blood" publicationId="ca571888--pubN84158" page="297" hidden="false">
           <description>The number of Scions Aspirant chosen as part of a Questoris Knight Crusade army may not exceed the total number of all other Household Ranks in the army within the usual limitations of the Force Organization chart.</description>
         </rule>
       </rules>
@@ -369,12 +296,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="-35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="97fcca37-2121-18e9-f084-4f254332c535" name="Scion Dolorous" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="97fcca37-2121-18e9-f084-4f254332c535" name="Scion Dolorous" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="1ad8fa30-bf2e-1ade-84b2-f035101f3d86" name="Dolorous Charge" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
+        <rule id="1ad8fa30-bf2e-1ade-84b2-f035101f3d86" name="Dolorous Charge" publicationId="ca571888--pubN84158" page="297" hidden="false">
           <description>A Knight with this special rule must re-roll failed charges and, in addition, must re-roll failed Sweeping Advances.</description>
         </rule>
-        <rule id="1f5ef606-c6a9-62c5-1c36-9f1ad69ac692" name="Worthy Foe" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
+        <rule id="1f5ef606-c6a9-62c5-1c36-9f1ad69ac692" name="Worthy Foe" publicationId="ca571888--pubN84158" page="297" hidden="false">
           <description>If there is an eligible target for the Knight to charge in its Assault phase which is either and enemy Knight, Walker, Monstrous Creature, Primarch, Super-heavy Walker, or Gargantuan Creature, it must attempt to do so. If multiple options for this charge are available, the the owning player decides which it will attempt to charge.</description>
         </rule>
       </rules>
@@ -382,18 +309,18 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <categoryLink id="97fcca37-2121-18e9-f084-4f254332c535-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fb020419-12a2-a1fe-70c9-e021de9617ba" name="Knight Armour" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
+        <entryLink id="fb020419-12a2-a1fe-70c9-e021de9617ba" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9b3942b-357b-159d-698d-73661a1f3bff" name="Scion Implacable" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a9b3942b-357b-159d-698d-73661a1f3bff" name="Scion Implacable" publicationId="ca571888--pubN84158" page="298" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="f6ca3bc6-aa39-58f0-dd9e-2ba8d2c83fbf" name="Wall Breaker" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
+        <rule id="f6ca3bc6-aa39-58f0-dd9e-2ba8d2c83fbf" name="Wall Breaker" publicationId="ca571888--pubN84158" page="298" hidden="false">
           <description>A Knight with this special rule adds +1 to any results rolled on the Building Damage table as a result of any of its attacks (this is cumulative to any bonus for a weapon&apos;s AP).</description>
         </rule>
-        <rule id="8414d60b-abd8-9d8d-bd03-388283b46acc" name="Infantry Crusher" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
+        <rule id="8414d60b-abd8-9d8d-bd03-388283b46acc" name="Infantry Crusher" publicationId="ca571888--pubN84158" page="298" hidden="false">
           <description>The Knight may re-roll results on the Stomp table (the result of the re-roll must be taken even if it is worse than the first). In addition, the Knight has a 5+ invulnerable save against grenade and melta bomb attacks in an assault. The Knight, however, may not make Sweeping Advances.</description>
         </rule>
       </rules>
@@ -407,7 +334,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5053f8a2-cc7f-f635-1044-b149aed1513e" name="Scion Martial" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5053f8a2-cc7f-f635-1044-b149aed1513e" name="Scion Martial" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="f46d7af6-d9cf-a52c-39b3-d6569197ff0f" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
       </infoLinks>
@@ -422,12 +349,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff61-cf0e-681b-82bb" name="Scion Uhlan" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ff61-cf0e-681b-82bb" name="Scion Uhlan" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="955c6a6d-62db-3190-a6fb-ad53119398ca" name="Impetuous Advance" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
+        <rule id="955c6a6d-62db-3190-a6fb-ad53119398ca" name="Impetuous Advance" publicationId="ca571888--pubN84158" page="297" hidden="false">
           <description>Scions Uhlan have the Scout ad Hit abd Run special rules, however in order to achieve these abilities, they have the Sacristans strip down the armour of their Knights in order to lighten them for speed. In all cases, the Scions Uhlan reduce the Armour value of their Front Armour by -1.</description>
         </rule>
-        <rule id="7f16693a-fecf-ddfd-e798-c69ece461716" name="Uhlan&apos;s Scorn" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
+        <rule id="7f16693a-fecf-ddfd-e798-c69ece461716" name="Uhlan&apos;s Scorn" publicationId="ca571888--pubN84158" page="297" hidden="false">
           <description>Scions Uhlan commonly deride long-range bombardment as a dishonorable mode of warfare unbecoming of a Scion of a Great House and, despite orders to contrary, the suffer such a mode of attack with ill-grace. Scions Uhlan may only make Snap Shots with their weapons at targets greater than 24&quot; away.</description>
         </rule>
         <rule id="439b-6d0c-4981-2dd2" name="Hit and Run" hidden="false"/>
@@ -445,15 +372,15 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33d55e37-58db-535e-ffb4-0c9136c15e25" name="Seneschal" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="33d55e37-58db-535e-ffb4-0c9136c15e25" name="Seneschal" publicationId="ca571888--pubN84158" page="295" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="22371748-eb17-a4bd-f77d-29db844784f2" name="Master Knight" publicationId="32d1ddc6--pubN66650" page="295" hidden="false">
+        <rule id="22371748-eb17-a4bd-f77d-29db844784f2" name="Master Knight" publicationId="ca571888--pubN84158" page="295" hidden="false">
           <description>Add +1 to the Weapon Skill and Ballistic Skill shown on the Knight&apos;s profile, and increase any invulnerable save by +1.</description>
         </rule>
-        <rule id="7efce086-cd0a-a073-5cae-d76620d25977" name="Ideal Mission Commander" publicationId="32d1ddc6--pubN66650" page="295" hidden="false">
+        <rule id="7efce086-cd0a-a073-5cae-d76620d25977" name="Ideal Mission Commander" publicationId="ca571888--pubN84158" page="295" hidden="false">
           <description>If a Seneschal is chosen as the army&apos;s Warlord, the owning player can choose to re-roll the result on the Warlord Trait table.</description>
         </rule>
       </rules>
@@ -468,7 +395,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dbcc-f750-c3cb-2dcf" name="Scion Auxilia" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dbcc-f750-c3cb-2dcf" name="Scion Auxilia" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9f59-5499-23fb-9144" name="Objective Secured" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
       </infoLinks>
@@ -482,7 +409,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d67-3c94-ab8b-58da" name="Scion Amuntar" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d67-3c94-ab8b-58da" name="Scion Amuntar" publicationId="ece2-a265-6237-7efa" page="" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="bbfe-f633-a486-1d67" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
@@ -648,8 +575,8 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
   <sharedSelectionEntries>
     <selectionEntry id="deb3-68a3-5d36-eb3d" name="Vorax Class Battle-automata Maniple" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="a080-e2a8-dc43-1112" name="Fleet" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
-        <infoLink id="57a5-1a50-7092-3d9c" name="Scout" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
+        <infoLink id="a080-e2a8-dc43-1112" name="New InfoLink" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
+        <infoLink id="57a5-1a50-7092-3d9c" name="New InfoLink" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
         <infoLink id="b4e3-29d6-986a-2b25" name="New InfoLink" hidden="false" targetId="a8c1-185a-cdd9-b5ce" type="profile"/>
       </infoLinks>
       <selectionEntries>
@@ -659,7 +586,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="867d-a720-a911-50dc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="712d-49a5-7c53-fbc4" name="Vorax" publicationId="32d1ddc6--pubN69303" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="712d-49a5-7c53-fbc4" name="Vorax" publicationId="ca571888--pubN66580" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monstrous Creature</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -878,7 +805,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="7678-ae60-16f2-e948" name="Rage" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
+        <infoLink id="7678-ae60-16f2-e948" name="" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
         <infoLink id="a7f0-6bc1-ed4a-34dc" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
       </infoLinks>
       <selectionEntries>
@@ -888,10 +815,9 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38db-7bf2-0694-b3f4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="659d-11d2-faad-4259" name="Castellax" publicationId="32d1ddc6--pubN69303" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
-              <comment>Monstrous Creature</comment>
+            <profile id="659d-11d2-faad-4259" name="Castellax" publicationId="ca571888--pubN66580" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
+                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monstrous Creature</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
@@ -919,9 +845,9 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f3ce-e636-1d57-9a53" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="435a-7727-d99c-faa8" name="Darkfire Cannon" hidden="false" targetId="8200-3ef2-3ffa-4a76" type="profile"/>
+                    <infoLink id="435a-7727-d99c-faa8" hidden="false" targetId="8200-3ef2-3ffa-4a76" type="profile"/>
                     <infoLink id="98a3-557e-78ba-9891" name="New InfoLink" hidden="false" targetId="98ed-3a29-c86b-455d" type="rule"/>
-                    <infoLink id="23b8-ad9b-3d6a-700a" name="Blind" hidden="false" targetId="7dae-4d12-baba-e529" type="rule"/>
+                    <infoLink id="23b8-ad9b-3d6a-700a" name="New InfoLink" hidden="false" targetId="7dae-4d12-baba-e529" type="rule"/>
                     <infoLink id="de7e-cbef-df3d-b8a6" name="New InfoLink" hidden="false" targetId="f4fd-d519-4769-5510" type="rule"/>
                   </infoLinks>
                   <costs>
@@ -956,12 +882,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
             </selectionEntryGroup>
             <selectionEntryGroup id="c204-c9c9-9110-ca90" name="May Exchange one or both bolters for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f45-90b4-1220-dd2b">
               <modifiers>
-                <modifier type="set" field="5d2a-e961-7953-6b83" value="1.0">
+                <modifier type="set" field="5d2a-e961-7953-6b83" value="1">
                   <conditions>
                     <condition field="selections" scope="48db-84ca-2bad-520f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-3352-b97f-3693" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="813e-6a3e-bd63-d89a" value="1.0">
+                <modifier type="set" field="813e-6a3e-bd63-d89a" value="1">
                   <conditions>
                     <condition field="selections" scope="48db-84ca-2bad-520f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-3352-b97f-3693" type="equalTo"/>
                   </conditions>
@@ -1142,24 +1068,21 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7719-aa4f-3366-84f2" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Allegiance</comment>
+    <selectionEntry id="7719-aa4f-3366-84f2" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae6f-3de0-9682-079d" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="860a-fa24-8724-0a29" name="阵营" hidden="false" collective="false" import="true">
-          <comment>Allegiance</comment>
+        <selectionEntryGroup id="860a-fa24-8724-0a29" name="Allegiance" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6568-7e81-94f8-7946" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afb3-8086-6edb-3f3a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6951-01f7-7675-d69b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="44a9-d907-13fa-4fc4" name="反叛" hidden="false" collective="false" import="true" type="upgrade">
-              <comment>Traitor</comment>
+            <selectionEntry id="44a9-d907-13fa-4fc4" name="Traitor" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="18ef-3206-400c-0b5a" value="1.0">
+                <modifier type="set" field="18ef-3206-400c-0b5a" value="1">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27575b75-5e1e-26ab-1074-fa91b73e2216" type="equalTo"/>
                   </conditions>
@@ -1172,8 +1095,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="513f-ab95-ad10-b2ec" name="忠诚" hidden="false" collective="false" import="true" type="upgrade">
-              <comment>Loyalist</comment>
+            <selectionEntry id="513f-ab95-ad10-b2ec" name="Loyalist" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -1185,9 +1107,9 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3902-a5e5-c69e-7a01" name="Questoris Knight Dominus" publicationId="32d1ddc6--pubN72251" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3902-a5e5-c69e-7a01" name="Questoris Knight Dominus" publicationId="ca571888--pubN94574" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="ecb2-e57a-adb8-0ab8" name="Questoris Knight Dominus" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="0694-6ddb-9e1d-40bd" typeName="Super-heavy Walker">
+        <profile id="ecb2-e57a-adb8-0ab8" name="Questoris Knight Dominus" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="0694-6ddb-9e1d-40bd" typeName="Super-heavy Walker">
           <characteristics>
             <characteristic name="WS" typeId="abd6-ed07-8491-eb85">4</characteristic>
             <characteristic name="BS" typeId="aabf-e6cf-1929-65fd">4</characteristic>
@@ -1231,12 +1153,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3084-6034-6dd7-4295" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4ce9-ebbc-bc9e-4059" name="Twin-Linked Siegebreaker Cannon" publicationId="32d1ddc6--pubN72251" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4ce9-ebbc-bc9e-4059" name="Twin-Linked Siegebreaker Cannon" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d0-8256-eb24-dc7e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="49eb-459a-037c-6f71" name="Twin-Linked Siegebreaker Cannon" publicationId="32d1ddc6--pubN72251" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="49eb-459a-037c-6f71" name="Twin-Linked Siegebreaker Cannon" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -1249,12 +1171,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="de42-1578-e085-e2af" name="Two Shieldbreaker Missiles" publicationId="32d1ddc6--pubN72251" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de42-1578-e085-e2af" name="Two Shieldbreaker Missiles" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee86-0ceb-0df8-b3d6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8a99-ba52-8233-478b" name="Two Shieldbreaker Missiles" publicationId="32d1ddc6--pubN72251" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="8a99-ba52-8233-478b" name="Two Shieldbreaker Missiles" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
@@ -1285,7 +1207,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="294a-a7e8-0879-4d87" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7d01-170d-5ad8-1b5d" name="Conflagration Cannon" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="7d01-170d-5ad8-1b5d" name="Conflagration Cannon" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">Hellstorm</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -1303,7 +1225,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dbe-a6b6-85a0-d624" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9595-6887-dfe5-2411" name="Plasma Decimator" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="9595-6887-dfe5-2411" name="Plasma Decimator" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -1321,7 +1243,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ea-2317-0da3-745d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7f72-40cb-8212-8ca0" name="Thundercoil Harpoon" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="7f72-40cb-8212-8ca0" name="Thundercoil Harpoon" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
@@ -1344,7 +1266,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff8a-5756-26a1-09ec" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8b6e-01c6-02d5-7425" name="Volcano Lance" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="8b6e-01c6-02d5-7425" name="Volcano Lance" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">80&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
@@ -1368,13 +1290,13 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="360.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1072-d634-f6c6-b41e" name="Questoris Knight Armiger Talon" publicationId="32d1ddc6--pubN73210" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1072-d634-f6c6-b41e" name="Questoris Knight Armiger Talon" publicationId="cf03-f607-pubN70802" page="" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfcf-dc21-205d-ba14" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23f7-3615-4d95-bd73" type="min"/>
       </constraints>
       <profiles>
-        <profile id="283a-5c7c-cf45-1d93" name="Questoris Knight Armiger Talon" publicationId="32d1ddc6--pubN73210" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="283a-5c7c-cf45-1d93" name="Questoris Knight Armiger Talon" publicationId="cf03-f607-pubN70802" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -1474,12 +1396,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0320-28f4-46f7-ca89" name="Armiger Autocannon" publicationId="32d1ddc6--pubN73210" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0320-28f4-46f7-ca89" name="Armiger Autocannon" publicationId="cf03-f607-pubN70802" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a381-df56-7aed-04d4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8303-fed8-7388-ff02" name="Armiger Autocannon (Armour Piercing Rounds)" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="8303-fed8-7388-ff02" name="Armiger Autocannon (Armour Piercing Rounds)" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">64&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -1487,7 +1409,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                     <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Sunder</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="59d2-d3ed-7f5c-740d" name="Armiger Autocannon (Incediary Rounds)" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="59d2-d3ed-7f5c-740d" name="Armiger Autocannon (Incediary Rounds)" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">64&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -1500,12 +1422,12 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2ab8-f653-fb91-e6ae" name="Armiger Thermal Spear" publicationId="32d1ddc6--pubN73210" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2ab8-f653-fb91-e6ae" name="Armiger Thermal Spear" publicationId="cf03-f607-pubN70802" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca8-4645-2a47-9988" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0d5a-6abd-ea6e-9fd9" name="Armiger Thermal Spear" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="0d5a-6abd-ea6e-9fd9" name="Armiger Thermal Spear" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -1554,13 +1476,13 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
         <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e00d-ca82-e2ce-b437" name="Mechanicum Knight Moirax Talon" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e00d-ca82-e2ce-b437" name="Mechanicum Knight Moirax Talon" publicationId="ece2-a265-6237-7efa" page="" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc92-4e43-49fa-da11" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb4-41a4-13af-4316" type="min"/>
       </constraints>
       <profiles>
-        <profile id="6b05-c745-406a-c3cd" name="Mechanicum Knight Moirax" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="6b05-c745-406a-c3cd" name="Mechanicum Knight Moirax" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -1574,7 +1496,7 @@ If the Sword Enemy still remains in play at the end of the game, its owning play
             <characteristic name="Type" typeId="5479706523232344415441232323">Vehicle (Walker)</characteristic>
           </characteristics>
         </profile>
-        <profile id="5ca6-0668-8fa1-0c80" name="Ionic Flare Shield" publicationId="3545-f6f0-40fe-a51e" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="5ca6-0668-8fa1-0c80" name="Ionic Flare Shield" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">An ionic flare field grants the Mechanicum Knight Moirax a 5+ Invulnerable save against all Shooting
 attacks, but grants no benefits against Close Combat attacks. In addition, the Strength of any Shooting
@@ -1583,7 +1505,7 @@ reduced by -1 (note, however, that this Strength reduction has no effect on Dest
 attacks)</characteristic>
           </characteristics>
         </profile>
-        <profile id="a9aa-8b16-6a5b-5b8f" name="Construct Shield (2)" publicationId="3545-f6f0-40fe-a51e" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="a9aa-8b16-6a5b-5b8f" name="Construct Shield (2)" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a construct shield has a number of expendable shields listed in its profile. Each hit scored against this model will instead hit its construct shields, including Shooting and Close Combat attacks (whilst at least one remains active).
 Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or any hit from a Destroyer weapon) scored against a construct shield causes it to collapse – further hits strike the model instead. Invulnerable saves cannot be taken against hits sustained by a construct shield, and construct shields cannot be restored by any means. </characteristic>
@@ -1597,7 +1519,7 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
         <rule id="f8fa-431b-e7ef-72f4" name="Moirax Talon" hidden="false">
           <description>When first deployed on the battlefield (either at the start of the game or when arriving via Reserves later on), the Knights in a Talon must be placed within 6&quot; of each other. Afterwards, they are not treated as a Vehicle squadron but operate independently as individual units for the purposes of taking any actions, as well as for determining Victory points in missions which make use of Victory points for destroying units.</description>
         </rule>
-        <rule id="469f-ec3f-aa68-4b90" name="Greuso Protocol" publicationId="3545-f6f0-40fe-a51e" hidden="false">
+        <rule id="469f-ec3f-aa68-4b90" name="Greuso Protocol" publicationId="ece2-a265-6237-7efa" hidden="false">
           <description>When within 12&quot; of a friendly Siege-automata, War Construct, Ordinatus or Questoris Knight which is the target of a Charge move, a Mechanicum Knight Moirax that is not locked in Combat may make a single Shooting attack against the charging unit if it is in range, as if the attack were made during the Shooting phase. This attack is made immediately after a Charge is declared, before the charging unit is moved.</description>
         </rule>
       </rules>
@@ -1613,12 +1535,12 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a974-fbf7-a684-2695" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e0e8-f876-d161-f6b0" name="Gyges Siege Claw with in-built Rad Cleanser" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e0e8-f876-d161-f6b0" name="Gyges Siege Claw with in-built Rad Cleanser" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4437-9a03-b06f-8398" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e291-f37a-a996-4528" name="Gyges Siege Claw" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="e291-f37a-a996-4528" name="Gyges Siege Claw" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">X2</characteristic>
@@ -1634,12 +1556,12 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="157b-faf2-9d0f-2529" name="Volkite Veuglaire" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="157b-faf2-9d0f-2529" name="Volkite Veuglaire" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="778f-2963-6d96-c0fb" type="max"/>
               </constraints>
               <profiles>
-                <profile id="af87-e01b-d06a-c7c3" name="Volkite Veuglaire" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="af87-e01b-d06a-c7c3" name="Volkite Veuglaire" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -1655,12 +1577,12 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="925d-07af-b9ff-5731" name="Lightning Lock" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="925d-07af-b9ff-5731" name="Lightning Lock" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d352-9984-cc66-3ab3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5041-b875-0de3-b795" name="Lightning Lock" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="5041-b875-0de3-b795" name="Lightning Lock" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -1677,12 +1599,12 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1b51-dd6d-eb30-694a" name="Graviton pulsar" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1b51-dd6d-eb30-694a" name="Graviton pulsar" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f35-0a42-fd0c-ee4f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5fbd-3852-5b01-65be" name="Graviton pulsar" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="5fbd-3852-5b01-65be" name="Graviton pulsar" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">-</characteristic>
@@ -1700,12 +1622,12 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="da69-e790-e3b9-e465" name="Armiger Conversion Beam Cannon" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="da69-e790-e3b9-e465" name="Armiger Conversion Beam Cannon" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5267-d192-bce5-76fe" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ea60-e5da-c246-54bc" name="Armiger Conversion Beam Cannon (3)" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="ea60-e5da-c246-54bc" name="Armiger Conversion Beam Cannon (3)" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">42&quot; – 72&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
@@ -1714,7 +1636,7 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
 </characteristic>
                   </characteristics>
                 </profile>
-                <profile id="09e8-cd3a-36c0-5206" name="Armiger Conversion Beam Cannon (2)" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="09e8-cd3a-36c0-5206" name="Armiger Conversion Beam Cannon (2)" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot; – 42&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -1723,7 +1645,7 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
 )</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="670b-5351-74bc-e838" name="Armiger Conversion Beam Cannon (1)" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="670b-5351-74bc-e838" name="Armiger Conversion Beam Cannon (1)" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">Up to 18&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -1746,8 +1668,7 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="3fc4-9d7f-969b-35bb" name="骑士机甲" hidden="false" collective="false" import="true">
-      <comment>Knight Armour</comment>
+    <selectionEntryGroup id="3fc4-9d7f-969b-35bb" name="Knight Armour" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7891-efe8-70eb-d282" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9250-2094-a907-dc6b" type="max"/>
@@ -1756,11 +1677,11 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
         <entryLink id="e8e1-c9e9-394d-5fbf" name="Cerastus Knight-Acheron" hidden="false" collective="false" import="true" targetId="b4ddbe68-7095-397e-dec4-162170dbdbcd" type="selectionEntry"/>
         <entryLink id="e499-4dc2-bbfd-53dd" name="Cerastus Knight-Atrapos" hidden="false" collective="false" import="true" targetId="baad-77d0-04c2-e05f" type="selectionEntry"/>
         <entryLink id="2aff-c26b-26b6-fd14" name="Cerastus Knight-Castigator" hidden="false" collective="false" import="true" targetId="b1cf8528-c9d0-2c2a-3f19-522e5532f273" type="selectionEntry"/>
-        <entryLink id="e1ee-e1ad-873f-a9cb" name="Cerastus Knight-Lancer" hidden="false" collective="false" import="true" targetId="ca45ca55-eae1-1a81-8afc-1330611055a6" type="selectionEntry"/>
+        <entryLink id="e1ee-e1ad-873f-a9cb" name="Lancer" hidden="false" collective="false" import="true" targetId="ca45ca55-eae1-1a81-8afc-1330611055a6" type="selectionEntry"/>
         <entryLink id="eae7-2fc9-40d1-3977" name="Questoris Knight Crusader" hidden="false" collective="false" import="true" targetId="09ee-4370-1462-2cb5" type="selectionEntry"/>
         <entryLink id="0ea8-43d3-a3c2-0554" name="Errant" hidden="false" collective="false" import="true" targetId="4b70feb1-a2e7-2f93-8320-1d6775bf5a59" type="selectionEntry"/>
         <entryLink id="a918-71fe-b21c-cbf8" name="Questoris Knight Gallant" hidden="false" collective="false" import="true" targetId="74b8-f485-4b58-0071" type="selectionEntry"/>
-        <entryLink id="f50a-385a-d690-f0dd" name="Questoris Knight Magaera" hidden="false" collective="false" import="true" targetId="fb7cd031-7573-eb28-4446-d709eb5acdbc" type="selectionEntry"/>
+        <entryLink id="f50a-385a-d690-f0dd" name="Magaera" hidden="false" collective="false" import="true" targetId="fb7cd031-7573-eb28-4446-d709eb5acdbc" type="selectionEntry"/>
         <entryLink id="f4cf-f09c-20a4-b376" name="Questoris Knight Paladin" hidden="false" collective="false" import="true" targetId="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" type="selectionEntry"/>
         <entryLink id="9a04-fad2-e544-64e5" name="Questoris Knight Styrix" hidden="false" collective="false" import="true" targetId="a5b350ff-895e-4557-70a6-d24a936919c2" type="selectionEntry"/>
         <entryLink id="1b11-f6ea-15eb-3c0f" name="Questoris Knight Warden" hidden="false" collective="false" import="true" targetId="f4f1-dad6-0596-ca5a" type="selectionEntry"/>
@@ -1848,7 +1769,7 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="535d-a0a7-ce4e-6ab5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c587-5d7f-6151-005d" name="Artificer Armour" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="c587-5d7f-6151-005d" name="Artificer Armour" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Artificer Armour confers a 2+ Armour save.  </characteristic>
               </characteristics>
@@ -1858,12 +1779,12 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ab39-d41c-7f2d-a92b" name="Combat Shield" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ab39-d41c-7f2d-a92b" name="Combat Shield" publicationId="ca571888--pubN80998" page="131" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e0d-f89e-8c8d-2d29" type="max"/>
           </constraints>
           <profiles>
-            <profile id="96e4-a19a-7925-ebaa" name="Combat Shield" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="96e4-a19a-7925-ebaa" name="Combat Shield" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Combat shields and boarding shields confer a 6+ invulnerable save, increasing to 5+ in close combat.</characteristic>
               </characteristics>
@@ -2021,7 +1942,7 @@ Construct shields have an Armour value of 11. A Glancing or Penetrating hit (or 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="e8a4-795e-882b-6109" name="Rad Furnace" publicationId="3545-f6f0-40fe-a51e" page="223" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="e8a4-795e-882b-6109" name="Rad Furnace" publicationId="ece2-a265-6237-7efa" page="223" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All models locked in combat with this unit suffer -1 to their Toughness for the duration of the combat. Models equiped with Rad Furnace are immune to this effect as well as to Rad Grenades. Any weapon with Poison or Rad-phage only woulds a model with a Rad Furnace on a 6.  </characteristic>
       </characteristics>

@@ -1,734 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90aa-c2c8-ffb0-496e" name="Imperialis Militia and Cults Army List" revision="119" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="143" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90aa-c2c8-ffb0-AoDC" name="Armies of Dark Compliance" revision="1" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="143" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false"/>
     <categoryEntry id="5297-7e0f-fa0b-3537" name="Allegiance" hidden="false"/>
   </categoryEntries>
-  <forceEntries>
-    <forceEntry id="6329-878c-da3f-aa5e" name="Fan Made - Centurion" page="https://ia801902.us.archive.org/12/items/CENTURION1.1/CENTURION%201.1.pdf" hidden="false">
-      <rules>
-        <rule id="046f-848f-7dfe-36c3" name="Fan Made - Centurion Mode" hidden="false">
-          <description>CENTURION – draft ruleset 1.1
-The Centurion Discipline is a middle-ground between Zone Mortalis* and Frontline* games.
-Aesthetically drawing inspiration from Warhammer 40k 2nd Edition, and rules-wise
-providing more narrative games where infantry and characters are the focus of
-the action. Some units are restricted in this discipline, the narrative shaped by
-dense terrain in which tanks and aircraft are not viable, yet the battle is still a
-savage tale of retribution and massacre.
-
-Centurion games are played on a 6x4 with more terrain than Frontline games,
-using Shadow War missions and a points level of 1500-2000 to represent smaller
-actions, insurgency, and tactical skirmishes.
-
-Infantry, Walkers, and Speeders should be the focus of your army and the
-following unit are restricted:
-
-Tanks, Fliers, Drop Pods, Superheavies are not allowed.
-Bikes, Attack Bikes, Jet Bikes, Artillery, Monstrous Creatures, Leviathan
-Siege Dreadnoughts are 0-1 choices.
-
-Note this precludes some Rites of War and Army Lists from Centurion mode.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="98db-b4ba-fbcd-3239-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b9-40d0-95c5-7e0f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eefe-ee16-b931-4d55" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f266-ee67-dd6a-23b7" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc2-6233-f84f-1dd3" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c34e-12d0-b680-df37" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e116-a824-3a5e-9c94" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="98db-b4ba-fbcd-3239-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" id="a9d3-ce10-91f2-17f6" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef5-a7b1-2033-83f3" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-466f7274696669636174696f6e23232344415441232323" name="Fortification:" hidden="false" targetId="4139-f611-b727-90ef" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a448-1827-d3b4-aa38" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066b-c584-c9d3-af00" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a000-f423-b160-b52c" name="Artillery:" hidden="false" targetId="532a-a2ad-1671-6202" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9519-cf62-d207-4073" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e9d0-ba63-025e-67ee" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fc4f-0412-3089-aee0" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e20-7e58-341e-c7c2" name="Compulsory HQ:" hidden="false" targetId="3e18-4c14-6f98-44ed" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a5-b26a-6520-e48b" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="471a-fe1b-baab-8062" name="Compulsory Troops:" hidden="false" targetId="2ff1-c144-57a5-03dc" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc77-9ed4-35bc-ac48" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="940c-a0b1-422a-4b83" name="Tank:" hidden="false" targetId="0ce8-fc59-3828-b226" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b86b-2326-19ce-825b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="56dd-4051-add3-4c80" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d2d-cc8c-eb21-2468" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2c0d-17c1-4cc4-26ef" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d8b5-c04a-817f-3c7e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e35f-1e1c-fc6c-f1fe" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="83ca-15fe-0069-bd9a" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aaf2-abec-8d8b-9ac7" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="80a2-7d5f-396f-352e" name="Armies of Dark Compliance" hidden="false">
-      <infoLinks>
-        <infoLink id="0ba5-0be8-130f-dc91" name="Warmaster&apos;s Due" hidden="false" targetId="ef5f-9bb7-8cf1-0ec1" type="rule"/>
-        <infoLink id="e304-6b43-406b-525c" name="Disposable" hidden="false" targetId="5b86-272e-132e-75d5" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="80a2-7d5f-396f-352e-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false"/>
-        <categoryLink id="80a2-7d5f-396f-352e-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false"/>
-        <categoryLink id="80a2-7d5f-396f-352e-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false"/>
-        <categoryLink id="80a2-7d5f-396f-352e-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false"/>
-        <categoryLink id="80a2-7d5f-396f-352e-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false"/>
-        <categoryLink id="80a2-7d5f-396f-352e-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" id="172b-a2ca-c555-135d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="80a2-7d5f-396f-352e-466f7274696669636174696f6e23232344415441232323" name="Fortification:" hidden="false" targetId="4139-f611-b727-90ef" primary="false"/>
-        <categoryLink id="80a2-7d5f-396f-352e-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="59bd-1597-d8de-39ae" name="Armies of Dark Compliance" hidden="false" targetId="c1d8-4cbf-e883-4e44" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6229-c410-b830-de1a" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f9e4-6b5f-fccf-1ef6" name="Imperialis Cults and Militia" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false">
-          <modifiers>
-            <modifier type="increment" field="2b69-8a93-6c14-f6c7" value="1">
-              <repeats>
-                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a8c-ed20-7427-ddff" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" field="2b69-8a93-6c14-f6c7" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a8c-ed20-7427-ddff" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b69-8a93-6c14-f6c7" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0827-eebe-eec3-6451" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9bcf-e1db-16a8-8f68" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4e2c-70ad-4dd1-1c1e" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="5719-1ead-e54c-5b1f" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dab2-b296-caba-63b3" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="98db-b4ba-fbcd-3239" name=" Crusade" hidden="false">
-      <categoryLinks>
-        <categoryLink id="98db-b4ba-fbcd-3239-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b9-40d0-95c5-7e0f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c7f-d2d5-b2d3-813c" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eefe-ee16-b931-4d55" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f266-ee67-dd6a-23b7" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8cb-55d1-4bdc-0ed6" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc2-6233-f84f-1dd3" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e116-a824-3a5e-9c94" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="509d-6aff-d9df-00be" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70a0-1ebc-39cf-f0cc" type="max"/>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" id="12a1-3a1f-5f6f-b56b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="98db-b4ba-fbcd-3239-466f7274696669636174696f6e23232344415441232323" name="Fortification:" hidden="false" targetId="4139-f611-b727-90ef" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a448-1827-d3b4-aa38" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="65af-1bf4-a608-829e" name="Compulsory HQ:" hidden="false" targetId="3e18-4c14-6f98-44ed" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35a-a29a-7722-d561" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="cd00-b1d8-ea13-4135" name="Compulsory Troops:" hidden="false" targetId="2ff1-c144-57a5-03dc" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1966-9e82-e3c5-0c86" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e5e0-765a-7e2e-1479" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="995f-3c8e-6690-e0be" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="06e0-fd6c-814c-b905" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="d3c8-1ed1-78fa-ea87" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f0b-a974-430e-aae8" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="657a-bc81-4ae3-8a5b" name="Allied Detachment" hidden="false">
-      <modifiers>
-        <modifier type="set" field="028c-b3c3-133e-a4b3" value="1.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="98db-b4ba-fbcd-3239" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a6f-6d67-a8b2-e911" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8666-c0df-4dfa-08f1" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a2c-902b-cdb9-7640" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="028c-b3c3-133e-a4b3" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="657a-bc81-4ae3-8a5b-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="582a-2005-2d35-209e" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73be-4c7a-97c6-6531" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="8ad9-de98-bab5-8e1b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ebf6-27ec-4116-7a8e" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="ecfe-b249-2699-e742" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="111e-cc4c-4f45-2d56" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="696d-d0b5-9a81-bcb9" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="657a-bc81-4ae3-8a5b-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="dcc8-f42a-c5d6-eedd" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3873-4bf0-2e6e-51de" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ea32-ebdf-a9e0-1feb" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="f55f-5601-3468-5b60" name="Allied Detachment" hidden="false" targetId="6077-281f-c55d-9bf0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f49-9113-3a25-6f55" type="min"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="440e-99b9-2dcd-6eea" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="089f-7e79-bde1-90dd" name=" Zone Mortalis - Attacker" hidden="false">
-      <infoLinks>
-        <infoLink id="5be6-4d9d-995a-e0c1" name="ZM (Unusable)" hidden="false" targetId="b1da-bb0d-6990-b5c7" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="089f-7e79-bde1-90dd-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9c9-4987-6479-3ea5" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="12e1-2102-0fc6-7350" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62aa-1d44-43b3-980a" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="4995-5484-126b-ee9f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="66fb-08e3-9d45-f687" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="b138-4b79-afc0-363e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="a908-e2ef-de24-fb58" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="089f-7e79-bde1-90dd-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="3e9b-a4d0-654b-05b6" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b51-ce52-4d7a-c446" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6e3c-278f-1fe5-df94" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="d607-45c9-adc1-9380" name="ZM (Unusable)" hidden="false" targetId="9335-93c1-6af7-feb0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2ec-7ca7-b263-2f78" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7101-3b48-28cf-ee92" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b53-c306-fd55-582d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7ae8-44c3-b003-51f0" name="Flying Monstrous Creature:" hidden="false" targetId="721c-86d6-b27f-1b8b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f29e-23fd-e152-a81d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0a57-e799-baaa-5a31" name="Dedicated Transport:" hidden="false" targetId="0615-bc0a-fe41-6e0f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13d6-ecde-96f0-0e28" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0340-bb74-d4f0-5248" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2fa2-0c13-a6f5-aae0" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="7b39-af6b-52e1-b4d7" name=" Zone Mortalis - Defender" hidden="false">
-      <infoLinks>
-        <infoLink id="b95b-bb78-5baf-9849" name="ZM (Unusable)" hidden="false" targetId="b1da-bb0d-6990-b5c7" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="7b39-af6b-52e1-b4d7-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="a740-efb0-8b33-63d3" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="717b-1ca4-91b6-c7f8" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="f62c-4adf-8bdb-8993" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="ca58-852e-5912-65dd" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e44b-ce09-fc52-d409" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="50e7-c9a6-844a-d500" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b39-af6b-52e1-b4d7-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false"/>
-        <categoryLink id="7b39-af6b-52e1-b4d7-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="5ab2-c71d-d8e9-bd6e" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fcc-124f-4a07-bf97" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="64a7-0135-65c0-7fa2" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="3892-e9f1-8392-34c6" name="ZM (Unusable)" hidden="false" targetId="9335-93c1-6af7-feb0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbfa-184e-c2d8-f4c5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="21c7-e98f-5814-47db" name="Dedicated Transport:" hidden="false" targetId="0615-bc0a-fe41-6e0f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7164-5e05-e331-f01a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="cca7-ad76-4989-27e5" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="403e-e6d3-3369-274f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3722-d058-11ff-0148" name="Flying Monstrous Creature:" hidden="false" targetId="721c-86d6-b27f-1b8b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5bf4-09a2-4b9b-2b22" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="148e-a785-7627-589e" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c86-12b9-077f-3973" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="7e48-c376-8ffe-8ae7" name=" Zone Mortalis - Combatant" hidden="false">
-      <infoLinks>
-        <infoLink id="abb0-f423-c4f9-2167" name="ZM (Unusable)" hidden="false" targetId="b1da-bb0d-6990-b5c7" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="7e48-c376-8ffe-8ae7-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="7791-e3c6-5cba-f33c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ed2-9008-8e34-ad3d" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="6178-cdc3-642a-6951" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="d6dc-4536-8e69-d87c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b5c-0ec5-d109-e17a" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="01c9-7cd2-13d7-6c69" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="6791-6c2e-b2ba-e22c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e48-c376-8ffe-8ae7-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="2143-2ae1-d9a7-757d" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fdc6-f699-aeb3-f756" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9cdd-504a-8562-88b3" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="5d4b-4983-146a-982b" name="ZM (Unusable)" hidden="false" targetId="9335-93c1-6af7-feb0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c20-9490-9f25-ea76" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2e2d-b2fc-a927-7e5d" name="Dedicated Transport:" hidden="false" targetId="0615-bc0a-fe41-6e0f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93bb-36f9-3b1a-84a5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="50fe-1ec9-e88d-445d" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8697-a08a-6a95-9bce" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c6d7-28a6-568d-c0ae" name="Flying Monstrous Creature:" hidden="false" targetId="721c-86d6-b27f-1b8b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="963e-c37f-d5d5-9021" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="54af-e6fb-54d8-e1c1" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b24f-481f-db83-8966" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="d1ef-61e1-3d67-5a19" name="Optional - Onslaught" hidden="false">
-      <categoryLinks>
-        <categoryLink id="d1ef-61e1-3d67-5a19-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="182d-f09c-fdaa-c4f6" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="343b-808a-804d-ffc3" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13f-c844-9f9e-ef84" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="131e-c6ee-0e8e-1aab" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac7-f020-34c0-013c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8454-3747-cef6-1f17" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7dc-35f2-972b-fc49" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d9c-0c3c-3386-2f41" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8113-abb6-fd0c-2077" type="max"/>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="5231-3e8d-57cb-fcf5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d1ef-61e1-3d67-5a19-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="4a25-0801-a466-f152" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="591e-77a0-8c09-b4b5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="bde2-af12-3fb7-5510" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="918b-df11-9928-5171" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f78e-fcfa-3d0c-73e8" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="3a6f-6d67-a8b2-e911" name="Optional - Castellan" hidden="false">
-      <categoryLinks>
-        <categoryLink id="3a6f-6d67-a8b2-e911-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f8-d08b-29e4-2ed1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b97-2208-169e-650c" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0e-49ec-2773-d207" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126b-063c-e9e5-f184" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e0-d6b3-6a9b-0d98" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff0-7eed-cc95-2836" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dab8-5a1e-6174-b64f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b33c-194d-0c8c-45e3" type="max"/>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="true" id="cb8f-4568-7b79-aa31" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-466f7274696669636174696f6e23232344415441232323" name="Fortification:" hidden="false" targetId="4139-f611-b727-90ef" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de74-e33c-031d-e6ea" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da9-adca-c45f-31d7" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3a6f-6d67-a8b2-e911-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="1b29-d5d5-c67d-ed65" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13c4-57aa-ad88-303c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3754-c399-0058-9cfc" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="5312-3666-9c24-3a71" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75ef-b3a5-6252-70d6" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="f715-cdf4-0c5e-213a" name="Optional - Leviathan" hidden="false">
-      <categoryLinks>
-        <categoryLink id="f715-cdf4-0c5e-213a-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13fd-8baa-143b-71cb" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f84e-2a12-fea2-8e79" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f715-cdf4-0c5e-213a-5297-7e0f-fa0b-3537" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="838f-0ceb-8ce0-c78d" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="51b2-ac91-65b5-ce0a" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="1a2c-902b-cdb9-7640" name=" Strategic Raid - Raider" hidden="false">
-      <categoryLinks>
-        <categoryLink id="1a2c-902b-cdb9-7640-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6885-6bae-5294-3e07" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="991c-d805-430c-2870" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b668-9ad3-99e5-1565" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="510b-d8c0-1bf0-7955" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e8-495a-cf5a-5bbd" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="249a-1988-7b4e-1d89" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af02-e421-faf8-729d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1a2c-902b-cdb9-7640-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a1-90d6-fb1d-2730" type="max"/>
-            <constraint field="points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" id="a79e-d10a-c45d-bf4b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="b425-0e48-e198-066b" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c25f-1d0e-8826-021c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="fbdc-d038-8a86-98da" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="fd21-983e-dc3a-f1ea" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de91-40c5-3c7a-dcfd" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="8666-c0df-4dfa-08f1" name=" Strategic Raid - Garrison" hidden="false">
-      <categoryLinks>
-        <categoryLink id="8666-c0df-4dfa-08f1-485123232344415441232323" name="HQ:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd8-e704-a817-c323" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd2-848d-3900-9496" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-456c6974657323232344415441232323" name="Elites:" hidden="false" targetId="7757-4995-3312-d330" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a890-5971-c6fd-38fa" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-54726f6f707323232344415441232323" name="Troops:" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-6c64-b392-8ba6" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02af-f662-658b-4df8" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-466173742041747461636b23232344415441232323" name="Fast Attack:" hidden="false" targetId="85b6-80c2-d782-96bd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76e7-d417-7113-72ab" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-486561767920537570706f727423232344415441232323" name="Heavy Support:" hidden="false" targetId="9704-4a93-21b2-be00" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6df-a43a-8ad7-22e7" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24cc-15d2-4bb6-8a0c" type="max"/>
-            <constraint field="points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" id="27b9-22e0-7b5c-cd2e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8666-c0df-4dfa-08f1-466f7274696669636174696f6e23232344415441232323" name="Fortification:" hidden="false" targetId="4139-f611-b727-90ef" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8127-4547-e39a-62f2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a49-4460-0e7f-abf5" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ab98-d238-8be6-e805" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b210-4caa-2fae-d5e5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="39e3-532c-0241-bd1a" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
-        <categoryLink id="091f-ec54-6896-54a2" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed06-d3ac-eb17-d28c" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
   <selectionEntries>
-    <selectionEntry id="8063-c1d8-51dc-4795" name="Army of Dark Compliance" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="b9e8-93cb-b89e-24a1" name="New CategoryLink" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="true"/>
-        <categoryLink id="9420-adca-b388-9142" name="New CategoryLink" hidden="false" targetId="c1d8-4cbf-e883-4e44" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5a9e-6c6d-c357-0f70" name="Mournival Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6cda-a9c1-63bf-c14d" type="min"/>
@@ -751,85 +27,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <categoryLink id="eb51-58a0-a4b8-e376" name="Mournival Rules" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
           </categoryLinks>
         </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d10e-c657-6432-6f8f" name="Sub-Orbital Strike Wing" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="f853-3d98-9277-bfce" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="bd21-6a60-f73a-b825" name="Sub-orbital Strike Wing" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5bdc-0274-b147-e067" type="max"/>
-            <constraint field="selections" scope="primary-category" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9acd-16a9-15d0-12c8" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="738e-3e0f-4fe0-707f" name="Crusade Fleet Avenger Strike Fighter" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d6-9ed3-9eb4-75b0" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="6bb8-d0bf-3a85-ed6f" name="Crusade Fleet Avenger Strike Fighter" hidden="false" collective="false" import="true" targetId="11c8-2e78-8328-31e4" type="selectionEntry">
-                  <categoryLinks>
-                    <categoryLink id="a195-d97e-9950-3e29" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false"/>
-                  </categoryLinks>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c670-5771-fbe1-e52d" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0028-c09b-8bf8-0acd" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="6440-0761-c7f0-e7e7" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" targetId="7734-1ff6-9f66-44cd" type="selectionEntry">
-                  <categoryLinks>
-                    <categoryLink id="01ae-13c4-eebb-5ec4" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false"/>
-                  </categoryLinks>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6851-a9cb-7125-df2d" name="Arvus Lighter, Auxilia" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="581b-146d-f18e-788a" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="14dc-00da-3db8-0bee" name="Arvus Lighter, Auxilia" hidden="false" collective="false" import="true" targetId="2f44-0ed6-d014-be2f" type="selectionEntry">
-                  <categoryLinks>
-                    <categoryLink id="1b08-f87e-8095-dbb9" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false"/>
-                  </categoryLinks>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b502-3665-69d5-2dc8" name="Warlord Traits" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f43e-f108-4f05-86cd" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d694-e090-bb92-94fb" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a5f-1147-b92a-ab19" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a899-c29f-ad2c-97ce" name="New CategoryLink" hidden="false" targetId="baa4-80e4-c41d-6875" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="6e0d-7fc2-9fde-e589" name="Warlord Traits (Work in Progress)" hidden="false" collective="false" import="true" targetId="bc49-f072-0e39-845d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -870,15 +67,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="c7f0-eae0-daed-f54c" name="New CategoryLink" hidden="false" targetId="7757-4995-3312-d330" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="311b-7593-7810-5768" name="Baneblade" hidden="false" collective="false" import="true" targetId="093f-6472-95d0-553f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="311b-7593-7810-5768-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="b236-ab8c-25c3-6694" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="c327-4b6d-13c8-e614" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="fc9a-e65c-f25a-0e08" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="bb1c-6a12-8200-f262" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="cf71-2ecd-9e7b-7127" name="Heavy Ordnance Battery, Auxilia" hidden="false" collective="false" import="true" targetId="3119-6513-bb98-1a37" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2b1b-c8ae-f918-f497" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
@@ -902,7 +90,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
     <entryLink id="5d41-f9b4-a1c0-253a" name="Stormhammer Super-heavy Assault Tank, Auxilia" hidden="false" collective="false" import="true" targetId="0dd2-3783-8b42-8ea4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5d41-f9b4-a1c0-253a-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="528e-9c01-4106-31c8" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d11b-5df0-04e8-0742" name="Thunderbolt Heavy Fighter, Auxilia" hidden="false" collective="false" import="true" targetId="ba9a-493a-cf26-21c9" type="selectionEntry">
@@ -910,12 +97,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="f01c-95a4-ee59-e1d8" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
         <categoryLink id="d8fd-8bec-beec-f4e7" name="New CategoryLink" hidden="false" targetId="85b6-80c2-d782-96bd" primary="true"/>
         <categoryLink id="84cd-ebc2-5d7c-e19d" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4837-c13c-72ee-df16" name="Discipline Master Cadre" hidden="false" collective="false" import="true" targetId="bd53-6efb-ac8d-e3a4" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="fb16-bd5b-98b7-b5b2" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="d1b9-fce2-291a-a72a" name="New CategoryLink" hidden="false" targetId="a91b-7f8f-d085-e564" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b77d-0b6c-c241-2e5e" name="Enginseer Auxilia" hidden="false" collective="false" import="true" targetId="f2a9-6662-7cb6-8de7" type="selectionEntry">
@@ -928,7 +109,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       <categoryLinks>
         <categoryLink id="9030-9c62-f930-57ca" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
         <categoryLink id="00b8-943c-fc7f-35d7" name="New CategoryLink" hidden="false" targetId="a91b-7f8f-d085-e564" primary="true"/>
-        <categoryLink id="3aca-7eca-719a-e287" name="Compulsory HQ:" hidden="false" targetId="3e18-4c14-6f98-44ed" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2175-c124-e720-01d9" name="Platoon Command Cadre, Imperialis Militia" hidden="false" collective="false" import="true" targetId="ee8f-fcde-88df-7261" type="selectionEntry">
@@ -1018,118 +198,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="3dca-98fe-0c60-b481" name="New CategoryLink" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad00-33c7-6846-53ac" name="Warlord-Sinister Pattern Battle Psi-Titan" hidden="false" collective="false" import="true" targetId="fb92-d215-2011-f911" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="ad00-33c7-6846-53ac-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="4478-7615-a975-25d2" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="d34a-5f7e-b7b7-85a5" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-        <categoryLink id="f384-2bad-8c21-59f0" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="bccc-cdb5-f212-6b79" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5cfe-c226-cd4f-29ff" name="Aquila Strongpoint" hidden="false" collective="false" import="true" targetId="16d6-25c4-af92-4329" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="5cfe-c226-cd4f-29ff-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="5238-9420-eef9-98ef" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="583c-b9a0-047c-4eef" name="Allegiance" hidden="false" collective="false" import="true" targetId="d2ea-8129-8088-51de" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="583c-b9a0-047c-4eef-5297-7e0f-fa0b-3537" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1c99-5c64-d19a-d792" name="Vengeance Weapon Battery" hidden="false" collective="false" import="true" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="6e20-85eb-b58a-cd02" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="0300-5256-8983-1fa6" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-        <categoryLink id="414f-63cd-2736-b4c4" name="Sentry Gun:" hidden="false" targetId="5607-db23-333d-bac2" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1e11-fa00-bf5f-0d79" name="Defence Line" hidden="false" collective="false" import="true" targetId="0f73-97f2-b832-f6d0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="736e-81f2-46b5-749e" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="5c26-13cc-cef7-e6a1" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="2ad1-c8f0-019d-4ab9" name="Defence Emplacement" hidden="false" collective="false" import="true" targetId="df05-8179-624e-f8b2" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="14ba-eeb8-4b50-64e5" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="7dca-ccff-7829-ab05" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="2ba9-f0c1-ce20-c972" name="Bunker" hidden="false" collective="false" import="true" targetId="0116-c81b-1c0f-251c" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d02e-6451-5ff8-068a" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="ac8a-f07f-2931-7353" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a2de-83bc-ae98-fa7a" name="Firestorm Redoubt" hidden="false" collective="false" import="true" targetId="a172-78de-aaa6-2201" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="9b35-f427-df3e-0fb0" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="07c8-91df-609f-3582" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b0cb-6dd8-c38b-0f31" name="Sanctum Imperialis" hidden="false" collective="false" import="true" targetId="e0b3-77ca-af76-bd8b" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1a2f-f007-a08f-0175" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="c968-06e7-36d9-8a69" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="bd15-f510-4dbc-94ce" name="Shrine of the Aquila" hidden="false" collective="false" import="true" targetId="595a-908e-96a1-f121" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="5572-8197-aa22-01a4" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="167d-a95b-a613-b7da" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="ce64-e53f-f0bb-b459" name="Plasma Obliterator" hidden="false" collective="false" import="true" targetId="3015-0b77-e848-c0f5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="a6d3-0b4d-5a1b-3e34" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="6762-189c-3510-54ba" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6950-b9c9-a112-597a" name="Imperial Primus Redoubt" hidden="false" collective="false" import="true" targetId="c05d-2231-2481-4037" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="fcce-2b2b-9749-8874" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="6c2a-8629-1e73-94ea" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e6ba-816a-1c46-a20f" name="Manufactorum" hidden="false" collective="false" import="true" targetId="6140-dc64-5896-957f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d4c0-6a84-ed65-4461" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="98f3-3f30-3b37-e7b9" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6d3b-c9f7-a9a7-329d" name="Imperial Castelum Stronghold" hidden="false" collective="false" import="true" targetId="e40b-468f-f1d7-d05d" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="da81-d4bc-9003-2ede" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="9e91-0339-3ab0-d39f" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9305-4cbd-bd86-4b01" name="Bastion" hidden="false" collective="false" import="true" targetId="55c6-268b-357f-d070" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4968-90a2-9ea9-300e" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="a3fb-cb06-be4b-5a40" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f936-0463-f665-c2b5" name="Aegis Defense Line" hidden="false" collective="false" import="true" targetId="a505-05af-bd44-56b6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="5afa-817d-15de-813c" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="b67c-d5ac-b2ca-f078" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="ce67-364d-0169-a9d0" name="Basilica Administratum" hidden="false" collective="false" import="true" targetId="e10f-7b90-ecd3-80a5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="b9ed-891c-b6d6-aaaa" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="a0ed-edf9-60b9-5fc6" name="New CategoryLink" hidden="false" targetId="4139-f611-b727-90ef" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="90ea-0e8c-c102-189f" name="Inducted Levy Squad" hidden="false" collective="false" import="true" targetId="7689-6fdc-260e-d041" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -1188,123 +256,13 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
     <entryLink id="b7e3-0ac5-2743-f84d" name="Terrax Pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="1b44-8c50-86ae-9a67" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2659-6295-0de9-2205" name="New CategoryLink" hidden="false" targetId="85b6-80c2-d782-96bd" primary="true"/>
+        <categoryLink id="d64e-c9fd-f3e9-bd37" name="Imperialis Cults and Militia" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b7d1-0929-9df6-36cd" name="Carnodon Strike Squadron" hidden="false" collective="false" import="true" targetId="8bbc-b165-3c51-623d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a80e-9616-0f30-3d3a" name="New CategoryLink" hidden="false" targetId="9704-4a93-21b2-be00" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="69f5-1ce5-530d-8dcc" name="Legio Titanicus Reaver Battle Titan" hidden="false" collective="false" import="true" targetId="1fa3-1f86-94a6-bf48" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="53cd-63c8-53a1-4f5f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="83eb-f1af-e59a-c25b" name="New CategoryLink" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="7b09-5561-fd20-1004" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-        <categoryLink id="1893-eb35-0474-a5fe" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4c47-86d0-fa5f-5960" name="Legio Titanicus Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="ecb3-83b9-4ba7-47a9" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c29e-0078-8b8c-8678" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="e6a0-dbd0-fb7a-5b9d" name="Vehicle" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="afce-2e65-95a6-b619" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-        <categoryLink id="06d6-85fa-9b71-7a50" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4afe-d77a-18a8-4baa" name="Legio Titanicus Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="b894-adfc-6d3d-fde4" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="977e-5500-d179-a227" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="5a5d-5cae-ae3e-f1a0" name="New CategoryLink" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="7de0-b098-64e4-6e38" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-        <categoryLink id="d1d4-bb7d-2d0e-8cb1" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="2e7f-9e54-b50d-7224" name="Legio Titanicus Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="ab80-0fef-3e93-8e64" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f34e-4fe9-b396-1baa" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="85b3-a762-34a7-741f" name="New CategoryLink" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="f277-55b4-cea6-f479" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-        <categoryLink id="d55c-0ec2-ba73-4754" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="947b-815a-59d9-34bd" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="72ad-abe8-94d8-5926" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0c0c-b315-f610-b5e2" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="6e59-6225-f558-4916" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="b728-94d8-3e48-83b3" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-        <categoryLink id="bf7f-2c71-3e16-8c22" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6815-8a30-f424-accc" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" targetId="4ded-9de3-f964-33a7" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1386-6eb6-a3f6-64e8" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="b42f-fe5d-d6ed-45ab" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="a8c9-e3df-a808-c902" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="a887-531f-24f1-f266" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e823-0363-b80b-c04e" name="Questoris Knight Crusader" hidden="false" collective="false" import="true" targetId="09ee-4370-1462-2cb5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2f73-9313-ac0a-629d" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="b8f7-1810-ea73-f0df" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="80bc-db51-8ec3-5a82" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="6052-35d6-8533-893f" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5beb-aab0-6fbc-5025" name="Questoris Knight Dominus" hidden="false" collective="false" import="true" targetId="6eec-767d-0b14-95ab" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0b70-0187-1d36-b0ff" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="658a-1a3e-b8ef-37ec" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="d248-1be1-fba7-8798" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="cf47-2f4d-2fb5-2200" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5da9-0a15-6e7d-c986" name="Questoris Knight Errant" hidden="false" collective="false" import="true" targetId="4b70feb1-a2e7-2f93-8320-1d6775bf5a59" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="dad3-4009-9e34-4056" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="42ff-20b1-163f-608b" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="1b53-f7aa-e100-c9a6" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="384f-aebb-de4b-60b1" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="570d-b345-a706-5767" name="Questoris Knight Gallant" hidden="false" collective="false" import="true" targetId="74b8-f485-4b58-0071" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0cde-e816-bb00-2d17" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="5b4d-0506-ce1e-8e67" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="75cc-c5f5-1fee-7b4f" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="024f-dc25-095b-6059" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="cf6e-d5f6-780d-db75" name="Questoris Knight Magaera" hidden="false" collective="false" import="true" targetId="fb7cd031-7573-eb28-4446-d709eb5acdbc" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="cca4-79a5-8648-0e5c" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="266a-d688-f620-0028" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="0730-bdb4-2865-8c19" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="df74-187c-22e8-d9f9" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5fe0-95e4-612d-43ac" name="Questoris Knight Paladin" hidden="false" collective="false" import="true" targetId="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="560b-964f-b570-436a" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="8124-7e10-7651-0843" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="b573-b7ce-7eac-97a1" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="aa4c-1913-602b-06a8" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="d985-7fda-3448-5e7d" name="Questoris Knight Styrix" hidden="false" collective="false" import="true" targetId="a5b350ff-895e-4557-70a6-d24a936919c2" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="6e5f-11e9-9acb-fbe9" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="4b0e-a701-6066-21a6" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="0f4c-f08f-765c-50e2" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="c005-075c-5d52-2581" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="20c2-dc1e-b6e8-983b" name="Questoris Knight Warden" hidden="false" collective="false" import="true" targetId="f4f1-dad6-0596-ca5a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="b8a6-3834-26a1-3780" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="c336-0f62-879a-7552" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="3ad2-f578-4cb5-513d" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="4756-5e47-8c3a-aec2" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
+        <categoryLink id="52af-e97e-949f-40fe" name="Imperialis Cults and Militia" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bf29-1737-feca-6c29" name="Militia Land Speeder Squadron" hidden="true" collective="false" import="true" targetId="7617-bc44-a31d-b389" type="selectionEntry">
@@ -1317,6 +275,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       </modifiers>
       <categoryLinks>
         <categoryLink id="f3cd-acfc-57df-5c62" name="New CategoryLink" hidden="false" targetId="85b6-80c2-d782-96bd" primary="true"/>
+        <categoryLink id="b82d-d491-5703-f7b0" name="Imperialis Cults and Militia" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4589-2034-b7aa-dad6" name="Militia Mounted Squadron" hidden="true" collective="false" import="true" targetId="222a-94eb-eda4-afe1" type="selectionEntry">
@@ -1329,107 +288,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       </modifiers>
       <categoryLinks>
         <categoryLink id="a349-063c-33c1-5a34" name="New CategoryLink" hidden="false" targetId="85b6-80c2-d782-96bd" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a7fa-6cc6-4263-6258" name="Banehammer" hidden="false" collective="false" import="true" targetId="27c7-0760-039c-2cd7" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1029-f7e8-8ab9-a647" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="af14-f9f3-b760-c9aa" name="Imperialis Cults and Militia" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
-        <categoryLink id="c041-d224-1860-cb1b" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="dab5-da5b-b3af-ece3" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="f06f-bd5c-98e3-2f65" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6195-bf82-cedb-e7cd" name="Shadowsword" hidden="false" collective="false" import="true" targetId="ed2c-8dcf-d0d2-720e" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="fc4f-0918-a663-0ca6" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="f150-de4a-c732-c872" name="New CategoryLink" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="e37d-0fda-92e1-734b" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="8abd-3ca2-54a5-73a8" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b0c0-a15b-8f46-0603" name="Stormlord" hidden="false" collective="false" import="true" targetId="7d56-481b-6478-681e" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="9c7d-1a85-f519-12ba" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="2da4-846d-2323-a2bd" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="e47a-0aa4-5aad-e4a2" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="94bf-1d9c-d021-3c3a" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8a5d-a176-9cdf-dbaa" name="Stormsword" hidden="false" collective="false" import="true" targetId="e5ad-07be-63c1-71e3" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4460-b114-81a5-9aa9" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="312d-8964-1a9c-9ae6" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="f17d-54cf-10f6-6344" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="6ddb-9ad4-91d8-55a6" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5957-6c43-b5c6-763a" name="Praetor Armoured Assault Launcher" hidden="false" collective="false" import="true" targetId="d41d-ed8d-3629-ab1a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2b2e-ebb5-d5a6-c414" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="a3cd-6ec6-863a-87d4" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="e3e1-2545-4638-4b7e" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="0d99-d644-c926-8677" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5b49-a7a8-80eb-2b0d" name="Macharius Vulcan" hidden="false" collective="false" import="true" targetId="e95a-57cf-a5c3-772f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="480e-d405-8033-3c2e" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="36d3-9902-73c6-ef01" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-        <categoryLink id="bc70-d9f6-cea9-02e4" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="0e94-4b48-5534-d8aa" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="db82-4291-1622-ed9d" name="Macharius Vanquisher" hidden="false" collective="false" import="true" targetId="d4b0-56e7-4f8c-7ea5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c2cf-a676-8276-4e9a" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="1fbe-7aff-64b2-f2d7" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-        <categoryLink id="abb8-f81b-e70d-b12f" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="384a-3b6e-92c7-3444" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="2baa-feeb-cd06-a721" name="Macharius Omega" hidden="false" collective="false" import="true" targetId="cc26-df44-2b56-fd88" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4085-895b-7c1b-8b3c" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="3f44-6640-05e5-95f8" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="c7cc-7be8-6b68-198b" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="b9cd-ac4e-47f4-3191" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="69a0-d1ad-7852-0996" name="Macharius" hidden="false" collective="false" import="true" targetId="e786-debb-a21b-d5ee" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e195-8366-b711-abc4" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="82b9-703a-21d5-24c2" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="aa06-e164-a4e1-9055" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="f0eb-98fb-e42d-1115" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1586-5cd8-99f5-53b0" name="Dominus Armoured Siege Bombard" hidden="false" collective="false" import="true" targetId="79cf-b5c0-232b-9315" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4c94-766d-c1a3-1697" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="3c79-c0a2-5b30-ceeb" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="f1b1-fd12-f240-36e3" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="8b48-0743-53fd-de17" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3d1c-17f1-4b7a-6978" name="Crassus Armoured Assault Transport" hidden="false" collective="false" import="true" targetId="2b38-39ba-24ed-a096" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="29b5-bc47-b7a9-46e7" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="8a24-6e1c-a60c-2f15" name="Vehicle (Unit):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
-        <categoryLink id="ba88-35de-6c27-115d" name="Vehicle:" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
-        <categoryLink id="c030-07cb-1f62-e871" name="Super-Heavy Vehicle:" hidden="false" targetId="b485-d6f7-226e-90cb" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6d11-0479-a514-f95a" name="Marauder Destroyer" hidden="false" collective="false" import="true" targetId="7b5a-b3c4-05fd-4a42" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="354e-d0b0-9b6a-3cdf" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="15b7-dd97-de37-ddce" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="521d-4ed3-c3ca-4182" name="Marauder Bomber" hidden="false" collective="false" import="true" targetId="d71e-4dae-bd03-d1e9" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7bf3-f1c5-f1a8-5f63" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
-        <categoryLink id="0f1f-4850-d99b-787b" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false"/>
+        <categoryLink id="f563-ead2-3fab-f8b8" name="Imperialis Cults and Militia" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bad2-bba3-abb6-d599" name="Allied Detachment" hidden="false" collective="false" import="true" targetId="c91a-6e83-93ce-54ac" type="selectionEntry">
@@ -1437,139 +296,8 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eefe-6292-095f-911f" type="min"/>
       </constraints>
     </entryLink>
-    <entryLink id="7ca5-b5b0-120c-a53a" name="Nathaniel Garro" hidden="false" collective="false" import="true" targetId="f86d-ae13-1d89-f1a1" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="fadd-6025-77a9-dcd2" name="Infantry" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
-        <categoryLink id="8df4-8973-16d2-9b59" name="New CategoryLink" hidden="false" targetId="a91b-7f8f-d085-e564" primary="true"/>
-        <categoryLink id="a610-9253-da2e-2c67" name="Character:" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
-        <categoryLink id="3725-8834-1287-a69d" name="Independent Character:" hidden="false" targetId="72c8-d46a-7934-1cf6" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="7ccd-f4bf-3af8-500f" name="Tylos Rubio" hidden="false" collective="false" import="true" targetId="7baf-1c2e-6b5d-b865" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="7a3e-e196-a976-d408" name="Infantry" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
-        <categoryLink id="3d71-b0af-2bec-9af2" name="New CategoryLink" hidden="false" targetId="a91b-7f8f-d085-e564" primary="true"/>
-        <categoryLink id="9b97-b10d-432f-f7be" name="Character:" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
-        <categoryLink id="a682-90c8-5c4e-00f2" name="Independent Character:" hidden="false" targetId="72c8-d46a-7934-1cf6" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="0a76-3fab-9c5c-d1e0" name="Knight-Errant" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="73e4-69a8-937f-5bd4" name="Infantry" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
-        <categoryLink id="12bf-4ef3-f000-0561" name="New CategoryLink" hidden="false" targetId="a91b-7f8f-d085-e564" primary="true"/>
-        <categoryLink id="42af-23ef-130a-ff75" name="Character:" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
-        <categoryLink id="b263-2edf-5f0c-4f03" name="Independent Character:" hidden="false" targetId="72c8-d46a-7934-1cf6" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f890-0c2e-150f-ea03" name="Navigator" hidden="false" collective="false" import="true" targetId="7318-5e86-df66-ae6c" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2958-107d-4278-81d4" name="Infantry" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
-        <categoryLink id="747e-350b-759c-0740" name="New CategoryLink" hidden="false" targetId="a91b-7f8f-d085-e564" primary="true"/>
-        <categoryLink id="ade4-1705-82f5-fb55" name="Character:" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
-      </categoryLinks>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="36c5-d6db-7224-1e47" name="Support Unit" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ff1-c144-57a5-03dc" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="3272-f43a-2efd-59c9" value="0">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ff1-c144-57a5-03dc" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="b0dc-cc60-79e4-e984" value="0">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ff1-c144-57a5-03dc" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ff1-c144-57a5-03dc" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3272-f43a-2efd-59c9" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0dc-cc60-79e4-e984" type="min"/>
-      </constraints>
-      <rules>
-        <rule id="3011-cc8f-8dfc-e95c" name="Support Unit" publicationId="ca571888--pubN66580" page="41" hidden="false">
-          <description>This unit type may not be chosen as a compulsory Troops choice for the army.</description>
-        </rule>
-      </rules>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="04c4-8239-657a-ced2" name="Support Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ff1-c144-57a5-03dc" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="3275-666f-eb26-58d8" value="0">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ff1-c144-57a5-03dc" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="c353-e83d-213f-7440" value="0">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ff1-c144-57a5-03dc" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3275-666f-eb26-58d8" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c353-e83d-213f-7440" type="min"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="6acc-348f-1285-739f" name="Support Squad" hidden="false" targetId="2c16-3b25-a714-a656" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fc8c-3f13-02b6-034e" name="Support Officer" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67db-8cbd-ae76-b897" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="13c3-1f2b-4540-5421" type="min"/>
-      </constraints>
-      <rules>
-        <rule id="6cbb-0977-3f2f-b238" name="Support Officer" publicationId="ca571888--pubN84656" hidden="false">
-          <description>A Consul of this type may not be used as a compulsory HQ choice for the army unless specifically exempted by a particular Legiones Astartes special rule or Rite of War.</description>
-        </rule>
-      </rules>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="1072-a486-548b-2be7" name="Abhuman Helots" publicationId="ca571888--pubN91142" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -1653,7 +381,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="69c6-f264-1b68-bfe9" name="Flyer:" hidden="false" targetId="cef1-24f3-c9c2-81cc" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5985-12b4-d6b2-a55f" name="可以任意选择一个" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5985-12b4-d6b2-a55f" name="May take any of the following:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="ebf8-c8ba-74aa-8d9e" name="Flare/chaff launcher" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2299,7 +1027,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9abb-6c6b-71dc-5b13" name="可以任意选择一个" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9abb-6c6b-71dc-5b13" name="May take any of the following:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="d7bd-494a-f825-9050" name="Extra Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2499,7 +1227,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="98ca-1345-e81c-c97c" name="可以任意选择一个" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="98ca-1345-e81c-c97c" name="May take any of the following:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="1f96-2a8b-379b-f327" name="Auxiliary Drive" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2588,7 +1316,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18f-6d15-942c-0ac5" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a77a-bcf8-90fd-d9e5" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6628-02a8-0a86-1278" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1872-76c7-64c2-9185" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08ff-9734-7fbc-cb73" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2874,17 +1602,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="80a2-7d5f-396f-352e" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e06-f510-5de0-195b" type="instanceOf"/>
               </conditions>
             </modifier>
             <modifier type="set" field="6147-a395-3c68-3c11" value="3">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="80a2-7d5f-396f-352e" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e06-f510-5de0-195b" type="instanceOf"/>
               </conditions>
             </modifier>
             <modifier type="set" field="9b0d-8328-0145-8edc" value="1">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="80a2-7d5f-396f-352e" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e06-f510-5de0-195b" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3027,7 +1755,7 @@ D3     Mutation
               </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="7026-5eda-86af-181e" name="May exchange heavy bolter for:" hidden="false" collective="false" import="true" targetId="4be5-eee6-ab84-8558" type="selectionEntryGroup"/>
-                <entryLink id="23fe-3937-656d-7dae" name="可以任意选择一个" hidden="false" collective="false" import="true" targetId="bbe6-a89e-c49e-15c6" type="selectionEntryGroup"/>
+                <entryLink id="23fe-3937-656d-7dae" name="May take any of the following:" hidden="false" collective="false" import="true" targetId="bbe6-a89e-c49e-15c6" type="selectionEntryGroup"/>
                 <entryLink id="f4c7-725d-0ac5-ef46" name="May take one of the following pintle-mounted weapons:" hidden="false" collective="false" import="true" targetId="e218-c4f7-0220-e158" type="selectionEntryGroup"/>
                 <entryLink id="8809-a6d1-512a-49a3" name="May take a pair of sponsons:" hidden="false" collective="false" import="true" targetId="525c-a63f-e928-d7d5" type="selectionEntryGroup"/>
               </entryLinks>
@@ -3811,7 +2539,7 @@ D3     Mutation
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="58b9-eff0-0170-7183" name="可以任意选择一个" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="58b9-eff0-0170-7183" name="May take any of the following:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="1ca7-ad9f-2fea-5ebd" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4095,7 +2823,7 @@ D3     Mutation
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="665b-e6ab-c226-95fa" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="adc7-1e03-aadc-ff41" name="Combat Shield" hidden="false" targetId="96e4-a19a-7925-ebaa" type="profile"/>
+                    <infoLink id="adc7-1e03-aadc-ff41" name="Combat Shield" hidden="false" targetId="3c05-15d7-bba5-5d73" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
@@ -4287,7 +3015,7 @@ D3     Mutation
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="89b7-a306-f780-8560" name="可以任意选择一个" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="89b7-a306-f780-8560" name="May take any of the following:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="135f-f331-d356-cbd5" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4573,7 +3301,7 @@ D3     Mutation
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="80a2-7d5f-396f-352e" type="instanceOf"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e06-f510-5de0-195b" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5718,15 +4446,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44dc-cc63-5518-8c4b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7829-a128-45b8-5d35" name="Icon of the Blazing Sun" hidden="false" collective="false" import="true" targetId="b2fe-de24-0c45-9b4d" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
             <entryLink id="e880-5495-ffad-bb4c" name="Psi-resonant Pentacles" hidden="false" collective="false" import="true" targetId="199f-821c-598a-c660" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="10"/>
@@ -5748,7 +4467,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1872-76c7-64c2-9185" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08ff-9734-7fbc-cb73" type="equalTo"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9ee-665f-aaee-6ece" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
@@ -6992,7 +5711,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <categoryLink id="2422-ab97-3c47-fe9a" name="Walker:" hidden="false" targetId="ccbb-6240-fe49-8f91" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c647-3757-8342-e0a8" name="可以任意选择一个" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="c647-3757-8342-e0a8" name="May take any of the following:" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="ca90-4e2e-5c0b-771a" name="Hunter-killer Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -9768,41 +8487,6 @@ As such if you wish to use them in ZM there are a couple of &quot;House Rules&qu
         <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d2ea-8129-8088-51de" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b66a-8e86-7fb0-a4ac" type="min"/>
-      </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="a00b-0e7b-8563-fc2a" name="Allegiance" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f03-dfce-c688-1186" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="174e-c03b-a9ac-ce6e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="654c-8e4f-94bc-2252" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1872-76c7-64c2-9185" name="Traitor" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="415b-52de-e454-730a" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8422-428c-7e5d-3fed" name="Loyalist" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d63-0d6e-4106-bcfc" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="1abc-9c5a-5f9f-6d30" name="Close Combat Weapon" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6598-6536-a46c-34fb" type="min"/>
@@ -10624,7 +9308,7 @@ As such if you wish to use them in ZM there are a couple of &quot;House Rules&qu
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="0ca5-c925-8b59-b17a" name="Nuncio-vox" hidden="false" collective="false" import="true" targetId="b4ea-a586-86a9-02eb" type="selectionEntry"/>
+            <entryLink id="0ca5-c925-8b59-b17a" name="Nuncio-vox" hidden="false" collective="false" import="true" targetId="9d81-6d1d-e314-8d09" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d2a3-6954-2d72-e7ec" name="The entire Squadron may replace its Close Combat Weapons with one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca63-8582-f31a-1dc2">
@@ -10921,15 +9605,6 @@ A model may only use this weapon if it has successfully charged that player turn
         <entryLink id="8292-588b-9ea1-0767" name="Stormlord" hidden="false" collective="false" import="true" targetId="7d56-481b-6478-681e" type="selectionEntry"/>
         <entryLink id="812b-1837-7f12-2809" name="Legio Titanicus Reaver Battle Titan" hidden="false" collective="false" import="true" targetId="1fa3-1f86-94a6-bf48" type="selectionEntry"/>
         <entryLink id="31fb-38b5-094f-8196" name="Legio Titanicus Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="b894-adfc-6d3d-fde4" type="selectionEntry"/>
-        <entryLink id="0bda-b2ca-877c-bd20" name="Warlord-Sinister Pattern Battle Psi-Titan" hidden="true" collective="false" import="true" targetId="fb92-d215-2011-f911" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink id="f695-e292-dcca-0a6a" name="Legio Titanicus Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="ab80-0fef-3e93-8e64" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -11019,7 +9694,7 @@ A model may only use this weapon if it has successfully charged that player turn
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bbe6-a89e-c49e-15c6" name="可以任意选择一个" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bbe6-a89e-c49e-15c6" name="May take any of the following:" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="7aa1-96c8-c1f9-eb05" name="Hunter-killer missile" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -11262,36 +9937,36 @@ A model may only use this weapon if it has successfully charged that player turn
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5527-f4ef-035b-11c2" name="Wargear" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8198-7fd6-1aed-8a41" name="Wargear" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="b4ea-a586-86a9-02eb" name="Nuncio-vox" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9d81-6d1d-e314-8d09" name="Nuncio-vox" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ccf-07cb-9064-9762" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="44af-c1bd-9c26-f6d2" name="New InfoLink" hidden="false" targetId="2a0e-e1f0-5ea0-5799" type="profile"/>
+            <infoLink id="f80e-1625-9cc1-60f0" name="Nuncio-vox" hidden="false" targetId="2a0e-e1f0-5ea0-5799" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="91c7-90a8-a1ae-cde0" name="Legion Vexilla" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fb72-abc8-a8d9-0eb2" name="Legion Vexilla" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a592-1d66-c299-b987" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="76b0-0c2e-5e67-1cef" name="New InfoLink" hidden="false" targetId="d187-89fe-0b05-808e" type="profile"/>
+            <infoLink id="92e7-9a01-169e-1470" name="Legion Vexilla" hidden="false" targetId="d187-89fe-0b05-808e" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dd74-ccdb-9bc6-7069" name="Artificer Armour" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="edf1-e195-f524-9f9c" name="Artificer Armour" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="535d-a0a7-ce4e-6ab5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c587-5d7f-6151-005d" name="Artificer Armour" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="e344-4c75-dd4b-ef89" name="Artificer Armour" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Artificer Armour confers a 2+ Armour save.  </characteristic>
               </characteristics>
@@ -11301,12 +9976,12 @@ A model may only use this weapon if it has successfully charged that player turn
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ab39-d41c-7f2d-a92b" name="Combat Shield" publicationId="ca571888--pubN80998" page="131" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9d84-eff4-7795-ebef" name="Combat Shield" publicationId="ca571888--pubN80998" page="131" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e0d-f89e-8c8d-2d29" type="max"/>
           </constraints>
           <profiles>
-            <profile id="96e4-a19a-7925-ebaa" name="Combat Shield" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="3c05-15d7-bba5-5d73" name="Combat Shield" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Combat shields and boarding shields confer a 6+ invulnerable save, increasing to 5+ in close combat.</characteristic>
               </characteristics>
@@ -11316,45 +9991,51 @@ A model may only use this weapon if it has successfully charged that player turn
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1c30-47c5-950a-e3df" name="Boarding Shield" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c7f7-7d7a-247b-68ee" name="Boarding Shield" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f5f-b5eb-eb91-d212" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="58f6-30eb-0a45-56ea" name="New InfoLink" hidden="false" targetId="d978-1455-09f8-544f" type="profile"/>
+            <infoLink id="daf0-1e24-889d-e441" name="Boarding Shield" hidden="false" targetId="d978-1455-09f8-544f" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="131a-f920-a4da-1196" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ee59-6004-496f-05c0" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb9a-1adf-8c3d-0560" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c90e-f674-9793-926a" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d3a7-f59c-affa-2304" name="New InfoLink" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
-            <infoLink id="0f09-9044-0614-dbf4" name="New InfoLink" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
-            <infoLink id="074a-533b-41ac-f2ae" name="New InfoLink" hidden="false" targetId="f095-0842-a6b1-5404" type="profile"/>
-            <infoLink id="0cfb-ee3e-b966-8841" name="New InfoLink" hidden="false" targetId="8cb0-ff25-22a2-d480" type="rule"/>
+            <infoLink id="7237-229c-42b6-f467" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
+            <infoLink id="c979-d5c7-d04d-9e59" name="Bulky" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
+            <infoLink id="a1e8-f670-6f27-bb84" name="Jump Pack" hidden="false" targetId="f095-0842-a6b1-5404" type="profile"/>
+            <infoLink id="32d8-7d20-0fb4-4daf" name="Jump Unit" hidden="false" targetId="8cb0-ff25-22a2-d480" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="4abe-5d99-8394-94cc" name="Jump Units:" hidden="false" targetId="974d-7438-c940-914b" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5b17-8f37-be37-1146" name="Space Marine Bike" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9b3b-91d0-389d-fd90" name="Space Marine Bike" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d441-c235-b1b9-eb8f" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c45-d376-3ee9-a6f7" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="cf4f-d466-52c5-f6a4" name="New InfoLink" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
-            <infoLink id="b6a7-352b-bfcc-7847" name="New InfoLink" hidden="false" targetId="0434-8c4b-9614-73dd" type="profile"/>
-            <infoLink id="8825-4bbf-b997-9fe8" name="New InfoLink" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
-            <infoLink id="cc48-0356-5c73-39cd" name="New InfoLink" hidden="false" targetId="d3e5-b43d-a89c-3bd8" type="rule"/>
-            <infoLink id="7571-dc8f-3214-7a41" name="New InfoLink" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
-            <infoLink id="0f00-b363-95d5-8e84" name="New InfoLink" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
+            <infoLink id="d8af-5b24-f640-0e77" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+            <infoLink id="ca18-ba96-2c79-6c6c" name="Space Marine Bike" hidden="false" targetId="0434-8c4b-9614-73dd" type="profile"/>
+            <infoLink id="412b-0921-65e8-da7a" name="Relentless" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
+            <infoLink id="7d9e-1260-18ec-eec5" name="Jink" hidden="false" targetId="d3e5-b43d-a89c-3bd8" type="rule"/>
+            <infoLink id="36a0-eb1c-c231-b6cc" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
+            <infoLink id="a20d-f22f-69ec-eae4" name="Very Bulky" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e290-d635-f021-74ca" name="Bike:" hidden="false" targetId="87ff-586c-3971-be96" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
@@ -11683,4 +10364,7 @@ A model may only use this weapon if it has successfully charged that player turn
       </characteristics>
     </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="31a9-5685-a5b8-8a68" name="Legiones Astartes: Age of Darkness Army List" targetId="839b6f2a-4041-398b-fc2d-dc6a31d5f75e" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>
